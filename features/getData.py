@@ -47,7 +47,7 @@ def normalizeData(original):
 # getData('bang.csv', 'Leonard')
 ##############data is a nested list of str#########################
 data = getData('bang.csv', ['Sheldon', 'Leonard'])
-normalizeData(data)
+normalized_data = normalizeData(data)
 
 # Dora testing
 # getData('bangSevenChars.csv', 'Sheldon')
