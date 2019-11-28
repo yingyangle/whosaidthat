@@ -7,6 +7,7 @@ import os, pandas as pd
 import nltk
 import math
 import re
+# from word2number import w2n
 
 # Christine:
 # os.chdir('/Users/Christine/Documents/cs/whosaidthat')
@@ -46,8 +47,8 @@ def normalizeData(original):
 # getData('bang.csv', 'Sheldon')
 # getData('bang.csv', 'Leonard')
 ##############data is a nested list of str#########################
-data = getData('bang.csv', ['Sheldon', 'Leonard'])
-normalized_data = normalizeData(data)
+# data = getData('bang.csv', ['Sheldon', 'Leonard'])
+# normalized_data = normalizeData(data)
 
 # Dora testing
 # getData('bangSevenChars.csv', 'Sheldon')
