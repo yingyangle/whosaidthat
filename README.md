@@ -1,8 +1,9 @@
 # whosaidthat
 
 ## Features
-| 0  | utterance length        | number of words in the utterance                                                              |
+| #  | Feature        | Description                                                              |
 |----|-------------------------|-----------------------------------------------------------------------------------------------|
+| 0  | utterance length        | number of words in the utterance                                                              |
 | 1  | average word length     | average length of words in the utterance                                                      |
 | 2  | utterance type          | [statement, question, exclamation, etc.]                                                      |
 | 3  | top words               | number of words in this utterance that are also in the character's top 20 most frequent words |
