@@ -5,7 +5,9 @@
 
 import os, re, pandas as pd
 
-os.chdir('/Users/Christine/Documents/cs/whosaidthat')
+# os.chdir('/Users/Christine/Documents/cs/whosaidthat')
+os.chdir('/Users/user/NLP Project/whosaidthat/BangNewestData')
+
 
 # get lines from filename for a character or list of characters
 def getData(filename, characters):
@@ -14,6 +16,7 @@ def getData(filename, characters):
         lines = df.loc[df.Speaker == characters].iloc[:,1:].values
     else: # if we want lines for a list of characters
         lines = df[df['Speaker'].isin(characters)].iloc[:,1:].values
+    print(lines)
     return lines
 
 # normalize data
@@ -21,5 +24,9 @@ def normalizeData():
     return
 
 # testing
-getData('bang.csv', 'Sheldon')
-getData('bang.csv', ['Sheldon', 'Leonard'])
+# getData('bang.csv', 'Sheldon')
+# getData('bang.csv', ['Sheldon', 'Leonard'])
+
+# Dora testing
+# getData('bangSevenChars.csv', 'Sheldon')
+getData('bangSevenChars.csv', ['Sheldon', 'Leonard'])
