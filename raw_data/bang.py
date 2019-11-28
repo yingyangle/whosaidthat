@@ -1,13 +1,12 @@
 # Christine Yang
 # NLP Project: whosaidthat
-
 # bang.py
 # get transcripts for The Big Bang Theory, save as .txt and .csv
 
 import os, codecs, re, requests, pandas as pd
 from bs4 import BeautifulSoup
 
-os.chdir('/Users/Christine/cs/whosaidthat/data')
+os.chdir('/Users/Christine/cs/whosaidthat/raw_data')
 
 # BIG BANG THEORY ####################################################################
 
@@ -19,7 +18,7 @@ sesh.header = { 'User-Agent': "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:34.0) 
 
 # get links to each episode transcript
 def getLinks():
-    global links
+    links = []
     try: # see if links are already saved in .txt file
         ein = codecs.open('bang_links.txt', 'r', 'utf-8')
         raw = ein.read().rstrip()
@@ -35,21 +34,28 @@ def getLinks():
         aus = codecs.open('bang_links.txt', 'w', 'utf-8')
         temp = [aus.write(l+'\n') for l in links]
         aus.close()
+    return links
 
 # save one episode transcript to fulltext
 def getEpisode(url):
     global fulltext
     req = sesh.get(url)
     soup = BeautifulSoup(req.text, 'html.parser')
-    text = soup.findAll(class_='MsoNormal')
-    for i in range(len(text)):
-        line = text[i].getText() # line of text
-        fulltext = fulltext + line + '\n'
+    raw_text = soup.findAll('p')
+    text = ''
+    for i in range(len(raw_text)):
+        line = raw_text[i].getText() # line of text
+        if ':' not in line: continue
+        text = text + line + '\n'
+        text.count(':')
+    fulltext = fulltext + text + '\n'
+    print(text.count(':'), url) # print progress
+    return text
 
 # save all episode transcripts to one big .txt file
 def getTranscript():
     global fulltext, links
-    getLinks() # get links to each episode transcript
+    links = getLinks() # get links to each episode transcript
     for url in links:
         getEpisode(url) # save each episode transcript to fulltext
     fulltext = re.sub('\(.*\)', '', fulltext) # get rid of stuff in parentheses
@@ -72,4 +78,4 @@ def getCSV():
 
 # execute
 # getTranscript()
-# getCSV()
+getCSV()
