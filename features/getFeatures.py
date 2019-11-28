@@ -6,6 +6,7 @@
 # profanity word list based on:
 # https://github.com/areebbeigh/profanityfilter/
 
+from getData import getData
 
 # utterance length
 
