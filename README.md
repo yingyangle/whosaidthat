@@ -14,3 +14,14 @@
 | 8  | POS ratio               |                                                                                               |
 | 9  | contains numbers        | True/False: does this utterance contain numbers?                                              |
 | 10 | contains profanity      | True/False: does this utterance contain words from our profanity list?                        |
+
+## Characters
+
+### Big Bang Theory (7)
+Sheldon, Leonard, Howard, Raj, Penny, Amy, Bernadette
+
+### Desperate Housewives (4)
+Susan, Gabrielle, Bree, Lynette
+
+### The Simpsons (5)
+Homer, Marge, Lisa, Bart, Maggie
