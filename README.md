@@ -18,7 +18,7 @@
 ## Characters
 
 ### Big Bang Theory (7)
-Sheldon, Leonard, Howard, Raj, Penny, Amy, Bernadette
+Sheldon (11,525), Leonard (9,637), Howard (5,728), Raj (4,579), Penny (7,482), Amy (3,418), Bernadette (2,642)
 
 ### Desperate Housewives (4)
 Susan, Gabrielle, Bree, Lynette
