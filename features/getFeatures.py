@@ -101,6 +101,7 @@ os.chdir('/Users/user/NLP Project/whosaidthat')  # dora
 # your_path = '/Users/Christine/cs/whosaidthat' # christine
 your_path = '/Users/user/NLP Project/whosaidthat'  # dora
 
+
 data = getData('bang.csv', 'Leonard')  # get data
 normalized_data = normalizeData(data)  # normalize data
 
@@ -111,5 +112,4 @@ ein.close()
 
 features = get_features(normalized_data)  # get features
 
-print(len(features))
-# print(normalized_data)
+# print(len(features))

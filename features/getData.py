@@ -128,14 +128,6 @@ def text2int(textnum, numwords={}):
     return curstring
 
 
-# text2int("I want fifty-five hot dogs for two-hundred dollars.")
-# text2int(
-#     "Remember the Latin hips. Shoulders stay still, and we sway. One two three. Five six seven. "
-# )
-# type(text2int(
-#     "Of course, there’s the other possibility that this date kicks off a rather unpleasant six months of the two of you passing awkwardly in the hall until one of you breaks down and moves to another zip code."
-# ))
-
 # testing
 # getData('bang.csv', 'Sheldon')
 # getData('bang.csv', 'Leonard')
@@ -147,6 +139,4 @@ def text2int(textnum, numwords={}):
 # normalized_data = normalizeData(data)
 # print(normalized_data)
 
-# Dora testing
-# getData('bangSevenChars.csv', 'Sheldon')
-# getData('bangSevenChars.csv', ['Sheldon', 'Leonard'])
+
