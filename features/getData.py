@@ -1,21 +1,13 @@
 # Christine Yang
 # NLP Project: whosaidthat
 # getData.py
-# get dialogue lines from csv files and normalize
+# get dialogue lines from csv files and normalize text
 
-import os, pandas as pd
-import nltk
-import math
-import re
+import os, re, nltk, math, pandas as pd
 # from word2number import w2n
 
-# Christine:
-# os.chdir('/Users/Christine/Documents/cs/whosaidthat')
-# Dora:
-os.chdir('/Users/user/NLP Project/whosaidthat')
-
-# os.chdir('/Users/user/NLP Project/whosaidthat/BangNewestData')
-
+os.chdir('/Users/Christine/Documents/cs/whosaidthat') # christine
+# os.chdir('/Users/user/NLP Project/whosaidthat') # dora
 
 # get lines from filename for a character or list of characters
 def getData(filename, characters):
