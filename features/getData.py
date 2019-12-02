@@ -6,8 +6,8 @@
 import os, re, nltk, math, pandas as pd, numpy as np
 # from word2number import w2n
 
-os.chdir('/Users/Christine/Documents/cs/whosaidthat') # christine
-# os.chdir('/Users/user/NLP Project/whosaidthat')  # dora
+# os.chdir('/Users/Christine/Documents/cs/whosaidthat') # christine
+os.chdir('/Users/user/NLP Project/whosaidthat')  # dora
 
 
 # get lines from filename for a character or list of characters
@@ -20,10 +20,12 @@ def getData(filename, characters):
     # print(lines)
     return lines
 
+
 # get list of main characters in show
 def getCast(filename):
     df = pd.read_csv(filename)  # df = dataframe
     return list(df.Speaker.unique())
+
 
 # normalize data
 def normalizeData(original):
