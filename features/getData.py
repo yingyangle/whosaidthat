@@ -6,9 +6,8 @@
 import os, re, nltk, math, pandas as pd, numpy as np
 # from word2number import w2n
 
-# os.chdir('/Users/Christine/Documents/cs/whosaidthat') # christine
-os.chdir('/Users/user/NLP Project/whosaidthat')  # dora
-
+your_path = '/Users/Christine/Documents/cs/whosaidthat' # christine
+# your_path = '/Users/user/NLP Project/whosaidthat') # dora
 
 # get lines from filename for a character or list of characters
 def getData(filename, characters):
@@ -135,8 +134,9 @@ def text2int(textnum, numwords={}):
 
 
 # testing
-filename = 'bang.csv'
-characters = 'Sheldon'
-characters = getCast('bang.csv')
-data = getData('bang.csv', 'Sheldon')
-data
+# os.chdir(your_path)
+# filename = 'bang.csv'
+# characters = 'Sheldon'
+# characters = getCast('bang.csv')
+# data = getData('bang.csv', 'Sheldon')
+# data
