@@ -101,15 +101,33 @@ os.chdir('/Users/user/NLP Project/whosaidthat')  # dora
 # your_path = '/Users/Christine/cs/whosaidthat' # christine
 your_path = '/Users/user/NLP Project/whosaidthat'  # dora
 
-
-data = getData('bang.csv', 'Leonard')  # get data
-normalized_data = normalizeData(data)  # normalize data
+#------------------get data----------------------
+data1 = getData('bang.csv', 'Leonard')  # get data
+normalized_data1 = normalizeData(data1)  # normalize data
+data2 = getData('bang.csv', 'Sheldon')  # get data
+normalized_data2 = normalizeData(data2)  # normalize data
+# data3 = getData('bang.csv', 'Howard')  # get data
+# normalized_data3 = normalizeData(data3)  # normalize data
+# data4 = getData('bang.csv', 'Penny')  # get data
+# normalized_data4 = normalizeData(data4)  # normalize data
+# data5 = getData('bang.csv', 'Amy')  # get data
+# normalized_data5 = normalizeData(data5)  # normalize data
+# data6 = getData('bang.csv', 'Raj')  # get data
+# normalized_data6 = normalizeData(data6)  # normalize data
+# data7 = getData('bang.csv', 'Bernadette')  # get data
+# normalized_data7 = normalizeData(data7)  # normalize data
 
 os.chdir(your_path + '/features')
 ein = open('profanity.txt', 'r')
 profanity = ein.read().rstrip().split('\n')  # profanity words
 ein.close()
 
-features = get_features(normalized_data)  # get features
-
-# print(len(features))
+features1 = get_features(normalized_data1)  # get features
+features2 = get_features(normalized_data2)  # get features
+# features3 = get_features(normalized_data3)  # get features
+# features4 = get_features(normalized_data4)  # get features
+# features5 = get_features(normalized_data5)  # get features
+# features6 = get_features(normalized_data6)  # get features
+# features7 = get_features(normalized_data7)  # get features
+# print(len(features1))
+print(len(features2))
