@@ -6,7 +6,7 @@
 # profanity word list based on:
 # https://github.com/areebbeigh/profanityfilter/
 
-import os, re, nltk, math, pandas as pd, numpy as np
+import os, re, nltk, pandas as pd, numpy as np
 from nltk.corpus import words
 from nltk.corpus import stopwords
 from getData import getData, getCast, normalizeData

@@ -4,14 +4,23 @@
 # get dialogue lines from csv files and normalize text
 
 import os, re, nltk, math, pandas as pd, numpy as np
+from sklearn.model_selection import train_test_split
 # from word2number import w2n
 
 your_path = '/Users/Christine/Documents/cs/whosaidthat' # christine
 # your_path = '/Users/user/NLP Project/whosaidthat') # dora
 
+# split data in with n percent for testing, rest for training
+def splitData(filename, n):
+    df = pd.read_csv(filename) # df of all original text data
+    x = df.iloc[:,1:2].values
+    y = df.iloc[:,0:1].values
+    X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=n)
+    return (X_train, X_test, y_train, y_test)
+
 # get lines from filename for a character or list of characters
 def getData(filename, characters):
-    df = pd.read_csv(filename)  # df = dataframe
+    df = pd.read_csv(filename, encoding='ISO-8859-1')  # df = dataframe
     if type(characters) is str:  # if only looking for one character
         lines = df.loc[df.Speaker == characters].iloc[:, 1:].values
     else:  # if we want lines for a list of characters
@@ -19,10 +28,9 @@ def getData(filename, characters):
     # print(lines)
     return lines
 
-
 # get list of main characters in show
 def getCast(filename):
-    df = pd.read_csv(filename)  # df = dataframe
+    df = pd.read_csv(filename, encoding='ISO-8859-1')
     return list(df.Speaker.unique())
 
 
@@ -134,9 +142,9 @@ def text2int(textnum, numwords={}):
 
 
 # testing
-# os.chdir(your_path)
-# filename = 'bang.csv'
-# characters = 'Sheldon'
-# characters = getCast('bang.csv')
-# data = getData('bang.csv', 'Sheldon')
-# data
+os.chdir(your_path)
+filename = 'bang.csv'
+characters = 'Sheldon'
+characters = getCast('bang.csv')
+X_train, X_test, y_train, y_test = splitData(filename, 0.2)
+data = getData('bang.csv', 'Sheldon')
