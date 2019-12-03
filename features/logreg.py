@@ -22,7 +22,7 @@ y_train = y_train.astype('int')
 
 # testing data
 X_test = np.array([x for x in test.values[:,1]])
-y_test = train.values[:,0]
+y_test = test.values[:,0]
 y_test = y_test.astype('int')
 
 log = LogisticRegression(solver='liblinear', multi_class='ovr')
