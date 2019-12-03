@@ -89,16 +89,16 @@ def getFeatures(lines, top_words):
 # convert speaker/line df to features/label df for given character
 # label is 1 if line spoken by the focus character, 0 otherwise
 def convertToFeatures(df, character, top_words):
-    ones_lines = getLines(df, character)[:10]  # lines for focus character, only 10 lines
-    # ones_lines = getLines(df, character) # lines for focus character, full
+    # ones_lines = getLines(df, character)[:10]  # lines for focus character, only 10 lines
+    ones_lines = getLines(df, character) # lines for focus character, full
     ones_lines = normalizeData(ones_lines)
     ones_feats = getFeatures(ones_lines, top_words) # features for focus character's lines
     ones = np.ones_like(ones_lines) # list of 1's labels
 
     cast = getCast(df) # list of main characters in show
     cast.remove(character) # remove focus character from character list
-    zeros_lines = getLines(df, cast)[:10] # lines for remaining characters, only 10 lines
-    # zeros_lines = getLines(df, cast) # lines for remaining characters, full
+    # zeros_lines = getLines(df, cast)[:10] # lines for remaining characters, only 10 lines
+    zeros_lines = getLines(df, cast) # lines for remaining characters, full
     zeros_lines = normalizeData(zeros_lines)
     zeros_feats = getFeatures(zeros_lines, top_words) # features for remainin characters' lines
     zeros = np.zeros_like(zeros_lines) # list of 0's labels
@@ -109,7 +109,6 @@ def convertToFeatures(df, character, top_words):
     data = {'Label': labels, 'Features': feats}
     df = pd.DataFrame(data) # dataframe of features for each line and 1/0 label
     return df
-
 
 # create train and test dataset for given show and character
 # write resulting datsets to .pkl and return dfs
@@ -132,32 +131,34 @@ def createDataset(filename, character):
 
 os.chdir(your_path)
 
+# Big Bang Theory
 # create dataset for Big Bang and Sheldon - done！
 train, test = createDataset('bang.csv', 'Sheldon')
 # create dataset for Big Bang and Penny - done!
-# train, test = createDataset('bang.csv', 'Penny')
-# # create dataset for Big Bang and Leonard - done！
-# train, test = createDataset('bang.csv', 'Leonard')
-# # # create dataset for Big Bang and Raj - done！
-# train, test = createDataset('bang.csv', 'Raj')
-# # # create dataset for Big Bang and Amy - done！
-# train, test = createDataset('bang.csv', 'Amy')
-# # # create dataset for Big Bang and Bernadette - done！
-# # train, test = createDataset('bang.csv', 'Bernadette')
-# # create dataset for Big Bang and Howard - done！
-# train, test = createDataset('bang.csv', 'Howard')
+train, test = createDataset('bang.csv', 'Penny')
+# create dataset for Big Bang and Leonard - done！
+train, test = createDataset('bang.csv', 'Leonard')
+# # create dataset for Big Bang and Raj - done！
+train, test = createDataset('bang.csv', 'Raj')
+# # create dataset for Big Bang and Amy - done！
+train, test = createDataset('bang.csv', 'Amy')
+# create dataset for Big Bang and Bernadette - done！
+train, test = createDataset('bang.csv', 'Bernadette')
+# create dataset for Big Bang and Howard - done！
+train, test = createDataset('bang.csv', 'Howard')
 
-
+# The Simpsons
 # create dataset for Simpsons and Homer - done
-# train, test = createDataset('simpsons.csv', 'Homer')
-# # create dataset for Simpsons and Marge - done
-# train, test = createDataset('simpsons.csv', 'Marge')
-# # create dataset for Simpsons and Lisa - done
-# train, test = createDataset('simpsons.csv', 'Lisa')
-# # create dataset for Simpsons and Bart - done
-# train, test = createDataset('simpsons.csv', 'Bart')
-# # create dataset for Simpsons and Ned Flanders - done
-# train, test = createDataset('simpsons.csv', 'Ned Flanders')
+train, test = createDataset('simpsons.csv', 'Homer')
+# create dataset for Simpsons and Marge - done
+train, test = createDataset('simpsons.csv', 'Marge')
+# create dataset for Simpsons and Lisa - done
+train, test = createDataset('simpsons.csv', 'Lisa')
+# create dataset for Simpsons and Bart - done
+train, test = createDataset('simpsons.csv', 'Bart')
+# create dataset for Simpsons and Ned Flanders - done
+train, test = createDataset('simpsons.csv', 'Ned Flanders')
 
+# Desperate Housewives
 # create dataset for desperate and Susan - done
-# train, test = createDataset('desperate.csv', 'Susan')
+train, test = createDataset('desperate.csv', 'Susan')
