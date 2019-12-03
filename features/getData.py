@@ -149,6 +149,7 @@ def text2int(textnum, numwords={}):
 
 ## test the characters in the original files:
 # filename = 'desperate.csv'
-# df = pd.read_csv(filename)
-# cast = getCast(df)
-# print(cast)
+filename = 'bang.csv'
+df = pd.read_csv(filename)
+cast = getCast(df)
+print(cast)
