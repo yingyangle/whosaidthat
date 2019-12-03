@@ -24,4 +24,4 @@ Sheldon (11,525), Leonard (9,637), Howard (5,728), Raj (4,579), Penny (7,482), A
 Susan, Gabrielle, Bree, Lynette
 
 ### The Simpsons (5)
-Homer, Marge, Lisa, Bart, Maggie
+Homer, Marge, Lisa, Bart, Ned Flanders
