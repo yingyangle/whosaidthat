@@ -84,7 +84,7 @@ def getFeatures(lines, top_words):
             hasProfanity(line) # has profanity=1, ow=0
         ])
         np.concatenate((line_features, utterType(line))) # num of ? ! ...)
-        features.append(line_features) # add this line's features to full list
+        features.append(list(line_features)) # add this line's features to full list
     return features
 
 # convert speaker/line df to features/label df for given character
