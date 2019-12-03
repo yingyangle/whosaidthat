@@ -152,21 +152,21 @@ os.chdir(your_path)
 # train, test = createDataset('bang.csv', 'Sheldon')
 # create dataset for Big Bang and Penny - done!
 # train, test = createDataset('bang.csv', 'Penny')
-# # create dataset for Big Bang and Leonard
+# # create dataset for Big Bang and Leonard - done！
 # train, test = createDataset('bang.csv', 'Leonard')
-# # # create dataset for Big Bang and Raj
+# # # create dataset for Big Bang and Raj - done！
 # train, test = createDataset('bang.csv', 'Raj')
-# # # create dataset for Big Bang and Amy
+# # # create dataset for Big Bang and Amy - done！
 # train, test = createDataset('bang.csv', 'Amy')
-# # # create dataset for Big Bang and Bernadette
+# # # create dataset for Big Bang and Bernadette - done！
 # # train, test = createDataset('bang.csv', 'Bernadette')
-# # create dataset for Big Bang and Howard
+# # create dataset for Big Bang and Howard - done！
 # train, test = createDataset('bang.csv', 'Howard')
 
 
 # create dataset for Simpsons and Homer - done
 # train, test = createDataset('simpsons.csv', 'Homer')
-# # create dataset for Simpsons and Marge
+# # create dataset for Simpsons and Marge - done
 # train, test = createDataset('simpsons.csv', 'Marge')
 # # create dataset for Simpsons and Lisa - done
 # train, test = createDataset('simpsons.csv', 'Lisa')
@@ -175,7 +175,8 @@ os.chdir(your_path)
 # # create dataset for Simpsons and Ned Flanders - done
 # train, test = createDataset('simpsons.csv', 'Ned Flanders')
 
-
+# create dataset for desperate and Susan - done
+# train, test = createDataset('desperate.csv', 'Susan')
 
 
 
