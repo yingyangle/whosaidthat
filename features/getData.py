@@ -141,9 +141,14 @@ def text2int(textnum, numwords={}):
 
 # testing
 # os.chdir(your_path)
-# filename = 'bang.csv'
-# getCast(your_path + filename)
+
+
 # train, test = splitData(filename, 0.2) # split train/test data
 # train = getLines(train, 'Sheldon') # get Sheldon's lines in train data
-# test = getLines(test, 'Sheldon') # get Sheldon's lines in test data
 # print('test data:', len(train), '\ntrain data:', len(test))
+
+## test the characters in the original files:
+# filename = 'simpsons.csv'
+# df = pd.read_csv(filename)
+# cast = getCast(df)
+# print(cast)
