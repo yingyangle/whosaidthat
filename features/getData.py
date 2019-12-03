@@ -11,44 +11,42 @@ your_path = '/Users/Christine/Documents/cs/whosaidthat' # christine
 # your_path = '/Users/user/NLP Project/whosaidthat') # dora
 
 # split data in with n percent for testing, rest for training
+# returns 2 dfs for training and testing data
 def splitData(filename, n):
-    df = pd.read_csv(filename) # df of all original text data
-    x = df.iloc[:,1:2].values
-    y = df.iloc[:,0:1].values
+    # df of all original text data
+    df = pd.read_csv(filename) #, encoding='ISO-8859-1')
+    x = df.iloc[:,1:2].values # lines
+    y = df.iloc[:,0:1].values # speakers
     X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=n)
-    return (X_train, X_test, y_train, y_test)
+    train = pd.DataFrame({'Speaker': y_train.flatten(), 'Line': X_train.flatten()})
+    test = pd.DataFrame({'Speaker': y_test.flatten(), 'Line': X_test.flatten()})
+    return (train, test)
 
-# get lines from filename for a character or list of characters
-def getData(filename, characters):
-    df = pd.read_csv(filename, encoding='ISO-8859-1')  # df = dataframe
-    if type(characters) is str:  # if only looking for one character
+# get lines from df for a character or list of characters
+def getLines(df, characters):
+    if type(characters) is str: # if only looking for one character
         lines = df.loc[df.Speaker == characters].iloc[:, 1:].values
-    else:  # if we want lines for a list of characters
+    else: # if we want lines for a list of characters
         lines = df[df['Speaker'].isin(characters)].iloc[:, 1:].values
-    # print(lines)
     return lines
 
 # get list of main characters in show
-def getCast(filename):
-    df = pd.read_csv(filename, encoding='ISO-8859-1')
+def getCast(df):
     return list(df.Speaker.unique())
-
 
 # normalize data
 def normalizeData(original):
     # original is a nested list of str: [[str],[str],...]
     # list to store a list of tokens for each utterance. [['token','token',...],['token','token',...]]
     list_of_tokenized_lines = []
-    ################## Tokenization ############################
+    # tokenization
     for i in original:
         utterance = str(i[0])
-        utterance = utterance.lower()  # lower case everything
-        utterance = text2int(utterance)  # text to number: twenty-six= 26
+        utterance = utterance.lower() # lower case everything
+        utterance = text2int(utterance) # text to number: twenty-six= 26
         tokens = nltk.word_tokenize(utterance)
         list_of_tokenized_lines.append(tokens)
-    # print(list_of_tokenized_lines)
     return list_of_tokenized_lines
-
 
 # convert all number words in utterance to actual digit numbers
 def text2int(textnum, numwords={}):
@@ -83,7 +81,7 @@ def text2int(textnum, numwords={}):
 
         scales = ["hundred", "thousand", "million", "billion", "trillion"]
 
-        # numwords["and"] = (1, 0)
+       # numwords["and"] = (1, 0)
         for idx, word in enumerate(units):
             numwords[word] = (1, idx)
         for idx, word in enumerate(tens):
@@ -142,9 +140,9 @@ def text2int(textnum, numwords={}):
 
 
 # testing
-os.chdir(your_path)
-filename = 'bang.csv'
-characters = 'Sheldon'
-characters = getCast('bang.csv')
-X_train, X_test, y_train, y_test = splitData(filename, 0.2)
-data = getData('bang.csv', 'Sheldon')
+# os.chdir(your_path)
+# filename = 'bang.csv'
+# train, test = splitData(filename, 0.2) # split train/test data
+# train = getLines(train, 'Sheldon') # get Sheldon's lines in train data
+# test = getLines(test, 'Sheldon') # get Sheldon's lines in test data
+# print('test data:', len(train), '\ntrain data:', len(test))

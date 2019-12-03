@@ -4,7 +4,7 @@
 import os, re, nltk
 from nltk.corpus import stopwords
 from itertools import chain
-from getData import getData, normalizeData
+from getData import splitData, getLines, normalizeData
 
 # list of stopwords to exclude when getting most frequent words list
 stoplist = stopwords.words('english')
@@ -42,6 +42,7 @@ def getTopWords(lines, n):
     return final_list
 
 # testing
-# data = getData('bang.csv', 'Sheldon')
-# data = normalizeData(data)
-# print(getTopWords(data, 20))
+# df, _ = splitData('bang.csv', 0.00001) # get most of bang data as df
+# data = getLines(df, 'Sheldon') # get Sheldon's lines
+# data = normalizeData(data) # normalize text
+# print(getTopWords(data, 20)) # show Sheldon's top words

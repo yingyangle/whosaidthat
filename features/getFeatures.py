@@ -9,7 +9,7 @@
 import os, re, nltk, pandas as pd, numpy as np
 from nltk.corpus import words
 from nltk.corpus import stopwords
-from getData import getData, getCast, normalizeData
+from getData import splitData, getLines, getCast, normalizeData
 from topWords import getTopWords
 
 your_path = '/Users/Christine/cs/whosaidthat' # christine
@@ -87,30 +87,41 @@ def getFeatures(lines, top_words):
         features.append(line_features) # add this line's features to full list
     return features
 
-# create features dataset for given show and character, write to .csv, return df
-# label lines 1 if spoken by the focus character, 0 otherwise
-def createDataset(csv_filename, character):
-    ones_lines = getData(csv_filename, character) # lines for focus character
+# convert speaker/line df to features/label df for given character
+# label is 1 if line spoken by the focus character, 0 otherwise
+def convertToFeatures(df, character, top_words):
+    ones_lines = getLines(df, character)[:10] # lines for focus character
     ones_lines = normalizeData(ones_lines)
-    top_words = getTopWords(ones_lines, 20) # 20 most frequent words for this character
     ones_feats = getFeatures(ones_lines, top_words) # features for focus character's lines
     ones = np.ones_like(ones_lines) # list of 1's labels
 
-    cast = getCast(csv_filename) # list of main characters in show
+    cast = getCast(df) # list of main characters in show
     cast.remove(character) # remove focus character from character list
-    zeros_lines = getData(csv_filename, cast) # lines for remaining characters
+    zeros_lines = getLines(df, cast)[:10] # lines for remaining characters
     zeros_lines = normalizeData(zeros_lines)
     zeros_feats = getFeatures(zeros_lines, top_words) # features for remainin characters' lines
     zeros = np.zeros_like(zeros_lines) # list of 0's labels
 
     labels = list(np.concatenate((ones, zeros), axis=0).flatten())
     feats = list(np.concatenate((ones_feats, zeros_feats), axis=0))
-    print('Total Datapoints:', len(labels))
-    print(character, 'Datapoints:', len(ones))
+    # print(character, 'Datapoints:', len(ones), ', Total Datapoints:', len(labels))
     data = {'Label': labels, 'Features': feats}
     df = pd.DataFrame(data) # dataframe of features for each line and 1/0 label
-    df.to_csv(csv_filename[:-4] + character + ".csv", index=False, encoding='utf-8-sig') # save to .csv
     return df
+
+# create train and test dataset for given show and character
+# write resulting datsets to .csv and return dfs
+def createDataset(filename, character):
+    train, test = splitData(filename, 0.2) # split 80/20 for training/testing data
+    char_lines = getLines(train, character) # get character's lines
+    top_words = getTopWords(char_lines, 20) # 20 most frequent words for character
+    train = convertToFeatures(train, character, top_words)
+    test = convertToFeatures(test, character, top_words)
+    # save to .csv
+    output = filename[:-4] + character
+    train.to_csv('datasets/'+output+'Train.csv', index=False, encoding='utf-8-sig')
+    test.to_csv('datasets/'+output+'Test.csv', index=False, encoding='utf-8-sig')
+    return (train, test)
 
 ############################# main ################################
 
@@ -118,4 +129,8 @@ def createDataset(csv_filename, character):
 ############################# execute ################################
 
 os.chdir(your_path)
-bangSheldon = createDataset('bang.csv', 'Sheldon')
+
+# create dataset for Big Bang and Sheldon
+train, test = createDataset('bang.csv', 'Sheldon')
+# create dataset for Big Bang and Penny
+train, test = createDataset('bang.csv', 'Penny')
