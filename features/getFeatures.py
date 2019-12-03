@@ -12,18 +12,18 @@ from nltk.corpus import stopwords
 from getData import splitData, getLines, getCast, normalizeData
 from topWords import getTopWords
 
-your_path = '/Users/Christine/cs/whosaidthat' # christine
-# your_path = '/Users/user/NLP Project/whosaidthat' # dora
+# your_path = '/Users/Christine/cs/whosaidthat' # christine
+your_path = '/Users/user/NLP Project/whosaidthat-1'  # dora
 
-allwords = words.words() # all english words
-stopwords = stopwords.words('english') # stop words
+allwords = words.words()  # all english words
+stopwords = stopwords.words('english')  # stop words
 
 ein = open(your_path + '/features/profanity.txt', 'r')
-profanity = ein.read().rstrip().split('\n') # profanity words
+profanity = ein.read().rstrip().split('\n')  # profanity words
 ein.close()
 
-
 ############################# helper functions ################################
+
 
 # utterance type
 def utterType(line):
@@ -32,15 +32,18 @@ def utterType(line):
     ellipses = line.count('...')
     return [questions, exclamations, ellipses]
 
+
 # ratio of neologisms to words in utterance
 def neologisms(line):
     neos = [x for x in line if x not in allwords]
     return len(neos) / len(line)
 
+
 # ratio of stop words to words in utterance
 def stopwordsratio(line):
     stops = [x for x in line if x in stopwords]
     return len(stops) / len(line)
+
 
 # how many top words this line contains
 def numTopWords(line, top_words):
@@ -49,12 +52,14 @@ def numTopWords(line, top_words):
         if s in top_words: ans += 1
     return ans
 
+
 # contains numbers
 # 1 = contains numbers, 0 = doesn't contain numbers
 def hasNumbers(line):
     for s in line:
         if s.isdigit(): return 1
     return 0
+
 
 # contains profanity
 # 1 = contains profanity, 0 = doesn't contain profanity
@@ -63,16 +68,17 @@ def hasProfanity(line):
         if p in line: return 1
     return 0
 
+
 ############################# helper functions ################################
 
-
 ############################# main ################################
+
 
 # get features for list of lines of dialogue
 # takes in list of lists of tokens, returns list of feature lists
 def getFeatures(lines, top_words):
-    features = [] # full list of features for each line
-    for line in lines: # for each line
+    features = []  # full list of features for each line
+    for line in lines:  # for each line
         line_features = np.array([ # features for this line
             len(line), # utterance len
             len(''.join(line)) / len(line), # avg word len
@@ -83,48 +89,60 @@ def getFeatures(lines, top_words):
             hasNumbers(line), # has number=1, ow=0
             hasProfanity(line) # has profanity=1, ow=0
         ])
-        line_features = np.concatenate((line_features, utterType(line))) # num of ? ! ...)
-        features.append(line_features) # add this line's features to full list
+        line_features = np.concatenate((line_features,
+                                        utterType(line)))  # num of ? ! ...)
+        features.append(line_features)  # add this line's features to full list
     return features
+
 
 # convert speaker/line df to features/label df for given character
 # label is 1 if line spoken by the focus character, 0 otherwise
 def convertToFeatures(df, character, top_words):
-    ones_lines = getLines(df, character)[:10] # lines for focus character
+    # ones_lines = getLines(df, character)[:10]  # lines for focus character, only 10 lines
+    ones_lines = getLines(df, character) # lines for focus character, full
     ones_lines = normalizeData(ones_lines)
-    ones_feats = getFeatures(ones_lines, top_words) # features for focus character's lines
-    ones = np.ones_like(ones_lines) # list of 1's labels
+    ones_feats = getFeatures(ones_lines,
+                             top_words)  # features for focus character's lines
+    ones = np.ones_like(ones_lines)  # list of 1's labels
 
-    cast = getCast(df) # list of main characters in show
-    cast.remove(character) # remove focus character from character list
-    zeros_lines = getLines(df, cast)[:10] # lines for remaining characters
+    cast = getCast(df)  # list of main characters in show
+    cast.remove(character)  # remove focus character from character list
+    # zeros_lines = getLines(df, cast)[:10]  # lines for remaining characters, only 10 lines
+    zeros_lines = getLines(df, cast)  # lines for remaining characters, full
     zeros_lines = normalizeData(zeros_lines)
-    zeros_feats = getFeatures(zeros_lines, top_words) # features for remainin characters' lines
-    zeros = np.zeros_like(zeros_lines) # list of 0's labels
+    zeros_feats = getFeatures(
+        zeros_lines, top_words)  # features for remainin characters' lines
+    zeros = np.zeros_like(zeros_lines)  # list of 0's labels
 
     labels = list(np.concatenate((ones, zeros), axis=0).flatten())
     feats = list(np.concatenate((ones_feats, zeros_feats), axis=0))
     # print(character, 'Datapoints:', len(ones), ', Total Datapoints:', len(labels))
     data = {'Label': labels, 'Features': feats}
-    df = pd.DataFrame(data) # dataframe of features for each line and 1/0 label
+    df = pd.DataFrame(
+        data)  # dataframe of features for each line and 1/0 label
     return df
+
 
 # create train and test dataset for given show and character
 # write resulting datsets to .csv and return dfs
 def createDataset(filename, character):
-    train, test = splitData(filename, 0.2) # split 80/20 for training/testing data
-    char_lines = getLines(train, character) # get character's lines
-    top_words = getTopWords(char_lines, 20) # 20 most frequent words for character
+    train, test = splitData(filename,
+                            0.2)  # split 80/20 for training/testing data
+    char_lines = getLines(train, character)  # get character's lines
+    top_words = getTopWords(char_lines,
+                            20)  # 20 most frequent words for character
     train = convertToFeatures(train, character, top_words)
     test = convertToFeatures(test, character, top_words)
     # save to .csv
     output = filename[:-4] + character
-    train.to_csv('datasets/'+output+'Train.csv', index=False, encoding='utf-8-sig')
-    test.to_csv('datasets/'+output+'Test.csv', index=False, encoding='utf-8-sig')
+    train.to_csv(
+        'datasets/' + output + 'Train.csv', index=False, encoding='utf-8-sig')
+    test.to_csv(
+        'datasets/' + output + 'Test.csv', index=False, encoding='utf-8-sig')
     return (train, test)
 
-############################# main ################################
 
+############################# main ################################
 
 ############################# execute ################################
 

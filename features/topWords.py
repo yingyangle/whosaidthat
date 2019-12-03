@@ -22,6 +22,7 @@ stoplist.append('!')
 stoplist.append('could')
 stoplist.append("'s")
 
+
 # get top n most frequent words in normalized data
 # takes in list of list of tokens, returns list
 def getTopWords(lines, n):
@@ -40,6 +41,7 @@ def getTopWords(lines, n):
     for i in fdist.most_common(n):
         final_list.append(i[0])
     return final_list
+
 
 # testing
 # df, _ = splitData('bang.csv', 0.00001) # get most of bang data as df
