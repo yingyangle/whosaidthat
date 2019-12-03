@@ -116,7 +116,7 @@ def convertToFeatures(df, character, top_words):
 
     labels = list(np.concatenate((ones, zeros), axis=0).flatten())
     feats = list(np.concatenate((ones_feats, zeros_feats), axis=0))
-    # print(character, 'Datapoints:', len(ones), ', Total Datapoints:', len(labels))
+    print(character, 'Datapoints:', len(ones), ', Total Datapoints:', len(labels))
     data = {'Label': labels, 'Features': feats}
     df = pd.DataFrame(
         data)  # dataframe of features for each line and 1/0 label
@@ -148,7 +148,36 @@ def createDataset(filename, character):
 
 os.chdir(your_path)
 
-# create dataset for Big Bang and Sheldon
-train, test = createDataset('bang.csv', 'Sheldon')
-# create dataset for Big Bang and Penny
-train, test = createDataset('bang.csv', 'Penny')
+# create dataset for Big Bang and Sheldon - done！
+# train, test = createDataset('bang.csv', 'Sheldon')
+# create dataset for Big Bang and Penny - done!
+# train, test = createDataset('bang.csv', 'Penny')
+
+
+# # create dataset for Big Bang and Leonard
+# train, test = createDataset('bang.csv', 'Leonard')
+# # # create dataset for Big Bang and Raj
+# train, test = createDataset('bang.csv', 'Raj')
+# # # create dataset for Big Bang and Amy
+# train, test = createDataset('bang.csv', 'Amy')
+# # # create dataset for Big Bang and Bernadette
+# # train, test = createDataset('bang.csv', 'Bernadette')
+# # create dataset for Big Bang and Howard
+# train, test = createDataset('bang.csv', 'Howard')
+
+
+# create dataset for Simpsons and Homer - done
+# train, test = createDataset('simpsons.csv', 'Homer')
+# # create dataset for Simpsons and Marge
+# train, test = createDataset('simpsons.csv', 'Marge')
+# # create dataset for Simpsons and Lisa - done
+# train, test = createDataset('simpsons.csv', 'Lisa')
+# # create dataset for Simpsons and Bart - done
+# train, test = createDataset('simpsons.csv', 'Bart')
+# # create dataset for Simpsons and Ned Flanders - done
+# train, test = createDataset('simpsons.csv', 'Ned Flanders')
+
+
+
+
+
