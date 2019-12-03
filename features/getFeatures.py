@@ -116,7 +116,7 @@ def convertToFeatures(df, character, top_words):
 
     labels = list(np.concatenate((ones, zeros), axis=0).flatten())
     feats = list(np.concatenate((ones_feats, zeros_feats), axis=0))
-    print(character, 'Datapoints:', len(ones), ', Total Datapoints:', len(labels))
+    # print(character, 'Datapoints:', len(ones), ', Total Datapoints:', len(labels))
     data = {'Label': labels, 'Features': feats}
     df = pd.DataFrame(
         data)  # dataframe of features for each line and 1/0 label
@@ -152,8 +152,6 @@ os.chdir(your_path)
 # train, test = createDataset('bang.csv', 'Sheldon')
 # create dataset for Big Bang and Penny - done!
 # train, test = createDataset('bang.csv', 'Penny')
-
-
 # # create dataset for Big Bang and Leonard
 # train, test = createDataset('bang.csv', 'Leonard')
 # # # create dataset for Big Bang and Raj

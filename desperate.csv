@@ -266,7 +266,6 @@ Bree,What happened?
 Bree,"More wine? So, uh, Reba, Emma and Lori-- Why don't you girls come to the kitchen and help me with the snacks?"
 Bree,I will be right in.
 Bree,"God, I couldn't wait to get rid of them! So, Lynette said that you found Zack."
-Bree,--and sent the note.
 Bree,This was the Johnson boy?
 Bree,"Rex, this was practically assault."
 Bree,Is that relevant?
@@ -508,7 +507,7 @@ Bree,"Uh, I'm not wearing perfume."
 Bree,"Oh, I was making macaroons before I left the house."
 Bree,"Okay, now I want you to hold the gun like you're holding a beautiful white dove. Hold it firmly enough that it can't get away, but not so firmly that you can kill it. Got it?"
 Bree," Okay, now all you have to do is take a deep breath--"
-Bree,--and squeeze the trigger.
+Bree,#NAME?
 Bree,"Hey. Hi, George. I'm so sorry you lost your toe. The doctor said it's your middle one so your balance shouldn't be affected. I mean, this really won't change your life one little bit. Please say something."
 Bree,I was just caught off guard.
 Bree,"I'm still married to Rex. I mean, we're not even legally separated yet."
@@ -1231,7 +1230,7 @@ Bree,Huh?
 Bree,"George, Rex hasn't even been dead for two months."
 Bree,"See, I thought we were going to a yard sale."
 Bree,"See, George, um, the thing is--"
-Bree,--okay.
+Bree,#NAME?
 Bree,Okay.
 Bree,"It was just awful. George had a ring. His mother and her friend were there with champagne. If I had said no, it would have devastated him."
 Bree,"Well, obviously there's a downside to having good manners."
@@ -1777,7 +1776,7 @@ Bree,"Needless to say,the agreement between us is off.Caleb is dangerous,and I w
 Bree,"Yes.Betty,I am serious.Either you do something,or I will."
 Bree,We ask God to grant us the serenity to accept the things we cannot change--
 Bree,--the courage to change the things we can--
-Bree,--and the wisdom to know the difference.
+Bree,#NAME?
 Bree,"Honey,you've got to eat something."
 Bree,"Gaby,you can't promise her that."
 Bree,"Andrew,I am having Peter over for dinner tomorrow night,and I was wondering if you would like to invite Justin?"
@@ -1933,7 +1932,7 @@ Bree,Danielle--I want you to get out of the house now.He's a killer.
 Bree,"Danielle!I'm serious, go."
 Bree,If that's what it takes-- to get my daughter--
 Bree,--to see who you really are--
-Bree,--then fine.
+Bree,#NAME?
 Bree,Do it.
 Bree,"It's okay, baby."
 Bree,Orson.
@@ -1941,21 +1940,21 @@ Bree,How sweet and-- unexpected.Do you wanna come in?
 Bree,Do I know you?
 Bree,That Rosotto was perfect.
 Bree,Oh.
-Bree,That is so adorable but I donâ€™t think I can eat another bite.
-Bree,"Ah.This is a little sudden, isnâ€™t it?"
-Bree,"No, no, um, I do.It just that I, um, canâ€™t help being cautious, since Rex I havenâ€™t been exactly lucky in love."
+Bree,That is so adorable but I don't think I can eat another bite.
+Bree,"Ah.This is a little sudden, isn't it?"
+Bree,"No, no, um, I do.It just that I, um, can't help being cautious, since Rex I haven't been exactly lucky in love."
 Bree,Yes.
 Bree,"Yes, I will marry you, Orson."
-Bree,"Hi, hi, hi, hi.Iâ€™m so sorry Iâ€™m late."
-Bree,"Well, itâ€™s a very elegant club.You know Orsonâ€™s been a member here for years. It will be even nicer when they finish the construction."
+Bree,"Hi, hi, hi, hi.I'm so sorry I'm late."
+Bree,"Well, it's a very elegant club.You know Orson's been a member here for years. It will be even nicer when they finish the construction."
 Bree,"Well, um, I wanted to invite you to a dinner that Orson and I are having this Saturday."
-Bree,Iâ€™m not being coy.
+Bree,I'm not being coy.
 Bree,"Oh, all right.I wanted to wait and make a proper announcement, but--"
 Bree,Orson and I are engaged.
-Bree,"I know itâ€™s quick but itâ€™s just feel so right.Orson is just the most warm, wonderful, generous man."
-Bree,"Actually, no, we havenâ€™t had sex yet.Weâ€™re waiting until we get married."
-Bree,"Whatever youâ€™re alluding to, no."
-Bree,"True, I have in the past, given myself away too freely.How charming of you to bring that up while Iâ€™m announcing my engagement.But Iâ€™d like to think that Iâ€™ve learned from my mistakes.So the dinner is at 8:00 and when we make the announcement, please, everyone look surprised."
+Bree,"I know it's quick but it's just feel so right.Orson is just the most warm, wonderful, generous man."
+Bree,"Actually, no, we haven't had sex yet.We're waiting until we get married."
+Bree,"Whatever you're alluding to, no."
+Bree,"True, I have in the past, given myself away too freely.How charming of you to bring that up while I'm announcing my engagement.But I'd like to think that I've learned from my mistakes.So the dinner is at 8:00 and when we make the announcement, please, everyone look surprised."
 Bree,"Wow, we certainly devoured that ice cream.Can I get you anything else?"
 Bree,Hummm.Orson.
 Bree,Ummm.Ummm.I thought we--Orson?
@@ -1963,28 +1962,28 @@ Bree,Does that change our core values?
 Bree,"Well, I thought we agreed we wanted our wedding night to be perfect."
 Bree,Hum.It will be better this way.Now can I get you some more ice cream?
 Bree,"Okay, so we will see you Saturday and please pretend to be surprised.Bye."
-Bree,"I just canâ€™t help it.I like telling people.Makes me feel, I donâ€™t know.Makes me feel like Iâ€™m starting over.Feels good."
-Bree,You donâ€™t have to wash those.I already did them.
-Bree,Iâ€™ve never heard that.
+Bree,"I just can't help it.I like telling people.Makes me feel, I don't know.Makes me feel like I'm starting over.Feels good."
+Bree,You don't have to wash those.I already did them.
+Bree,I've never heard that.
 Bree,"Ahh, excuse me."
 Bree,Did you lose something?
-Bree,Oh!Um.I donâ€™t do that.
-Bree,Iâ€™m a Republican!
+Bree,Oh!Um.I don't do that.
+Bree,I'm a Republican!
 Bree,But Orson!
 Bree,Okay.
 Bree,"Ah.Oh, no!"
 Bree,I have to go.
 Bree,"And then it was like something inside ruptured.Well, not so much a rupture as a spasm.Waves of this hot, clutching.I think I might have had a small stroke!"
-Bree,"Well, thatâ€™s the odd thing.I mean there was no pain, per se, in fact, it wasnâ€™t entirely unpleasant."
+Bree,"Well, that's the odd thing.I mean there was no pain, per se, in fact, it wasn't entirely unpleasant."
 Bree,"I was, ah, with my fiance.We were lying down, resting."
 Bree,Sort of.
-Bree,"No, no, no.Iâ€™ve had orgasms before."
-Bree,"Oh you know, that warm sensation, that tingling feeling of relief when itâ€™s over.No, no, this was much--"
+Bree,"No, no, no.I've had orgasms before."
+Bree,"Oh you know, that warm sensation, that tingling feeling of relief when it's over.No, no, this was much--"
 Bree,Yes.
-Bree,"Oh.Well, Iâ€™ll be darn."
+Bree,"Oh.Well, I'll be darn."
 Bree,"Hi, can I help you?"
 Bree,"Yes, and you are?"
-Bree,"Oh well, come on in.Letâ€™s dry you off and get you a drink."
+Bree,"Oh well, come on in.Let's dry you off and get you a drink."
 Bree,"Orson, what is she talking about?"
 Bree,Please leave my house.
 Bree,Your wife disappeared?
@@ -2029,21 +2028,21 @@ Bree,He's kind and decent and nothing you could say will ever make me doubt him 
 Bree,I hope to.
 Bree,I'm fine. Let's just go back to our guests and forget any of this ever happened.
 Bree,"Yes, Mr. Hodge."
-Bree,"I donâ€™t need to be any happier than I am at this very second. Oh, my goodness, thereâ€™s only fifteen minutes before our plane.If you want that Latte you should go now."
+Bree,"I don't need to be any happier than I am at this very second. Oh, my goodness, there's only fifteen minutes before our plane.If you want that Latte you should go now."
 Bree,Oh my god.
 Bree,A reporter just did a story on homeless teens and my son was one of them.
-Bree,"Orson, you canâ€™t imagine that we are still going!"
+Bree,"Orson, you can't imagine that we are still going!"
 Bree,My son is eating out of dumpsters!
-Bree,"Orson! My child is in trouble.Donâ€™t make me choose between the two of you because believe me you will lose! Now please, get your ass in gear!"
-Bree,So you canâ€™t tell me anything about my sonâ€™s whereabouts?
+Bree,"Orson! My child is in trouble.Don't make me choose between the two of you because believe me you will lose! Now please, get your ass in gear!"
+Bree,So you can't tell me anything about my son's whereabouts?
 Bree,Fine!
-Bree,"Some reporter.All she could tell me is what neighborhood they found him in.They donâ€™t have any contact information, no phone number, no address."
+Bree,"Some reporter.All she could tell me is what neighborhood they found him in.They don't have any contact information, no phone number, no address."
 Bree,You know you could show a little compassion.Your brother is out there on the streets struggling to survive!
-Bree,"Ah, sheâ€™s right.This is all my fault."
-Bree,He didnâ€™t run away.I kicked him out.
-Bree,I left him on the roadside with some money and his clothes.I didnâ€™t tell you because I was afraid of what you would think of me.
-Bree,"There wonâ€™t be, not anymore."
-Bree,Weâ€™ll talk in the car.
+Bree,"Ah, she's right.This is all my fault."
+Bree,He didn't run away.I kicked him out.
+Bree,I left him on the roadside with some money and his clothes.I didn't tell you because I was afraid of what you would think of me.
+Bree,"There won't be, not anymore."
+Bree,We'll talk in the car.
 Bree,"Excuse me, ma'am? I mean-- Miss. I'm looking for someone. Uh, his name is Andrew. Have you seen him?"
 Bree,"Yes, very, and I'm worried sick about him."
 Bree,"Oh, thank you, Miss--"
@@ -2092,7 +2091,7 @@ Bree,"Yes. Yes, we do."
 Bree,"I know how painful this must be for you. It isn't easy for me either, considering Andrew's role in it."
 Bree,Because I thought you'd want to know.
 Bree,So you could do something.
-Bree,"I'm sorry. I just felt that if it were me, Iâ€”"
+Bree,"I'm sorry. I just felt that if it were me, IÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Bree,"Yes, absolutely."
 Bree,Oh?
 Bree,What is?
@@ -2150,7 +2149,7 @@ Bree,He dumped you?
 Bree,"I don't plan to. Well, I hope this doesn't make history class too awkward."
 Bree,Yes. I wonder where she gets it.
 Bree,Carolyn. This isn't a very good time. I'm baking.
-Bree,It's a soufflÃ©. And timing is everything.
+Bree,It's a soufflÔøΩÔøΩ_ÔøΩÔøΩ_. And timing is everything.
 Bree,"Well, Orson tells me that the two of you were very close, and out of respect for that friendship, I'm all ears."
 Bree,"Well, I can appreciate how difficult that must have been for you. Apology accepted."
 Bree,That sounds lovely.
@@ -2168,7 +2167,7 @@ Bree,"Oh, they are a regular barrel of--Tish!"
 Bree,"Oh! Do you two know each other? Well, that saves me an introduction.Uh, Tish, you know, I was wondering if you need any help with the Christmas gala. Last year, I was on the decorating committee--"
 Bree,That would be lovely. Thanks.
 Bree,Nice to be seen.
-Bree,"Oh, Iâ€™d love to."
+Bree,"Oh, I'd love to."
 Bree,I'm so happy we did this.
 Bree,No. Why?
 Bree,What is all this?
@@ -2177,7 +2176,7 @@ Bree,Is this why you apologized?
 Bree,"Well, somebody just bought her old house. Maybe that triggered something."
 Bree,"Hey, is that the new neighbor?"
 Bree,Edie said he's a bachelor--
-Bree,--who lives with his invalid sister.
+Bree,#NAME?
 Bree,Should we go introduce ourselves?
 Bree,"Then again, he probably wants some time to unpack."
 Bree,"Orson? If you have a moment, there's something I'd like your thoughts on."
@@ -2359,7 +2358,7 @@ Bree,What?
 Bree,"No! I mean--I mean, no, Alma, you can't buy this house."
 Bree,"Well, are you aware of its history? The previous owner was harboring a murderer."
 Bree,"They had a dungeon in the basement.I mean, people say they still hear groans coming from the house at night."
-Bree,"Don't worry, Alma, Iâ€™m sure that, uh, Edie can find you a house that won't give you nightmares."
+Bree,"Don't worry, Alma, I'm sure that, uh, Edie can find you a house that won't give you nightmares."
 Bree,Don't I wish.
 Bree,I will not have that woman as a neighbor. You have got to do something.
 Bree,So what are you waiting for?
@@ -3029,7 +3028,7 @@ Bree,Who could that be at this hour? Susan. What on earth?
 Bree,What are you talking about?
 Bree,Will someone please tell me what's going on?
 Bree,What?
-Bree,Susan â€“
+Bree,Susan ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_
 Bree,I think it's admirable that you wanna forgive Orson--because I can't.
 Bree,I assume you'll want the pewter cat.
 Bree,"You adored it, as I recall. That's why I'm giving you the choice. And what about that Hummel from your aunt? It's ugly as sin, but she insists that it's valuable."
@@ -3216,7 +3215,7 @@ Bree,Listen--Van de Kamp--Hodge.
 Bree,"See? The ship has already sailed. Oh, don't be hurt. It's my professional name. In this house, I will always be Mrs. Hodge. Now-- would it help if Mrs. Hodge cooked you your favorite pot roast tonight?"
 Bree,"Oh, right. Um, tomorrow for sure, then."
 Bree,Gaby--
-Bree,"Well, um, Michelle Downing asked me to speak to you. I don't know if you heard, but I'm catering her birthday partyâ€”"
+Bree,"Well, um, Michelle Downing asked me to speak to you. I don't know if you heard, but I'm catering her birthday partyÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Bree,You can't come. Sorry. I just had to rip the band-aid off.
 Bree,It's not personal. You know how Carlos just started at the club?
 Bree,"Oh, Gaby, it's just one party. I'll save you some cake."
@@ -3354,7 +3353,7 @@ Bree,Me? Snoring?
 Bree,"Honey, I don't snore."
 Bree,"Oh, for heaven sakes, come back to bed."
 Bree,"Hi, everybody! You having a good Time?"
-Bree,"Um ,this isâ€”"
+Bree,"Um ,this isÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Bree,"Actually, Stu's company is doing all my advertising."
 Bree,Where are you? It's after 2:00.
 Bree,"Oh, that's not until 4:00."
@@ -3508,7 +3507,7 @@ Bree,Good. I can check that off my list.
 Bree,"Any minute. Oh, my gosh, Andrew. Don't you look sharp today?"
 Bree,Check and check.
 Bree,"Only that her name is Sandra Birch. We just spoke, and she seemed very nice."
-Bree,"""A deeper look suggests something darker, something more ominous, a woman whose perky surface conceals a deep, almost demonic thirst for power.â€ù"
+Bree,"""A deeper look suggests something darker, something more ominous, a woman whose perky surface conceals a deep, almost demonic thirst for power.ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Bree,You must be Sandra. What a sharp outfit. And look at that hair--so thick and lustrous.
 Bree,"And this is my own little kitchen. I'm pretty sure my husband's here somewhere. Orson, dear, are you decent?"
 Bree,Why would I pay someone to do work that gives me such joy? Now who wants a little snack?
@@ -3555,7 +3554,7 @@ Bree,"All right, but I think I'll be too tired to finish it. That pill I took re
 Bree,When you were downstairs.
 Bree,Since when have you become such an expert on chamomile?
 Bree,Fine. I just know I need my sleep tonight.
-Bree,9:15? Huh? 9:15. Iâ€™m supposed to be at the mall. Did I forget to set the alarm?
+Bree,9:15? Huh? 9:15. I'm supposed to be at the mall. Did I forget to set the alarm?
 Bree,I'm so thirsty.
 Bree,That's all right. I'll just drink this tea.
 Bree,What?
@@ -3610,7 +3609,7 @@ Bree,You do?
 Bree,Why would he--
 Bree,And you're okay with this?
 Bree,So--he's the one?
-Bree,"You're going to marry him. I thought he wasn't being honest with you. I wanted to protect you, so Iâ€”"
+Bree,"You're going to marry him. I thought he wasn't being honest with you. I wanted to protect you, so IÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Bree,Yes.
 Bree,"Yes. Which reminds me, that needs to be back by 3:00.Could you?"
 Bree,Just take it back.
@@ -3874,7 +3873,7 @@ Bree,What were you doing at Bob and Lee's?
 Bree,"After I told you to stay out of the neighbors' houses? You stole again, didn't you?"
 Bree,What are you hiding behind your back?
 Bree,"You're telling me you own a mug with a picture of Bernadette Peters in ""Gypsy""?"
-Bree,"I had hoped that this compulsion to steal was something we could solve privately, but Orson seems unableâ€”or unwilling-- to control himself."
+Bree,"I had hoped that this compulsion to steal was something we could solve privately, but Orson seems unableÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_or unwilling-- to control himself."
 Bree,"You'll see when he leaves, and your lamp is missing."
 Bree,"This isn't my problem, Dr. Bernstein. He's the sick one. Fix him."
 Bree,"Well, maybe you'll feel comfortable talking to a professional."
@@ -5491,7 +5490,7 @@ Gabrielle,"No.I kissed Tom,and it was a harmless joke.I think if I had kissed an
 Gabrielle,"See? I don't care.That's--just a waste of time--and spit.Oh. Okay.Okay, okay, okay."
 Gabrielle,Okay! Okay!I get your point.
 Gabrielle,So are we thinking this is Paul?
-Gabrielle,--in the middle of the night.
+Gabrielle,#NAME?
 Gabrielle,Have you guys noticed how friendly Betty's been since that body was found in front of her house?
 Gabrielle,"Bree,maybe you should call in a favor from your police detective pal,have him poke around."
 Gabrielle,Betty! Matthew.
@@ -5593,7 +5592,7 @@ Gabrielle,You know what I mean?It's such a repressive regime.We forget how good 
 Gabrielle,"Don't you think Xiao-mei would like it better here in America?I mean,where she could learn about freedom and democracy and stuff?"
 Gabrielle,What?
 Gabrielle,"Well, first of all,that was her idea.Second of all,I can't have this conversation until you've tasted her crab puffs."
-Gabrielle,"Well, who's forcing her?We'll pay her whatever she wants.And the best part is,with her resumÃ©,any wage will look good."
+Gabrielle,"Well, who's forcing her?We'll pay her whatever she wants.And the best part is,with her resumÔøΩÔøΩ_ÔøΩÔøΩ_,any wage will look good."
 Gabrielle,Mnh-mnh.Hmm.
 Gabrielle,"Oh, this isn't about me.This is about our great nation.And I have no intention of sexually satisfying a man who isn't willing to stand up for and help spread the ideals and values of the United States of America."
 Gabrielle,"You like nice things? That's why I think you're stupid,for not wanting to stay here.You could be around my nice things all the time,taking care of them--how fun would that be?Well,I'm sure it's a lot more fun than you'd have in that tiny,godforsaken village of yours.You know,we're probably more alike than people would guess.I'm from a small town, too.My folks had nothing.That's why I love America.Anything is possible."
@@ -5679,7 +5678,7 @@ Gabrielle,"Well,this is the first time someone told me I couldn't have one."
 Gabrielle,"There are ways to get babies,Carlos.It just might cost us."
 Gabrielle,"$20,000.Is that proof enough for you?"
 Gabrielle,"There are ways to get babies, Carlos."
-Gabrielle,"$20,000.00 "
+Gabrielle,"$20,000.00"
 Gabrielle,"Carlos, come on!They're here!"
 Gabrielle,"Right, uh, lots of love.Honey, can I talk to you for a second?"
 Gabrielle,"Okay. okay, look, we have to find another mother."
@@ -5908,7 +5907,7 @@ Gabrielle,"Honey, look. I bought us matching golf outfits for our lessons tomorr
 Gabrielle,I'm sorry?
 Gabrielle,"Oh, okay, well, I'll just call the country club and cancel our lessons."
 Gabrielle,I don't wanna go alone.It was your idea in the first place.
-Gabrielle,"Fine, if you feel that way about it. Hey, I'm sorry. Iâ€™m just a little on edge today."
+Gabrielle,"Fine, if you feel that way about it. Hey, I'm sorry. I'm just a little on edge today."
 Gabrielle,"You pay six bucks an hour. it's all about the perks, honey."
 Gabrielle,That is so true.
 Gabrielle,Okay.
@@ -5927,7 +5926,7 @@ Gabrielle,"Honey, uh, I think it's time to unpack the pants."
 Gabrielle,"Four months, and I've dressed like this for two of 'em. He's insatiable."
 Gabrielle,Trying to have sex with you.
 Gabrielle,You don't wanna have sex with me?You always wanna have sex with me.You wanted to have sex with me an hour after your hernia operation.
-Gabrielle,"Xiao-mei said the strangest thing to me when I told her you were dead.She said, â€˜please don't kill him.'"
+Gabrielle,"Xiao-mei said the strangest thing to me when I told her you were dead.She said, ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_please don't kill him.'"
 Gabrielle,"Xiao-mei, do you have a second?This is probably silly, but it's been bothering me.When you said,""please don't kill him,"" did you mean Carlos?"
 Gabrielle,"I know.It's just you said, ""kill,"" not ""dead."" and I'd have to do be pretty angry to kill someone, so I guess my question is, do I have a reason to be angry at Mr. Solis?"
 Gabrielle,Xiao-mei--how did you rip your panties?
@@ -5959,35 +5958,35 @@ Gabrielle,"No, you can start dinner."
 Gabrielle,"You're not going anywhere, not as long as you have my baby in your belly."
 Gabrielle,"I don't know what that meant, but I didn't like the tone.So just remember, am the boss of you, or else I'm gonna make this the worst nine months of your life."
 Gabrielle,Not to sleep with a woman carrying on a child.
-Gabrielle,"Weâ€™re out, but I got you a pickle."
-Gabrielle,"You know, thatâ€™s all I got."
+Gabrielle,"We're out, but I got you a pickle."
+Gabrielle,"You know, that's all I got."
 Gabrielle,You did not just to that!
 Gabrielle,Pick it up!
-Gabrielle,"Oh, cut it out, Xiao mei.The Doctor didnâ€™t say anything about me rubbing your chubby stumps.Rub'em yourself."
-Gabrielle,"Would you rather go live with Mr. Solis in a dingy one bedroom apartment with no air conditioning and no cable?Huh?No, I didnâ€™t think so."
-Gabrielle,"I am the meanest person.Youâ€™ve been in the country a year.Modify your nouns, damn it."
-Gabrielle,"I canâ€™t wait for you to pop out that baby because when you do I am putting you on the first plane back to Shanghai, and youâ€™re going to be on all fours in a rice patty before the epidural wears off!"
+Gabrielle,"Oh, cut it out, Xiao mei.The Doctor didn't say anything about me rubbing your chubby stumps.Rub'em yourself."
+Gabrielle,"Would you rather go live with Mr. Solis in a dingy one bedroom apartment with no air conditioning and no cable?Huh?No, I didn't think so."
+Gabrielle,"I am the meanest person.You've been in the country a year.Modify your nouns, damn it."
+Gabrielle,"I can't wait for you to pop out that baby because when you do I am putting you on the first plane back to Shanghai, and you're going to be on all fours in a rice patty before the epidural wears off!"
 Gabrielle,"Tell it to my Chinese friend, Sue Me!!"
-Gabrielle,"Whatâ€™s the occasion?Bree: Oh, um, no occasion.Just a little get together."
-Gabrielle,"If you donâ€™t tell us, weâ€™re not coming."
+Gabrielle,"What's the occasion?Bree: Oh, um, no occasion.Just a little get together."
+Gabrielle,"If you don't tell us, we're not coming."
 Gabrielle,Oh my gosh!
-Gabrielle,"Oh, generous.That means heâ€™s good in the sack."
-Gabrielle,"Oh my god, youâ€™re serious?No sex at all? No even-- um--"
-Gabrielle,But youâ€™re gonna get married.You wouldnâ€™t buy a car without at least taking it for a little test drive.Itâ€™s not like youâ€™ve never slept with a guy you werenâ€™t married to.
-Gabrielle,"Oh, donâ€™t worry, Iâ€™m just going to replay the look I had when I found out you hadnâ€™t banged him yet."
+Gabrielle,"Oh, generous.That means he's good in the sack."
+Gabrielle,"Oh my god, you're serious?No sex at all? No even-- um--"
+Gabrielle,But you're gonna get married.You wouldn't buy a car without at least taking it for a little test drive.It's not like you've never slept with a guy you weren't married to.
+Gabrielle,"Oh, don't worry, I'm just going to replay the look I had when I found out you hadn't banged him yet."
 Gabrielle,"Come on out, I have your lunch.Xiao mei! Xiao mei!"
 Gabrielle,Hey!Quick question.Have you by any chance seen Xiao mei?
 Gabrielle,I did not lose our baby.Stop saying that!I know exactly where it is!Inside some crazy Chinese woman!Who also stole half a chicken from my fridge!
 Gabrielle,"Hi, hi, Lee Wang, right.Remember me.Xiao mei lives with me.You came over, we had lunch."
 Gabrielle,"Whoa, whoa, whoa, whoa, whoa!Hey, what happened to that famous Chinese hospitality?"
-Gabrielle,I may have mentioned deportation but I didnâ€™t think sheâ€™d take it personally.
-Gabrielle,"It was banter!I mean, has this country come to the point where you canâ€™t joke with the help?"
-Gabrielle,"Oh, donâ€™t give me that â€˜we are the worldâ€™ crap!That womanâ€™s uterus is harboring a stolen baby!So if you know where she is youâ€™d better start taking, or else Iâ€™m going to get the Health Department down her and get a closer look at what youâ€™re serving as Moo Sho Pork!"
-Gabrielle,"Boy, those people just donâ€™t have a sense of humor, do they?"
-Gabrielle,"Iâ€™m just dropping off Carlos now and Iâ€™ll be by to pick her up.Okay, thanks Edie. Xiao meiâ€™s fine.Crisis averted, no harm, no foul."
-Gabrielle,Donâ€™t you dare give me that attitude.You have no idea what Iâ€™ve been going through this past six months.
+Gabrielle,I may have mentioned deportation but I didn't think she'd take it personally.
+Gabrielle,"It was banter!I mean, has this country come to the point where you can't joke with the help?"
+Gabrielle,"Oh, don't give me that ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_we are the world' crap!That woman's uterus is harboring a stolen baby!So if you know where she is you'd better start taking, or else I'm going to get the Health Department down her and get a closer look at what you're serving as Moo Sho Pork!"
+Gabrielle,"Boy, those people just don't have a sense of humor, do they?"
+Gabrielle,"I'm just dropping off Carlos now and I'll be by to pick her up.Okay, thanks Edie. Xiao mei's fine.Crisis averted, no harm, no foul."
+Gabrielle,Don't you dare give me that attitude.You have no idea what I've been going through this past six months.
 Gabrielle,I have had to wait hand and foot on your mistress.I mean imagine if the day after you found out about John Rowland you had to make his lunch and rub his feet!
-Gabrielle,Xiao mei is going to be fine!Once that baby comes her slate is going to be wiped clean.Sheâ€™s going to walk away and live her American dream!Me?Iâ€™m going to be stuck!A single mother raising a child alone.Haggling with lawyers over who gets the kid at Christmas.My American dream is officially dead.
+Gabrielle,Xiao mei is going to be fine!Once that baby comes her slate is going to be wiped clean.She's going to walk away and live her American dream!Me?I'm going to be stuck!A single mother raising a child alone.Haggling with lawyers over who gets the kid at Christmas.My American dream is officially dead.
 Gabrielle,Thank you.
 Gabrielle,Here you go.
 Gabrielle,"Once that baby comes,I'm gonna be stuck raising a child alone."
@@ -6056,14 +6055,14 @@ Gabrielle,What's that?
 Gabrielle,"Yeah, that's something."
 Gabrielle,See you then.
 Gabrielle,"You can call it blackmail, Carlos, but the court calls it ""Spousal Support"".So unless I get a check by Monday, your shower buddies from jail will be throwing you a Welcome Back party."
-Gabrielle,"Donâ€™t you love this?Oh, God bless Tom for taking the kids camping."
-Gabrielle,This is exactly what we needed.Especially after everything Iâ€™ve been through lately.I am all about relaxing and rejuvenating--
+Gabrielle,"Don't you love this?Oh, God bless Tom for taking the kids camping."
+Gabrielle,This is exactly what we needed.Especially after everything I've been through lately.I am all about relaxing and rejuvenating--
 Gabrielle,Yeah?
-Gabrielle,"Oh, Iâ€™m sorry."
-Gabrielle,"Iâ€™m sorry.Itâ€™s just that Iâ€™m waiting for Carlosâ€™ lawyer to call.Spousal support has gotten ugly. Hello.Oh hi, Tom!"
+Gabrielle,"Oh, I'm sorry."
+Gabrielle,"I'm sorry.It's just that I'm waiting for Carlos' lawyer to call.Spousal support has gotten ugly. Hello.Oh hi, Tom!"
 Gabrielle,Yeah!
-Gabrielle,Sheâ€™s right here. Did you say something?
-Gabrielle,I know.I wouldnâ€™t trade with you for anything.
+Gabrielle,She's right here. Did you say something?
+Gabrielle,I know.I wouldn't trade with you for anything.
 Gabrielle,Thank you.
 Gabrielle,"What is this, freakin' Noah's ark?!"
 Gabrielle,Who's there? I can't see you.
@@ -6074,10 +6073,10 @@ Gabrielle,"Actually, we're getting a divorce."
 Gabrielle,Really? Then why are you smiling?
 Gabrielle,Gabrielle. I think that's the first time you've ever called me that.
 Gabrielle,I intend to.
-Gabrielle,"Except now when we're done, I don't have to proofread your essay on â€˜Ethan Frome'."
+Gabrielle,"Except now when we're done, I don't have to proofread your essay on ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_Ethan Frome'."
 Gabrielle,"Ooh, I like rich John!"
 Gabrielle,What?
-Gabrielle,Oh! Your fiancÃ©e?
+Gabrielle,Oh! Your fiancÔøΩÔøΩ_ÔøΩÔøΩ_e?
 Gabrielle,"Uh, you--You're engaged? To who?!"
 Gabrielle,How could you do this to me?I would never have let you seduce me if I knew you were getting married.
 Gabrielle,You knew about Carlos! My cheating was upfront and honest.
@@ -6184,7 +6183,7 @@ Gabrielle,"All right, well, let's just say something happened to postpone the di
 Gabrielle,"I know how Carlos thinks. More importantly, what he thinks with."
 Gabrielle,Hey! Cocktails? Nobody called me?
 Gabrielle,"Oh. Well, I was trying to do that with exercise,but why risk a heart attack? Make mine a double!"
-Gabrielle,Iâ€™m just gonna say it. Tequila makes me happy.
+Gabrielle,I'm just gonna say it. Tequila makes me happy.
 Gabrielle,"Yeah, we're drinking on the porch. You got a problem with that?"
 Gabrielle,Show-offs.
 Gabrielle,What do you think their secret is?
@@ -6199,13 +6198,13 @@ Gabrielle,See you later!
 Gabrielle,"Go, Ida!"
 Gabrielle,"Carlos, could you come help me?"
 Gabrielle,It'll just take a second. Please?
-Gabrielle,"Oh,thanks.Iâ€™m gonna go meet some new friends for dinner.But my zipper's stuck.Can you help me?"
+Gabrielle,"Oh,thanks.I'm gonna go meet some new friends for dinner.But my zipper's stuck.Can you help me?"
 Gabrielle,"Huh. Weird. Well, you know what? I don't wanna be late, so I should, um, probably change."
-Gabrielle,"Oh, Carlos, this old thing? You've seen it all before. I'm just gonna wear the little blue number. Will you hand me those stockings? Oh, Iâ€™ve got a raggedy nail. You're gonna have to help me put those on."
-Gabrielle,"Well, Iâ€™d do it myself, but I don't wanna get a snag."
+Gabrielle,"Oh, Carlos, this old thing? You've seen it all before. I'm just gonna wear the little blue number. Will you hand me those stockings? Oh, I've got a raggedy nail. You're gonna have to help me put those on."
+Gabrielle,"Well, I'd do it myself, but I don't wanna get a snag."
 Gabrielle,Really? It seems like yesterday to me.
 Gabrielle,Sure. Why not? For old time's sake.
-Gabrielle,I've decided Iâ€™d rather catch up with an old one.
+Gabrielle,I've decided I'd rather catch up with an old one.
 Gabrielle,"Carlos, do you think we're making a mistake?"
 Gabrielle,The whole divorce thing. Maybe we shouldn't go through with it. It's not like we're gonna find this kind of passion with anyone else.
 Gabrielle,"Yeah.Yeah,I guess I am.Why don't we just put all of this behind us and stay together?What do you say?"
@@ -6217,7 +6216,7 @@ Gabrielle,Your terms?
 Gabrielle,You are a bastard!
 Gabrielle,"Oh, god!"
 Gabrielle,"Oh! Hello? Uh, there's been an accident. My husband--he--"
-Gabrielle,Iâ€™m gonna have to call you back.
+Gabrielle,I'm gonna have to call you back.
 Gabrielle,Carlos? Honey? Carlos?
 Gabrielle,"Oh, hon, again?"
 Gabrielle,There was nothing you could do.
@@ -6449,7 +6448,7 @@ Gabrielle,Nothing. Just having you here helps.
 Gabrielle,"Because when he breaks in And starts hacking you up with his machete, your screams will wake me up, and then I'll be able to escape."
 Gabrielle,All right. Don't take the big one. That's my favorite.
 Gabrielle,What?! You can't abandon me! There's a madman stalking me. My life is on the line. Do you know how scared I am?
-Gabrielle,"Hey, Iâ€™m scared, but not of the dress."
+Gabrielle,"Hey, I'm scared, but not of the dress."
 Gabrielle,"Carlos! Carlos, wake up! I need you!"
 Gabrielle,What? No!
 Gabrielle,He's here.
@@ -6457,27 +6456,27 @@ Gabrielle,"Carlos, be careful! He might have a gun!"
 Gabrielle,"Oh, now you're gonna give me attitude?!"
 Gabrielle,This jerk has been terrorizing me. He broke into my house!
 Gabrielle,Your boss?
-Gabrielle,"This is Gabrielle. Who the hell is this? Yes, I got your â€˜token of esteem,â€™ and Iâ€™m not impressed. Because you're freaking me out, that's why! No, I don't care how much it cost. That's beside the point. Really? That much?"
-Gabrielle,"Look, I know you're trying to be romantic, But if you keep this up, Iâ€™m gonna be forced--"
+Gabrielle,"This is Gabrielle. Who the hell is this? Yes, I got your ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_token of esteem,' and I'm not impressed. Because you're freaking me out, that's why! No, I don't care how much it cost. That's beside the point. Really? That much?"
+Gabrielle,"Look, I know you're trying to be romantic, But if you keep this up, I'm gonna be forced--"
 Gabrielle,"That's very sweet of you, But I am not the most beautiful woman in the world."
 Gabrielle,"Yes, I-I may be in the top ten."
 Gabrielle,He says I know him and that he wants to reintroduce himself at dinner.
 Gabrielle,I would not feel comfortable meeting for dinner.
 Gabrielle,How about lunch?
-Gabrielle,"But you have to promise to stop buying me these expensive gifts. Because Iâ€™m not that kind of girl. Well, for that many karats, yes, I could be that kind of girl. Um, I gotta go. I'll talk to you tomorrow! Oh, how about that? And here I was, thinking some guy wants to murder me in my sleep."
+Gabrielle,"But you have to promise to stop buying me these expensive gifts. Because I'm not that kind of girl. Well, for that many karats, yes, I could be that kind of girl. Um, I gotta go. I'll talk to you tomorrow! Oh, how about that? And here I was, thinking some guy wants to murder me in my sleep."
 Gabrielle,Uh-huh.
 Gabrielle,Ooh-kay.
 Gabrielle,And you were valedictorian. What were you up to that your mother didn't know about?
-Gabrielle,"Wait, wait, wait. First rule of ransackingâ€”remember where everything goes."
+Gabrielle,"Wait, wait, wait. First rule of ransackingÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_remember where everything goes."
 Gabrielle,So what does this diary look like?
 Gabrielle,"Oh, god!"
-Gabrielle,This is adorable! You think maybe I couldâ€”
+Gabrielle,This is adorable! You think maybe I couldÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_
 Gabrielle,Fine. Why does Julie have a VCR?
 Gabrielle,Please. Kids don't watch videos anymore. Everything's digital.
 Gabrielle,Is it?
 Gabrielle,Thank you. Oh.
 Gabrielle,"Zach Young! Oh, my god! It's been ages. Wow. Look at you! So handsome in a suit."
-Gabrielle,"Aren't you sweet? Uh, well, anyway, I--I'd love to catch up, But Iâ€™m kinda waiting for someone."
+Gabrielle,"Aren't you sweet? Uh, well, anyway, I--I'd love to catch up, But I'm kinda waiting for someone."
 Gabrielle,"Wow, someone got an advance on their allowance."
 Gabrielle,I'm on a date with Zach Young. Nothing's ever gonna seem weird again.
 Gabrielle,You got a little chocolate on your shirt.
@@ -6496,7 +6495,7 @@ Gabrielle,"Oh, some global financier, saw me on the cover of Paris Match. Good-l
 Gabrielle,You son of a bi*ch. You were there?
 Gabrielle,I can't believe you followed me.
 Gabrielle,"All right, off my porch."
-Gabrielle,"Yeah, about that--Um, Iâ€™m installing an alarm system tomorrow, so Iâ€™m not gonna need you to look after me anymore."
+Gabrielle,"Yeah, about that--Um, I'm installing an alarm system tomorrow, so I'm not gonna need you to look after me anymore."
 Gabrielle,I mind. We're divorced. I can't keep running to you every time I get scared. I want to be the kind of woman who can take care of herself.
 Gabrielle,I won't. But thank you.
 Gabrielle,Shh! Here it comes.
@@ -6523,7 +6522,7 @@ Gabrielle,A whole day?
 Gabrielle,"Not quite. The day starts with lunch, and that kiss, off the table."
 Gabrielle,One million dollars.
 Gabrielle,"Okay, deal, you little skunk."
-Gabrielle,"Oh, I'm stuffed. I can't believe you talked me into that crÃ¨me brÃ»lÃ©e."
+Gabrielle,"Oh, I'm stuffed. I can't believe you talked me into that crÔøΩÔøΩ_ÔøΩÔøΩ_me brÔøΩÔøΩ_ÔøΩÔøΩ_lÔøΩÔøΩ_ÔøΩÔøΩ_e."
 Gabrielle,I know! You're such a good dancer! Where'd you learn how to salsa?
 Gabrielle,When did I say that?
 Gabrielle,"You researched me? That's sweet! In a, uh, stalkery kind of way. Thanks again for a surprisingly enjoyable night. See you around."
@@ -6834,7 +6833,7 @@ Gabrielle,"Vern, focus. It's never bad luck when I look fabulous."
 Gabrielle,Oh! Hi. Don't worry. I'm here now.
 Gabrielle,"Oh, no, no. I'm just gonna say bye to my friend, then I'm gone."
 Gabrielle,"Oh, Vern, I can't wait for you to meet him. He's everything I've ever wanted in a man--sensitive and kind--"
-Gabrielle,--buys me three thousand dollar dresses.
+Gabrielle,#NAME?
 Gabrielle,"Oh, my God. That's the best part. He lets me be me. All right, I gotta get going."
 Gabrielle,What are you doing? I told you I was leaving. Stop writing!
 Gabrielle,"Oh, give me a break. I was standing right there. You could've said something."
@@ -7000,7 +6999,7 @@ Gabrielle,"Finally!Carlos,where the hell are you?"
 Gabrielle,"Oh,my god! Is she okay?"
 Gabrielle,"Okay,that's all right.I'll just take a cab and meet you."
 Gabrielle,In a few weeks? What?No! It has to be tonight!Victor's in the bedroom right now waiting to consummate.
-Gabrielle,"Okay,you know,running away with you on my wedding night was crazy enough.But runninâ€™ away to be alone is insane!"
+Gabrielle,"Okay,you know,running away with you on my wedding night was crazy enough.But runnin' away to be alone is insane!"
 Gabrielle,No!I would rather try and work it out with Victor.
 Gabrielle,What's going on here?
 Gabrielle,I remember telling you I wasn't ready to sell the house yet.
@@ -7762,7 +7761,7 @@ Gabrielle,"Well, I'll tell you what. Since your mom and I are dear friends, I'll
 Gabrielle,"Andrew! Unless you lower this price, we're walking--right now."
 Gabrielle,I mean it. This is it.
 Gabrielle,"Fine. Okay, fine. Knock off $200, and we'll give you cash."
-Gabrielle,$100.00 
+Gabrielle,$100.00
 Gabrielle,Wh--Will you at least have it washed?
 Gabrielle,Damn you.
 Gabrielle,"Guys, hey, knock it off back there. Oh, god. What now?"
@@ -7994,7 +7993,7 @@ Gabrielle,That's fantastic!
 Gabrielle,Oh!
 Gabrielle,Oh.
 Gabrielle,"I know. It's just--he's been through so much these past five years, and he's never complained. I just think he deserves to open his eyes to a wife who doesn't tuck her boobs into her pants."
-Gabrielle,"But Iâ€™m not most women. I was an international fashion model, and that's how Carlos remembers me."
+Gabrielle,"But I'm not most women. I was an international fashion model, and that's how Carlos remembers me."
 Gabrielle,"It's okay, it's okay. Let her talk. At least she's being honest. It's the kind of support and friendship I need right now."
 Gabrielle,"Thank you. God, what am I gonna do?"
 Gabrielle,"Really? I mean, do you think I could pull this off?"
@@ -8037,11 +8036,11 @@ Gabrielle,"Oh, don't look at me that way. I did what I had to do."
 Gabrielle,"The car needed tires. How was I supposed to know he was gonna get his sight back? I mean, of all the rotten luck."
 Gabrielle,"I don't know. Some Italian guy. Hey, Mike's into baseball. He must know someone who can track down this Lou Gehrig guy and get him to sign a new one. What?"
 Gabrielle,"So you see, it belonged to my husband's grandfather, and if I don't get it back, I am telling you, I'm gonna be in the crapper."
-Gabrielle,â€œPer nullaâ€ù? What does that mean?
+Gabrielle,ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_Per nullaÔøΩÔøΩ_ÔøΩÔøΩ_? What does that mean?
 Gabrielle,"Oh, please. This is important."
 Gabrielle,What? What's he saying?
 Gabrielle,What?
-Gabrielle,"Yeah, you know what? I'm gonna have to call a big, fat â€œper nullaâ€ù on that one."
+Gabrielle,"Yeah, you know what? I'm gonna have to call a big, fat ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_per nullaÔøΩÔøΩ_ÔøΩÔøΩ_ on that one."
 Gabrielle,"Carlos, what's wrong?"
 Gabrielle,What?
 Gabrielle,"Oh, my god. That's wonderful!"
@@ -8239,7 +8238,7 @@ Gabrielle,Beat it. What?
 Gabrielle,"But do you know how much overtime Carlos has pulled? How many trips he's taken? He's killed himself. For god sakes, don't do this to my jeweler."
 Gabrielle,So this was his bonus? A salad and a stuffed chicken breast?
 Gabrielle,We're ready for dessert now. Wrap up ten lobsters to go.
-Gabrielle,"Oh, put it on and have a good time. Turns out Iâ€™m no gonna be able to afford it right now--unless you can help me out on the price."
+Gabrielle,"Oh, put it on and have a good time. Turns out I'm no gonna be able to afford it right now--unless you can help me out on the price."
 Gabrielle,"You give it to me, and then call your insurance and say it was stolen? I didn't think so."
 Gabrielle,"Oh, will you excuse me a minute?"
 Gabrielle,"Carlos, get in here! I got a real shockeroo for you! You are not gonna believe this! Brad! Hi. Uh, what's going on?"
@@ -8263,7 +8262,7 @@ Gabrielle,Who? Him and Maria or him and the blonde I saw him kissing yesterday?
 Gabrielle,Yeah. And Brad saw me. Why do you think your bonus jumped from a stuffed chicken breast to 30 grand in a day?
 Gabrielle,You're welcome.
 Gabrielle,"No, we can't tell her. We'd have to give the money back."
-Gabrielle,"It's like you saidâ€”their marriage is none of our business. He's the one who's cheating. If we say anything, it'll just make things worse. We're the good guys here, Carlos."
+Gabrielle,"It's like you saidÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_their marriage is none of our business. He's the one who's cheating. If we say anything, it'll just make things worse. We're the good guys here, Carlos."
 Gabrielle,Hey. When did you two get here?
 Gabrielle,"Oh, really? What is it?"
 Gabrielle,"Oh, whoa."
@@ -8286,7 +8285,7 @@ Gabrielle,"Why? So you can go get another ""haircut""?"
 Gabrielle,"Well, Bradley, we all want things. For instance, I would like Carlos to have a week off next month."
 Gabrielle,"4:00? Let me think. Actually, noon would be better for me. Could you do noon?"
 Gabrielle,Nope. He is not to be believed.
-Gabrielle,How about we let it ride? Double or nothingâ€”McCluskey slugs someone by 5:00.
+Gabrielle,How about we let it ride? Double or nothingÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_McCluskey slugs someone by 5:00.
 Gabrielle,You painted that? You're good.
 Gabrielle,Katherine hung one of Mike's paintings over the mantel till she found out Susan painted it. Then she took it down.
 Gabrielle,"Really, Susan, there's not a woman in the world who doesn't know what ""I broke it dusting"" means."
@@ -8298,12 +8297,12 @@ Gabrielle,I do-- and so does my personal shopper and Pilates instructor.
 Gabrielle,Or we can--make someone else do the right thing.
 Gabrielle,It means--tomorrow I'm going to the mall to get my hair cut by a slut.
 Gabrielle,You didn't.
-Gabrielle,"Well, Shaylaâ€”it is Shayla, right?"
+Gabrielle,"Well, ShaylaÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_it is Shayla, right?"
 Gabrielle,I need a fresh look. I've been going through some pretty intense personal stuff lately.
 Gabrielle,"Fine. I'll tell you. I have been having an affair with a married man, and it's come to that point where I can't even look at myself in the mirror. So I want a new style that says I'm not a giant turd of sin."
 Gabrielle,"Yeah, that's what I thought at first, and then I realized that's stupid. I mean, what about his poor wife?"
 Gabrielle,"Oh, no. She does. She loves him plenty."
-Gabrielle,And he has kidsâ€”two adorable little kids.
+Gabrielle,And he has kidsÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_two adorable little kids.
 Gabrielle,"Well, maybe I am tired of being that kind of selfish bitch."
 Gabrielle,"Focus, Shayla! We are talking about how I'm ruining innocent people's lives."
 Gabrielle,"Oh, for god sakes, you bleached blonde twit. I'm not talking about me. I'm talking about you and Bradley."
@@ -8626,7 +8625,7 @@ Gabrielle,"Well, no, but--"
 Gabrielle,We're going to a family reunion at Aunt Connie' and I want to look my best.
 Gabrielle,"Well, if your idea of a good time is sitting on rusty lawn chairs in the driveway eating lard in the shape of chicken, Then yeah! It's gonna be a blast."
 Gabrielle,"Honey, you're 6 now, so I think it's time we had a little mother/daughter talk. Your father's side of the family's trash. Any questions?"
-Gabrielle,"'Cause thatâ€™s what grown-ups do, sweetie. When we don't like someone, we don't punch them or say mean things. We just find subtle ways to make them feel bad about their lives. Ooh, like these earrings, Aunt Connie can't afford them, and that'll make her sad. And this will bring her to her knees. And this will be a kick in her throat."
+Gabrielle,"Cause that's what grown-ups do, sweetie. When we don't like someone, we don't punch them or say mean things. We just find subtle ways to make them feel bad about their lives. Ooh, like these earrings, Aunt Connie can't afford them, and that'll make her sad. And this will bring her to her knees. And this will be a kick in her throat."
 Gabrielle,"Oh, no, sweetie. We have to go. They're family."
 Gabrielle,"As in ""moo goo gai pan"" Chinese?"
 Gabrielle,"The first time a man did something stupid, and a woman pointed it out."
@@ -9251,7 +9250,7 @@ Lynette,That's a good point.
 Lynette,You're capable of doing all sorts of things.
 Lynette,Boys! Get your little fannies inside. Guys?
 Lynette,"Too late, you stole and then you lied. Even worse? You made me look bad in front of Mrs. McCluskey, who you know is mommy's sworn enemy. Time to pick your poison. How 'bout a belt? It's a classic."
-Lynette,"Well, we could go with the old hickory stick. It's a clichÃ©, but it's pretty effective. I know, we'll go with the spatula. The holes give it less wind resistance. Moves faster."
+Lynette,"Well, we could go with the old hickory stick. It's a clichÔøΩÔøΩ_ÔøΩÔøΩ_, but it's pretty effective. I know, we'll go with the spatula. The holes give it less wind resistance. Moves faster."
 Lynette,"Guys, guys, guys, hey, my hands are tied. Thieves get spanked. Just the way it works. Unless--"
 Lynette,"For a first time offense, if you swear, cross your heart, that you will never, never steal again, and you write Mrs. McCluskey a letter of apology, I will let it slide."
 Lynette,"All right, start with 'Dear Mrs. McCluskey.'"
@@ -9343,7 +9342,7 @@ Lynette,"Measles, huh?"
 Lynette,Tammy Brennan spent a fortune on Topher's party. She'd call in specialists from Switzerland before she'd let it be canceled.
 Lynette,"Because she saw Porter scratching his head at school. They all did, and now word's getting around."
 Lynette,"Well, it is for the rich bee-eye-tee-see-atch's--"
-Lynette,--at Barcliff Academy.
+Lynette,#NAME?
 Lynette,"It's been one day, and they've been disinvited to a birthday party. If rumors start flying, these boys can kiss campouts and pool parties goodbye."
 Lynette,"Yeah, not so cool now, huh?"
 Lynette,"Guys, we should be ashamed of ourselves for reveling in that woman's misery. That being said, Edie, please continue."
@@ -9866,7 +9865,7 @@ Lynette,"You're welcome, but I really need to get home."
 Lynette,"Um, why don't you ask Trudy? She loves going out."
 Lynette,"Oh, is she now?"
 Lynette,Ah.
-Lynette,Pals?â€™Cause sometimes it's hard to tell. You know I wasn't feeling the love today when you mocked my campaign in front of the clients.
+Lynette,Pals?'Cause sometimes it's hard to tell. You know I wasn't feeling the love today when you mocked my campaign in front of the clients.
 Lynette,Okay. One drink.
 Lynette,No.
 Lynette,Hi.
@@ -10227,7 +10226,7 @@ Lynette,"You want the truth, Tom?I think you're good.You have moments of brillia
 Lynette,What does that mean?
 Lynette,Tom--
 Lynette,Great! Great!
-Lynette,"Uh, just let your rÃ©sumÃ© speak for itself?"
+Lynette,"Uh, just let your rÔøΩÔøΩ_ÔøΩÔøΩ_sumÔøΩÔøΩ_ÔøΩÔøΩ_ speak for itself?"
 Lynette,Okay!
 Lynette,"Yeah, gosh, it is.It's quite impressive.Oh, wow,I see you worked for Bellfore and Barrasso.That's a great shop."
 Lynette,"Uh-huh, and when were you there?Because you forgot to list your dates of employment for that one."
@@ -10649,48 +10648,48 @@ Lynette,"Well, to be clear, how are you going to live? How are you going to pay 
 Lynette,"Yeah, that would be a shame."
 Lynette,Settle down.
 Lynette,Kayla ready yet?
-Lynette,No problem.Sheâ€™s a great little girl.
-Lynette,"All right, letâ€™s do this.Iâ€™m just going to check the focus."
+Lynette,No problem.She's a great little girl.
+Lynette,"All right, let's do this.I'm just going to check the focus."
 Lynette,Nora.
 Lynette,Uh.What are you doing there?
 Lynette,"Tom, could I, could I check your tie again?"
-Lynette,"How about, â€˜youâ€™re in the frame, Bitch, move."
-Lynette,"No, I am sorry.How much of her crap do I have to put up with?First itâ€™s little drop bys, than sheâ€™s inviting herself to dinner three times a week.Now she wants to be in our Christmas photo? Iâ€™m sorry, no, that is not happening."
-Lynette,"Nora, this is just for our family.I would prefer if you werenâ€™t in it."
-Lynette,"Fine, fine, no absolutely fine. Put â€˜Crazyâ€™ at the end and weâ€™ll crop her out later."
+Lynette,"How about, ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_you're in the frame, Bitch, move."
+Lynette,"No, I am sorry.How much of her crap do I have to put up with?First it's little drop bys, than she's inviting herself to dinner three times a week.Now she wants to be in our Christmas photo? I'm sorry, no, that is not happening."
+Lynette,"Nora, this is just for our family.I would prefer if you weren't in it."
+Lynette,"Fine, fine, no absolutely fine. Put ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_Crazy' at the end and we'll crop her out later."
 Lynette,Ten seconds.
-Lynette,"No, thatâ€™s fine.Wow, white gloves.What are we having lunch in the 1880s."
+Lynette,"No, that's fine.Wow, white gloves.What are we having lunch in the 1880s."
 Lynette,What are you being so coy about?
 Lynette,She said coyly.
 Lynette,Wow!
 Lynette,You move fast.
-Lynette,Thatâ€™s cute.
+Lynette,That's cute.
 Lynette,Of course.
 Lynette,And?
 Lynette,I told her that we were picking up Kayla for a quiet afternoon at home.
 Lynette,"Yeah, your damn straight I lied.I will not have that lunatic ruining one more family gathering."
-Lynette,So what are you saying?Youâ€™re more afraid of Nora that you are of me?
+Lynette,So what are you saying?You're more afraid of Nora that you are of me?
 Lynette,Thank you.
 Lynette,Hello.
 Lynette,"Hey, Nora."
 Lynette,"Shhh, Shh, Quiet, Shush!"
-Lynette,"No, no, no, of course not. In fact weâ€™re just having a quiet afternoon at home.The kids are so bored Tom and I were thinking about taking them out for ice cream."
-Lynette,"Oh, I will, I will.And Iâ€™ll see you tonight."
-Lynette,"No, I think sheâ€™ll be over here in ten minutes."
-Lynette,"Okay, now, move it.Iâ€™ve got ten bucks here for the kid who can carry the most stuff. Okay?"
-Lynette,"Hey, Gaby, itâ€™s Lynette.Got a little emergency.Is it okay if we use your backyard? Great, great, and we take full responsibility for whatever the pony does.Hope you get this message soon.Oh!"
+Lynette,"No, no, no, of course not. In fact we're just having a quiet afternoon at home.The kids are so bored Tom and I were thinking about taking them out for ice cream."
+Lynette,"Oh, I will, I will.And I'll see you tonight."
+Lynette,"No, I think she'll be over here in ten minutes."
+Lynette,"Okay, now, move it.I've got ten bucks here for the kid who can carry the most stuff. Okay?"
+Lynette,"Hey, Gaby, it's Lynette.Got a little emergency.Is it okay if we use your backyard? Great, great, and we take full responsibility for whatever the pony does.Hope you get this message soon.Oh!"
 Lynette,"Okay, kids.Come on, Come on!"
-Lynette,"Okay, all right, everybodyâ€™s in."
+Lynette,"Okay, all right, everybody's in."
 Lynette,"Oh, crap!"
-Lynette,"Hey, Nora, wow.We werenâ€™t expecting you until seven."
+Lynette,"Hey, Nora, wow.We weren't expecting you until seven."
 Lynette,I thought I told you Tom took the kids to the movies.
 Lynette,"Ah hun, after the movies.Movies than ice cream.An American tradition.So is something wrong?"
 Lynette,Oh.
 Lynette,"Oh, apology accepted.You want me to walk you to your car?"
 Lynette,"Nora, look, I am sorry I lied.You know you gave me no choice."
-Lynette,"No, Iâ€™m not telling."
-Lynette,"No, no, no, no.You want in youâ€™re going to have to go through me."
-Lynette,"I know you are Tom, and I know love her. Why else do you think Iâ€™m willing to put up with all this for six months?Why do you think Iâ€™m willing to say to my college roommates, â€˜Yes, thatâ€™s my husbandâ€™s love child and her mother in our Christmas picture.Because I am your wife!You always come first with me.Do I still come first with you?"
+Lynette,"No, I'm not telling."
+Lynette,"No, no, no, no.You want in you're going to have to go through me."
+Lynette,"I know you are Tom, and I know love her. Why else do you think I'm willing to put up with all this for six months?Why do you think I'm willing to say to my college roommates, ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_Yes, that's my husband's love child and her mother in our Christmas picture.Because I am your wife!You always come first with me.Do I still come first with you?"
 Lynette,Thank you for that.
 Lynette,Gonna go buy a pinata?
 Lynette,"Personally, I love smoked rabbit, but for a sure crowd-pleaser you can't beat chicken."
@@ -10735,9 +10734,9 @@ Lynette,You're right. You are right. You're right. I'm so sorry. It's just--
 Lynette,"I'm so unhappy. Ever since that woman pushed her way into our lives I can't even work up a smile. And the more she pushes the more I resent Tom. Tom. For something he did twelve years ago. And I'm afraid if I can't fix this, that the anger is just going to fester until.."
 Lynette,"No, seriously, Gaby, I am so tired of pretending to smile."
 Lynette,Yeah? How can you be so sure?
-Lynette,"No, no, youâ€™ll be fine."
-Lynette,"No, no.Whatâ€™s unfair is that weâ€™re slowly running out of money and youâ€™ve barely even looked for a job. Youâ€™re going to have a good time, all right? I love you. Bye."
-Lynette,Hi.Iâ€™m ready.
+Lynette,"No, no, you'll be fine."
+Lynette,"No, no.What's unfair is that we're slowly running out of money and you've barely even looked for a job. You're going to have a good time, all right? I love you. Bye."
+Lynette,Hi.I'm ready.
 Lynette,Ummm.
 Lynette,Gaby!
 Lynette,Could you be all about shutting up!
@@ -10746,18 +10745,18 @@ Lynette,"No, no, no, no!"
 Lynette,NO!
 Lynette,Hey.
 Lynette,So?
-Lynette,"Oh, well why donâ€™t you take a muscle relaxant."
-Lynette,"Well, why donâ€™t you give them to the kids?"
-Lynette,"Please, Tom, please!Donâ€™t do this to me!"
+Lynette,"Oh, well why don't you take a muscle relaxant."
+Lynette,"Well, why don't you give them to the kids?"
+Lynette,"Please, Tom, please!Don't do this to me!"
 Lynette,"Allllll right. Yeah.I will be there as soon as I can.God, I hate my life."
 Lynette,What are you doing here?
-Lynette,"Hitch?You mean, like, weâ€™re going to be driving in the car together?"
-Lynette,"Ah, itâ€™s like an eight hour drive."
+Lynette,"Hitch?You mean, like, we're going to be driving in the car together?"
+Lynette,"Ah, it's like an eight hour drive."
 Lynette,"Ah, how far is the impound lot because, you know, I would just drive you over there--"
-Lynette,"Ah, I donâ€™t have a problem.I just donâ€™t think we both need to go up there.I can grab Kayla and bring her back."
+Lynette,"Ah, I don't have a problem.I just don't think we both need to go up there.I can grab Kayla and bring her back."
 Lynette,"Yeah, I do mind. I mind deeply."
 Lynette,"Oh, that's-- delightful. That's delightful. Maybe it'll just soak up the cream soda you spilled."
-Lynette,"No, my favorite game is counting all the things I'm dying to say to you but I don't. Like--â€˜Pipe down, you annoying nut job.â€™ I'd never say that."
+Lynette,"No, my favorite game is counting all the things I'm dying to say to you but I don't. Like--ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_Pipe down, you annoying nut job.' I'd never say that."
 Lynette,No! You're colorful.Colorful in a way that might respond to medication.
 Lynette,"Ah! Oh, my God! Knock it off! What is the matter with you?! What is wrong with you? What the hell do you think you're doing?"
 Lynette,"No, well, it wasn't funny. If you wanna kill yourself, fine, but don't take me with you."
@@ -10837,7 +10836,7 @@ Lynette,No.
 Lynette,"Okay, well, maybe a little."
 Lynette,You get to chase your dream while I get to spend the rest of my life in advertising.
 Lynette,"Maybe I'd like to write a book Or, you know, start my own magazine. And then I think, no, I can't. I have a family to support, and I am okay with that--"
-Lynette,-- most of the time.
+Lynette,#NAME?
 Lynette,"Don't you dare! You are gonna chase your dream, And I am gonna support you 99 % of the time."
 Lynette,How the hell did he do that?
 Lynette,"Oh, he's never gonna quit now!"
@@ -10871,7 +10870,7 @@ Lynette,"Of course you did, 'cause you're a smart guy, which is also why you are
 Lynette,"No. No, no, no, I am totally on board."
 Lynette,I'm thinking--catering company.
 Lynette,"Start small, have an Italian theme,create some cash flow, and then later on,expand into the pizza thing."
-Lynette,"Well, think about it. You're gonna do all these fun parties. People will start talking-- ""Hey, this is great food. This guy should open a restaurant."" ""Yeah, yeah, I'd eat there,"" and then wham! Five short years later, you have a built-in customer base.â€ù"
+Lynette,"Well, think about it. You're gonna do all these fun parties. People will start talking-- ""Hey, this is great food. This guy should open a restaurant."" ""Yeah, yeah, I'd eat there,"" and then wham! Five short years later, you have a built-in customer base.ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Lynette,"I know, I know. Catering's how you get there."
 Lynette,"Because you'll fail! I'm sorry! God.I shouldn't have said that.But you're gambling with our life savings, and you have no experience."
 Lynette,I'm trying to.I am trying to. But are you aware that 90% of restaurants tank in their first year?
@@ -10904,22 +10903,22 @@ Lynette,Bite on this.
 Lynette,"Oh, god, here she goes again. What grade is he in?"
 Lynette,"Yeah, he's hot."
 Lynette,"Well, maybe you should try to patch things up with him."
-Lynette,"I brought this on myself. I tell Tom, â€˜I want you to be your own man.â€™ But the truth is, I don't. I want him to have what he wants if it's what I want. I'm a bitch with a capital C."
+Lynette,"I brought this on myself. I tell Tom, ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_I want you to be your own man.' But the truth is, I don't. I want him to have what he wants if it's what I want. I'm a bitch with a capital C."
 Lynette,"Look, Susan, god called you a cab."
 Lynette,"Mm-hmm. Yeah, you are!"
 Lynette,"Go, Ida!"
 Lynette,Hey.
 Lynette,"Oh, just a quiet night with the girls."
 Lynette,"Oh, stop right there. I am the one who should apologize. I have been a bad wife."
-Lynette,"Yeah, well, any wife can support a husband who never takes risks, and I don't want that kind of husband, and Iâ€™ll be damned if Iâ€™m gonna be that kind of wife. So you open your pizza place, and we will find a way to make it work."
+Lynette,"Yeah, well, any wife can support a husband who never takes risks, and I don't want that kind of husband, and I'll be damned if I'm gonna be that kind of wife. So you open your pizza place, and we will find a way to make it work."
 Lynette,Mmm. So what happened tonight?
 Lynette,Ding-dong.
-Lynette,Iâ€™m sorry. I didn't quite catch that. Why don't you just come on over here and say that to me again?
+Lynette,I'm sorry. I didn't quite catch that. Why don't you just come on over here and say that to me again?
 Lynette,I have been trying to stay away from you--
 Lynette,"Everything's all right, so you can just go back into your room and play."
-Lynette,"Okay. Never mind. Iâ€™m leaving. First, Iâ€™m just gonna give your mom a hug."
+Lynette,"Okay. Never mind. I'm leaving. First, I'm just gonna give your mom a hug."
 Lynette,"Your association with my family is over. When Kayla comes to visit, you will drop her at the end of the block. You will never again see my husband, and if you try to, I will do to your spine what I just did to your front door. Nod if you understand."
-Lynette,"And you, Iâ€™m gonna see you on Saturday, right? Don't forget your swimsuit."
+Lynette,"And you, I'm gonna see you on Saturday, right? Don't forget your swimsuit."
 Lynette,You will never again see my husband.
 Lynette,"Hey! Mary Alice, are you okay?"
 Lynette,Okay. See you later.
@@ -11000,7 +10999,7 @@ Lynette,"Hey, sweetheart, you okay?"
 Lynette,She won't.
 Lynette,"Well, because she's--"
 Lynette,Or wherever.
-Lynette,"Okay, I should be back at around six oâ€™clock. They can have one snack. Try and push apples, but if they threaten violence, I have an emergency candy bar under the sink."
+Lynette,"Okay, I should be back at around six o'clock. They can have one snack. Try and push apples, but if they threaten violence, I have an emergency candy bar under the sink."
 Lynette,"Oh, jeez."
 Lynette,To the market.
 Lynette,"Hey, sweetie, it's a different market."
@@ -11174,18 +11173,18 @@ Lynette,"Andrew, hi! I thought you weren't starting until the opening."
 Lynette,Oh.
 Lynette,"Yeah,I-I know.And hey,don't tell him I stopped by.I'm not supposed to be here.I just wanted to sneak a peek."
 Lynette,Shouldn't you be working?
-Lynette,TouchÃ©.
+Lynette,TouchÔøΩÔøΩ_ÔøΩÔøΩ_.
 Lynette,"I think it's fantastic. It's really coming together. Ooh, I love the bar."
 Lynette,What?
 Lynette,"No, he didn't. Don't, um, restaurants make half their money on the liquor?"
 Lynette,This is a nightmare. How did this happen?
 Lynette,"Well,then why isn't he dealing with it instead of shopping for napkins?We could lose our shirts in this dump!"
 Lynette,Every cent we have is circling the bowl and Tom never said a word. Why didn't he come to me?
-Lynette,But Iâ€™m his wife.
-Lynette,I'm gonna tell him. I'm gonna tell him I went to the restaurant And that I know he screwed up and that Iâ€™m gonna fix it.
+Lynette,But I'm his wife.
+Lynette,I'm gonna tell him. I'm gonna tell him I went to the restaurant And that I know he screwed up and that I'm gonna fix it.
 Lynette,My husband is in trouble. I love him. Shouldn't I want to help him?
-Lynette,"Mr. Gaunt? Hi, Iâ€™m Lynette Scavo. My husband is opening the pizzeria right down the block--"
-Lynette,"Please, Iâ€™ve been at this for hours. Just hear me out."
+Lynette,"Mr. Gaunt? Hi, I'm Lynette Scavo. My husband is opening the pizzeria right down the block--"
+Lynette,"Please, I've been at this for hours. Just hear me out."
 Lynette,Oh!
 Lynette,Thank you.
 Lynette,Did you live in Las Vegas?
@@ -11210,8 +11209,8 @@ Lynette,Why haven't you told me about all of this?
 Lynette,"Gambling with our life savings and not asking for help doesn't make you a man.It makes you an idiot. Come on,Tom,for god sakes, we are a team, and that restaurant is a huge undertaking. No one could do it alone."
 Lynette,"I don't have to. You're always giving it to me, inspiring me. Remember the mouthwash jingle? You came up with the hook. And--And what about the Bartlett campaign? Would I have ever come up with tango-dancing fleas? All you. There's nothing that I have accomplished that I could have done without your help."
 Lynette,"So tomorrow, first thing, we'll fix the plumbing, we'll call an exterminator, we'll rent some chairs and we will open on time, and it'll be a glorious success that you will have achieved with my help, okay?"
-Lynette,"And tonight Iâ€™m gonna slap on some sex perfume and you're gonna get naked, and then we're gonna see who the man is."
-Lynette,"Oh, Iâ€™m sure it will be."
+Lynette,"And tonight I'm gonna slap on some sex perfume and you're gonna get naked, and then we're gonna see who the man is."
+Lynette,"Oh, I'm sure it will be."
 Lynette,"Oh, deciding what to wear on my first day back to work. Do I look fat in this?"
 Lynette,Wow. Your father has taught you well.
 Lynette,Mrs. McCluskey. Won't that be fun?
@@ -11456,7 +11455,7 @@ Lynette,"Oh, I don't wanna scare them away."
 Lynette,Okay.
 Lynette,So--good news! Our chef is preparing his special spaghetti carbonara.
 Lynette,And we're offering that for twelve dollars.
-Lynette,For the appetizer portion. The entrÃ©e is twenty.
+Lynette,For the appetizer portion. The entrÔøΩÔøΩ_ÔøΩÔøΩ_e is twenty.
 Lynette,Two. Twenty-two. Two.
 Lynette,"Sorry. I'm sorry. But it's gonna be worth it. Okay, so tell Tom the secret of your risotto."
 Lynette,"No, no, the profit margin."
@@ -11842,7 +11841,7 @@ Lynette,You drugged me.
 Lynette,"What is wrong with you? I told you, I didn't want any pot."
 Lynette,"That's not the point. And what were you thinking, using my son as a drug mule?"
 Lynette,Let me ask you something. Do you remember what I wore to the junior prom or what part I had in the play that year?
-Lynette,"Parents who weren't stoned. My whole childhood passed in a blur because you were medicating yourself--pot when you were sick, booze when you weren't. I am not going to do that. I wonâ€™t miss a second of my kids' lives, not if I can avoid it."
+Lynette,"Parents who weren't stoned. My whole childhood passed in a blur because you were medicating yourself--pot when you were sick, booze when you weren't. I am not going to do that. I won't miss a second of my kids' lives, not if I can avoid it."
 Lynette,I get it. But if you ever pull something like this again--
 Lynette,Okay. Well--I think I'll turn in.
 Lynette,What?
@@ -11861,7 +11860,7 @@ Lynette,"Oh, okay."
 Lynette,"Yeah, and showers aren't just about presents. They're fun."
 Lynette,A week? All right. You'll hurt if you can?
 Lynette,I'm upset 'cause that salesgirl just walked away with my sex life.
-Lynette,"After two months of puking my guts out, last night I was finally in the mood, but Tomâ€”not so much. Apparently, my bald head is a big turnoff for him."
+Lynette,"After two months of puking my guts out, last night I was finally in the mood, but TomÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_not so much. Apparently, my bald head is a big turnoff for him."
 Lynette,It was itchy.
 Lynette,"Gaby, I am his wife. He's supposed to love me--not my body, me--my--my soul. Why can't he make love to my soul?"
 Lynette,What are you saying?
@@ -11869,7 +11868,7 @@ Lynette,"Gaby, I'm not a redhead."
 Lynette,Tom? The kids are asleep. Are you coming to bed anytime soon?
 Lynette,That's too bad. I had a little fantasy thing planned of my own.
 Lynette,"Lynette's not here right now. I'm Brandy, the slutty cheerleader."
-Lynette,"You said ""no showerâ€ù. But look around--men. So technically, it's a party, not a shower."
+Lynette,"You said ""no showerÔøΩÔøΩ_ÔøΩÔøΩ_. But look around--men. So technically, it's a party, not a shower."
 Lynette,Hi.
 Lynette,Yeah. Good as new.
 Lynette,"I do, and I'm up for that."
@@ -11953,7 +11952,7 @@ Lynette,Bree.
 Lynette,"Huh? Oh, the PET Scan. No, not till Tomorrow. Listen, I need your help. There's a possum in my garden."
 Lynette,"Not as much as me. I put out poison, but it ate around it. I got one of those humane traps, but all I trapped was Penny."
 Lynette,I want a gun.
-Lynette,That was the old Lynette. The new Lynette kills the possums and letâ€™s god sort 'em out.
+Lynette,That was the old Lynette. The new Lynette kills the possums and let's god sort 'em out.
 Lynette,Wusses!
 Lynette,Perfect. Where can I get one?
 Lynette,Great.
@@ -12050,7 +12049,7 @@ Lynette,Sorry. Can you say that again? I don't think I heard you right.
 Lynette,"Gaby, you just got married."
 Lynette,You can't be serious.
 Lynette,"Hi. Did you hear they declared a tornado watch? Scary, huh?"
-Lynette,"Oh, yeah. Youâ€™re welcome. Um--can we stay in your basement?"
+Lynette,"Oh, yeah. You're welcome. Um--can we stay in your basement?"
 Lynette,"Well, if this tornado watch gets upgraded to warning, we're gonna need a place to wait it out."
 Lynette,"We, me, Tom, the kids, that family you've come to know and love."
 Lynette,Yeah.
@@ -12150,7 +12149,7 @@ Lynette,"Okay, I give you that one. But what about the tornado that just happene
 Lynette,"Well, sure. I'm easy. Thanks."
 Lynette,"Hey, church buddy. Look what I got."
 Lynette,"Yeah, and I'm breaking her in tonight. Nothing like that new Bible smell."
-Lynette,"Yeah, and I hope the Reverend's ready, â€˜cause I got about a zillion questions for him."
+Lynette,"Yeah, and I hope the Reverend's ready, ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_cause I got about a zillion questions for him."
 Lynette,What isn't my fault?
 Lynette,"Yeah, but how do you get the answers if you don't ask the questions?"
 Lynette,I'm sorry. did I embarrass you on Sunday?
@@ -12335,7 +12334,7 @@ Lynette,"Again, I know I crossed the line, and I am so sorry."
 Lynette,"Tom, if you had been there and heard what she said--"
 Lynette,"Well, Kayla loves waffles, and since she and I have been having some problems lately, I wanted to do something nice for her. Oh, you tell Kayla her breakfast is ready."
 Lynette,Hi.
-Lynette,"Uh, one second. Preston, you might wanna stop dropping your waffle on the floor, â€˜cause I'm still gonna make you eat it. So, uh, what's C.P.S.?"
+Lynette,"Uh, one second. Preston, you might wanna stop dropping your waffle on the floor, ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_cause I'm still gonna make you eat it. So, uh, what's C.P.S.?"
 Lynette,"For what it's worth, I keep my floors incredibly clean."
 Lynette,Abuse? That's ridiculous.
 Lynette,"Okay--First, I'm not that kind of mom. And second, Kayla has a tendency to--exaggerate."
@@ -12413,7 +12412,7 @@ Lynette,"Are we redefining ""cool"" to include playing trombone in the marching 
 Lynette,But I told them they couldn't go.
 Lynette,"Hey, Susan?"
 Lynette,"I just need five seconds to bitch about Tom, and then I'll-- oh, my god. Your painter isn't done yet?"
-Lynette,"Well, anyway, Tom refuses to acknowledge that the twins are turning into juvenile delinquents. Just the other day, I wasâ€”"
+Lynette,"Well, anyway, Tom refuses to acknowledge that the twins are turning into juvenile delinquents. Just the other day, I wasÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Lynette,Have you been drinking?
 Lynette,"Sorry to have barged in, and thanks for letting me get that off my chest."
 Lynette,"And while I thought grounding you was an appropriate punishment, your dad convinced me. I was being a little too hard on you guys."
@@ -12450,7 +12449,7 @@ Lynette,"Okay, Okay. You're right. You're right."
 Lynette,"Oh, really?"
 Lynette,Aw. That's sweet.
 Lynette,Is that my Yeats book? I love his poetry.
-Lynette,"Aah, this is the kind of poetry that melts a girl's heart. So romantic. Oh! Here's a great one--""The lover tells of the rose in his heart."" My first boyfriend gave me this poem. I was a junior inâ€”"
+Lynette,"Aah, this is the kind of poetry that melts a girl's heart. So romantic. Oh! Here's a great one--""The lover tells of the rose in his heart."" My first boyfriend gave me this poem. I was a junior inÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Lynette,Oh. Sorry. Enjoy!
 Lynette,"Oh, crap on things."
 Lynette,Porter sent me a sex poem.
@@ -12503,7 +12502,7 @@ Lynette,Ha ha ha .Could I see that? I'd love to read it.
 Lynette,"Well, back before I consecrated my life to mozzarella, marketing was sort of what I did."
 Lynette,I'm sorry. What?
 Lynette,"Oh, god, no. Her agency really whiffed-- Hmm? So I'm coming up with a whole new campaign. I was looking through my old portfolio for inspiration."
-Lynette,"You know, itâ€™s been years since I looked through this stuff. I'd forgotten I was--kinda great."
+Lynette,"You know, it's been years since I looked through this stuff. I'd forgotten I was--kinda great."
 Lynette,"Well, Maybe I'm the lucky one. This could be a perfect way for me to stick my toe back in the business. Nothing big, Maybe just pick up some freelance work."
 Lynette,"Well, gee, I don't know. I guess the same place that you find time for your garage band."
 Lynette,"As you can see, the graphic works just as well on a free-standing display unit. Neat, huh?"
@@ -12640,12 +12639,12 @@ Lynette,"But one day, you are gonna meet someone more--appropriate. Someone who 
 Lynette,Good. I'll see you downstairs.
 Lynette,You're having sex with your best friend's mother?
 Lynette,I do. Why do I have a sense you're gonna take it away from me?
-Lynette,"Oh, yeah, I'm great. Thatâ€™s it?"
+Lynette,"Oh, yeah, I'm great. That's it?"
 Lynette,"Okay. Well, your minute's up."
 Lynette,"No, I have to talk to someone else first. Remember when you left that soda can on the coffee table, and it left a ring, and I yelled at you I take it all back."
 Lynette,Are you really pregnant?
 Lynette,Don't. Don't try and justify this. This is sick. You are sick.
-Lynette,"Warren, I'm sorry thatâ€”"
+Lynette,"Warren, I'm sorry thatÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Lynette,Damn it.
 Lynette,Get off of her! Get off of her! I'm calling the police!
 Lynette,"Okay, well, just so you know, I hit back."
@@ -12728,10 +12727,10 @@ Lynette,That's because he's Preston.
 Lynette,"Hey, Preston."
 Lynette,What the hell is going on? Where's Porter?
 Lynette,"Do you have any idea how bad this is? We had to post bail. If the judge finds out porter skipped town, we're gonna lose--a lot."
-Lynette,Tomâ€”
+Lynette,TomÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_
 Lynette,It's not just money.
 Lynette,"Okay, look--you know how you're always saying I know what to do in a crisis?"
-Lynette,Here's what we're gonna do. Youâ€”no questions. You--you're Porter now. Let's go in. Come on. Come on.
+Lynette,Here's what we're gonna do. YouÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_no questions. You--you're Porter now. Let's go in. Come on. Come on.
 Lynette,"Bob, you've been going at this for over an hour. Why don't we take a break?"
 Lynette,"Honey, that's Porter."
 Lynette,"Bob, we're so sorry. We meant to tell you. We really did."
@@ -13077,7 +13076,7 @@ Lynette,And what do you want from me?
 Lynette,I'm doing the best I can.
 Lynette,Now--where's that one-armed friend of yours? I'm--wanna shoot some stick.
 Lynette,She never let me forget it either. She always insisted it was the tequila shooters that killed the cancer.
-Lynette,Less yakkinâ€™ more dragginâ€™.
+Lynette,Less yakkin' more draggin'.
 Lynette,How do you think?
 Lynette,Isn't that what she did for the last 15 years?
 Lynette,She called me a baby factory?
@@ -14068,7 +14067,7 @@ Susan,"Well, we've all been in their house. Have you ever seen a picture of anot
 Susan,We've never answered why Mary Alice referred to herself as Angela in that therapy session.
 Susan,Ooh. Valentine's Day card. It's pretty.
 Susan,And meticulously hand painted. Whoever sent you that must really love you.
-Susan,--and be loaded with talent.
+Susan,#NAME?
 Susan,So we still on for tomorrow night?
 Susan,Ooh. That place is so pretentious. I've been dying to go there.
 Susan,"Oh, poor Lynette. She doesn't get a new nanny soon, she's gonna implode."
@@ -14881,7 +14880,7 @@ Susan,"Hi. Okay, so I got the box on things you left on my porch."
 Susan,"Thanks. That's great. 'Cause if you decided to hang on to my Joni Mitchell CDs I'd have to come after you with a club. You're right, it's not funny. Actually, I did want to see if you were aware that you gave me back the Valentine's Day card that I made you."
 Susan,"Oh. Well, I mean when two people split up, normally they don't give things back like Valentine's Day cards. If, if, you can throw it away. Just please don't give it back to me, it's tacky."
 Susan,That's okay. People make-
-Susan,--mistakes.
+Susan,#NAME?
 Susan,"Look, are you sure this is what you want to do? I mean, I understand that you don't want our relationship to continue, you have made that clear. But I sort of thought down the long corridors of time, maybe you and I could be friends, and if you keep acting like this--"
 Susan,"Well, I'll say one thing for us. Even with all our problems we're not acting like that."
 Susan,Who is it?
@@ -15574,7 +15573,7 @@ Susan,Arson?
 Susan,Who would wanna burn down my house?
 Susan,"No. No, look,the whole neighborhood turned out to help.I'm very popular."
 Susan,"Oh, no, no.Everybody's been very helpful.Um, everybody likes me.Absolutely--"
-Susan,--everyone.
+Susan,#NAME?
 Susan,"This is a little awkward,and I apologize in advance for how this is gonna sound,but um--by any chance,did-- you burn down my house?"
 Susan,What?
 Susan,Edie!Why would you do that?!
@@ -15632,10 +15631,10 @@ Susan,"I think I'm gonna have to pass.You know, I'm stronger than people give me
 Susan,"Ahh.Okay, break times over."
 Susan,"Oh, Oh."
 Susan,"Oh, help!Can anybody hear me? Julie?I, I need you to try to unlock the door. Oh, what am I saying?Okay , I need you to unbuckle yourself and try to find a neighbor."
-Susan,But donâ€™t cross the street!Just tell the neighbor that your mommyâ€™s stuck in a big truck!
+Susan,But don't cross the street!Just tell the neighbor that your mommy's stuck in a big truck!
 Susan,"Oh yes! My god, I have a genius baby!!"
 Susan,Oh hi.I have a normal baby.
-Susan,"Susan Mayer.Thank you so much.If my husband had to rescue me, I just, I would have never heard the end of it.He thinks Iâ€™m a total klutz."
+Susan,"Susan Mayer.Thank you so much.If my husband had to rescue me, I just, I would have never heard the end of it.He thinks I'm a total klutz."
 Susan,"Oh, wow! I have a neighbor who just asked me over for coffee.I'm sorry.You must think I'm a lunatic."
 Susan,"Oh, she is and we're gonna be so happy here. Look at your new home."
 Susan,"Of course not, but when you see it for the first time, I want you to get the whole impact. Ta-da!"
@@ -15687,7 +15686,7 @@ Susan,"Okay, that's ridiculous. Karl doesn't have me wrapped around anything."
 Susan,"He's Karl.He's playing me. But that house is gonna be a great place for my daughter to live.And when he makes his move, he's gonna realize that I was really playing him.So-- about that ring--"
 Susan,"Mike, my heart is in the exact right place."
 Susan,Of course.Okay.You don't even wanna know what my answer would have been?
-Susan,Mike still hasnâ€™t seen the invitation.
+Susan,Mike still hasn't seen the invitation.
 Susan,You really think that's what's gonna happen?
 Susan,"Oh, there he is."
 Susan,We're in.
@@ -15704,17 +15703,17 @@ Susan,"Hey, it's just me again. Um-- when you got the invitation, I thought that
 Susan,But I like doing it.I think Mike would want me to.Oops.
 Susan,So you got the results of his latest MRI yet?
 Susan,"Oh.Well, how long until you can do another one?"
-Susan,"Look, I know itâ€™s been six months but he could still come out of it, right?I saw on the news there was this woman in Peru, she woke up after ten years."
-Susan,You might think Iâ€™m naive but I know heâ€™s coming back to me.
-Susan,Donâ€™t say it.You just keep doing your job and Iâ€™ll keep doing mine.Oops.
+Susan,"Look, I know it's been six months but he could still come out of it, right?I saw on the news there was this woman in Peru, she woke up after ten years."
+Susan,You might think I'm naive but I know he's coming back to me.
+Susan,Don't say it.You just keep doing your job and I'll keep doing mine.Oops.
 Susan,"Two, three.Oh, itch, itch, itch.Oh, itch, itch, itch."
-Susan,"Oh, hey, you werenâ€™t supposed to see that."
-Susan,"Oh, I would love to but I think Iâ€™m in a rush here.Iâ€™m supposed to meet my girlfriends for lunch at 1:00.Is it 1:00 yet?"
-Susan,"Oh, wow.Um, um, I canâ€™t accept this.This is too extravagant."
+Susan,"Oh, hey, you weren't supposed to see that."
+Susan,"Oh, I would love to but I think I'm in a rush here.I'm supposed to meet my girlfriends for lunch at 1:00.Is it 1:00 yet?"
+Susan,"Oh, wow.Um, um, I can't accept this.This is too extravagant."
 Susan,"Ha, still I--"
-Susan,"Well, in that case, thank you for my cheap knock-off.Oh, my god, Iâ€™m late."
+Susan,"Well, in that case, thank you for my cheap knock-off.Oh, my god, I'm late."
 Susan,So you were very mysterious on the phone.Why did you want to have lunch?
-Susan,So you asked us to a meal to announce another meal?Thatâ€™s so Bree of you.
+Susan,So you asked us to a meal to announce another meal?That's so Bree of you.
 Susan,Let me see.Oh.
 Susan,The coffee machines was broken so I got us a couple of smoothies.They had strawberry and strawberry.
 Susan,Hi Jane.
@@ -15726,8 +15725,8 @@ Susan,"Yes, you did."
 Susan,Jane looked cold.
 Susan,"All right.Well, I am really hungry."
 Susan,"Oh, um, you might want to give Jane a sponge bath cause she had a little accident."
-Susan,"Hi.Um.So I need to ask you something. Ian, you know, from across the hall.You met him.Anyway, he sort of asked me out on a date.I know youâ€™re thrown, I was thrown too.But heâ€™s really nice and I could sort of use someone to talk to, who also talks back.The thing is Iâ€™m sort of lonely.The past six months have been really hard on me.So what I need is, I need to know if it okay with you if I go out with him.Because if itâ€™s not, I wonâ€™t.In fact Iâ€™d like nothing better than for you to just wake up right now and tell me not to go out with him.Just wake up and tell me!Wake up! Please!"
-Susan,Oh.All right.Iâ€™ll see you tomorrow.
+Susan,"Hi.Um.So I need to ask you something. Ian, you know, from across the hall.You met him.Anyway, he sort of asked me out on a date.I know you're thrown, I was thrown too.But he's really nice and I could sort of use someone to talk to, who also talks back.The thing is I'm sort of lonely.The past six months have been really hard on me.So what I need is, I need to know if it okay with you if I go out with him.Because if it's not, I won't.In fact I'd like nothing better than for you to just wake up right now and tell me not to go out with him.Just wake up and tell me!Wake up! Please!"
+Susan,Oh.All right.I'll see you tomorrow.
 Susan,I love you.It is really just dinner.
 Susan,Bree?
 Susan,He sort of asked me out.
@@ -15782,10 +15781,10 @@ Susan,Ian.
 Susan,I can't 'cause I have bridesmaid stuff.
 Susan,"No, I'm good."
 Susan,"Oh, well, it's been a long time since I've been in the mood to. Thank you."
-Susan,"So thatâ€™s my number and if thereâ€™s any change in Mikeâ€™s condition, Iâ€™m going to the mountains with a friend. And, ah, just in case you were wondering, itâ€™s strictly platonic."
-Susan,"Ah, wow, look at the view!Oh.Donâ€™t you just love when the leaves change color."
-Susan,"Yep, sceneryâ€™s great.So, um, maybe I should unpack.Where should I do that?"
-Susan,"Oh.A guest room.Well, thatâ€™s handy."
+Susan,"So that's my number and if there's any change in Mike's condition, I'm going to the mountains with a friend. And, ah, just in case you were wondering, it's strictly platonic."
+Susan,"Ah, wow, look at the view!Oh.Don't you just love when the leaves change color."
+Susan,"Yep, scenery's great.So, um, maybe I should unpack.Where should I do that?"
+Susan,"Oh.A guest room.Well, that's handy."
 Susan,"Oh, ah, no, no.I should take the guest room because I am the guest."
 Susan,Yeah.And I think I have yours.
 Susan,Hide pathetically in your room?
@@ -15913,7 +15912,7 @@ Susan,You have--
 Susan,Mike? It's me. Are you decent?
 Susan,Whatcha doing?
 Susan,"Believe me, I would love to, but, um, I gotta, I gotta get dinner started for Julie."
-Susan,"Oh, you know, what the hell? She's sixteen.If she hasn't figured out how to feed herself by now, Iâ€™ve failed."
+Susan,"Oh, you know, what the hell? She's sixteen.If she hasn't figured out how to feed herself by now, I've failed."
 Susan,Ahh. That's nice. So where were we?
 Susan,"Oh, right. Oh, I wish Paul young was still around. He'd know what to do."
 Susan,It was spur-of-the-moment.
@@ -15928,7 +15927,7 @@ Susan,"No! No, no! Actually, I just, I just had something to tell you."
 Susan,"Oh, I don't think that's a good idea, 'cause I, I didn't really bring my A game. Is it hot?"
 Susan,"Nothing. I just had a few drinks with my girlfriends, and thank god, because it gave me the courage to come over here and tell you really in my heart."
 Susan,"But first, I think I should use the powder room."
-Susan,"Oh, Iâ€™m so sorry that you had to see that."
+Susan,"Oh, I'm so sorry that you had to see that."
 Susan,Oh!
 Susan,Oh. Did you stay here all night?
 Susan,"Please, keep the food references to a minimum."
@@ -15946,7 +15945,7 @@ Susan,Did you have any?
 Susan,"Oh,I cannot believe your timing.I'm about to fly off to Paris,and you're inviting boys over for Oktoberfest."
 Susan,"The last time I checked, I was the parent."
 Susan,"Okay, I know I--And don't play the parent card with me."
-Susan,"Well, a simple â€˜No, I didn't drink any beerâ€™ would've sufficed."
+Susan,"Well, a simple ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_No, I didn't drink any beer' would've sufficed."
 Susan,"Nope, we're fine. Besides, I can't leave until Julie gets back with my toothpaste."
 Susan,Really?
 Susan,"Okay, I'm gonna need some help with this big baby. Go! Zip, zip, zip!"
@@ -15960,8 +15959,8 @@ Susan,"Listen, I have somebody in the car who's late for a plane. Can you give m
 Susan,I am so disappointed in you.
 Susan,"Hello, Carolyn."
 Susan,"I'm sorry. I know, Julie picked a lousy time to rebel. I just can't fly off and ignore it."
-Susan,You have a lot of meetings anyway. Weâ€™ll go some other time. I can't leave Julie right now.
-Susan,"Oh, that's responsible parenting. Stealing whiskey? â€˜That's it, young lady. I'm taking you to Paris.â€™"
+Susan,You have a lot of meetings anyway. We'll go some other time. I can't leave Julie right now.
+Susan,"Oh, that's responsible parenting. Stealing whiskey? ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_That's it, young lady. I'm taking you to Paris.'"
 Susan,I'm sorry.
 Susan,What the hell's going on?
 Susan,What?
@@ -16037,7 +16036,7 @@ Susan,How long has Rupert worked for you?
 Susan,"So you're that close, and you never told him about me?"
 Susan,"Well, that explains why he was a little cold to me this morning."
 Susan,"Oh, no, don't do that. That'll just make it worse. I get it. He loved Jane. He doesn't know me. You know, I'll just have to charm him, warm him up a little."
-Susan,"Great. Nine oâ€™clock in the morning, and I have to put on a slinky, black cocktail dress. Hey, here's an idea. You keep some things in a drawer at my house. Would it be okay if I had one here?"
+Susan,"Great. Nine o'clock in the morning, and I have to put on a slinky, black cocktail dress. Hey, here's an idea. You keep some things in a drawer at my house. Would it be okay if I had one here?"
 Susan,"Your shower has six power nozzles. With or without you, I'll be back."
 Susan,I don't need much. One of those will do.
 Susan,Wow! Your timing's perfect.
@@ -16096,7 +16095,7 @@ Susan,I don't have to. I know you didn't.
 Susan,"There's an explanation for this, and we're gonna figure it out. Don't worry about a thing."
 Susan,Come in.
 Susan,"Hey. Wow, oh, those are gorgeous."
-Susan,Don't worry. Dinner's all taken care of. We're having blanquette de veau and a grand marnier soufflÃ©.
+Susan,Don't worry. Dinner's all taken care of. We're having blanquette de veau and a grand marnier soufflÔøΩÔøΩ_ÔøΩÔøΩ_.
 Susan,Five-thirty. But I am rewarming it all by myself.
 Susan,Mike was arrested for murder.
 Susan,"I mean, of course he's totally innocent. I'm just trying to help him find a lawyer."
@@ -16188,7 +16187,7 @@ Susan,Really?
 Susan,"Oh, thank god. If you're not having sex, why were you talking about condoms?"
 Susan,Yes. That's right. A condom alone will not protect you.
 Susan,So I was in the middle of totally freaking out when Julie assured me that she's not having sex. I can't tell you how relieved I was.
-Susan,"Don't say ""uh-huh"" like that.Julie wouldn't lie to me.If she says sheâ€™s not having sex,then she's not having sex."
+Susan,"Don't say ""uh-huh"" like that.Julie wouldn't lie to me.If she says she's not having sex,then she's not having sex."
 Susan,"You can't say ""ooh-kay"" like that, either. Julie's not like other girls. She's a straight-""A"" student."
 Susan,"Ok, you search the closet. I'm gonna look under the bed."
 Susan,You are gonna make a really good mother someday.
@@ -16197,18 +16196,18 @@ Susan,You found it?
 Susan,"No, you cannot borrow it."
 Susan,To watch movies.
 Susan,See? It's just a tape.
-Susan,"Is this Dr. Marvin Tashman? Hi. My name is Susan Mayer. Um, my daughter Julie came in to see you--Yes, about birth control. So Iâ€™m just curious--Where do you get off prescribing that without my consent?! What?! No, I most certainly was not there. What do I look like? I don't have blonde hair."
+Susan,"Is this Dr. Marvin Tashman? Hi. My name is Susan Mayer. Um, my daughter Julie came in to see you--Yes, about birth control. So I'm just curious--Where do you get off prescribing that without my consent?! What?! No, I most certainly was not there. What do I look like? I don't have blonde hair."
 Susan,"Wait, did my blonde hair have dark roots?"
 Susan,You got my daughter the pill?!
 Susan,Don't you walk away from me!
 Susan,"Yes, we do. You might have gotten your first diaphragm with milk money, But that doesn't give you the right to corrupt my daughter!"
 Susan,You do not get to decide this for her! What were you thinking?!
 Susan,"Oh, you know what? It wasn't till your rotten nephew came to town that Julie was a perfect kid, And now she's lying and scheming and having casual sex! She's just a boob job away from being you!"
-Susan,"Don't worry, Iâ€™m not gonna get mad. Just sit down. You know what upset me the most? That you didn't trust me enough to tell me the truth."
+Susan,"Don't worry, I'm not gonna get mad. Just sit down. You know what upset me the most? That you didn't trust me enough to tell me the truth."
 Susan,"Well, of course I freaked out. I'm a parent. You know, we hope that our children will wait to have sex till after we're dead."
 Susan,"Okay, that's the other thing. That cannot happen anymore. You and I have always had an amazing relationship. Let's not mess it up now."
 Susan,"Yeah, um--about that--God, I wish there was a pill you could take to protect your heart."
-Susan,"Honey, I was over at Edieâ€™s today and I walked in the door and--"
+Susan,"Honey, I was over at Edie's today and I walked in the door and--"
 Susan,He's not crazy about me spending time with my ex.
 Susan,"This is your new lawyer, Alan Marcus. Alan, this is Mike Delfino."
 Susan,Don't you love this guy? What's the strategy?
@@ -16593,7 +16592,7 @@ Susan,"Yes, I did, because I am a thoughtful person. And whenever we do get marr
 Susan,"Oh, my god. I can't believe that you did this."
 Susan,"Oh, Mike."
 Susan,Will you marry me?
-Susan,"Hey, FranÃ§ois, it's Susan Mayer. Um, call me as soon as you get this. I know I told you that my wedding is off, but it's back on, and I wanna see if you're still available to do the flowers. Bye. Oh, um, just so you know, Ian's not the groom anymore. Long story. Call me."
+Susan,"Hey, FranÔøΩÔøΩ__ois, it's Susan Mayer. Um, call me as soon as you get this. I know I told you that my wedding is off, but it's back on, and I wanna see if you're still available to do the flowers. Bye. Oh, um, just so you know, Ian's not the groom anymore. Long story. Call me."
 Susan,There. I think I left messages for everyone. Are you sure it's okay for us to have the same wedding I was planning with Ian? Be honest.
 Susan,"Gosh, I just keep thinking there's someone I've forgotten to tell. Caterer, band, florist--"
 Susan,"Oh, my god! I had Julie call and cancel everyone."
@@ -16771,7 +16770,7 @@ Susan,"You know, the one that you left so suddenly for."
 Susan,What? I'm eating for two.
 Susan,"Okay, when I'm in labor and I am pushing and screaming to bring your child into the world, do you really want me to remember that you denied me syrup?"
 Susan,Is it about Matt's party?
-Susan,"Well, uh, well, the Johnsonâ€™s live right down the road. Yeah, I guess that's fine."
+Susan,"Well, uh, well, the Johnson's live right down the road. Yeah, I guess that's fine."
 Susan,"Uh, we--I mean, you both make a-a good case. Um--but I think I'm gonna have to agree with, uh--and you know I love you both--"
 Susan,Mike. I'm going with Mike.
 Susan,"Well, it sounds like this party could be on the wild side, and it is starting very late."
@@ -16803,13 +16802,13 @@ Susan,We need whipped cream.
 Susan,"Well, I don't think that you can have sexy date night without whipped cream."
 Susan,"No, no, you've, uh, worked all day. You stay here. I'll go to the store."
 Susan,"Oh, that must mean you're Matt. I'm Susan Mayer, and I'm--"
-Susan,--all righty.
+Susan,#NAME?
 Susan,"Yeah, it's fine. Would somebody just tell me where I can find--"
 Susan,"Oh, my god! I'm not a stripper."
 Susan,I'm pregnant.
 Susan,If that's your lame attempt to keep me from calling your parents--it worked. Well played. Excuse me.
 Susan,I am taking you home. This party is out of control.
-Susan,"Well, of course you don't think it is, because youâ€™re knocking back a big cup of-- orange soda."
+Susan,"Well, of course you don't think it is, because you're knocking back a big cup of-- orange soda."
 Susan,"Well, believe it. We're going. You, too, Dylan. Come on."
 Susan,"Yeah, well, Boomer likes it."
 Susan,"Look, I get that you're upset."
@@ -16900,10 +16899,10 @@ Susan,"Hi. I wanted to bring you a ""welcome to the neighborhood"" present. You 
 Susan,Nuts?
 Susan,"Gee, let me think. Nope, no nuts."
 Susan,I'm not seeing any nuts.
-Susan,"Okay, here's the thing. I'm a really crappy baker. To give you something that I made myself would be like an insult, so â€“"
+Susan,"Okay, here's the thing. I'm a really crappy baker. To give you something that I made myself would be like an insult, so ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Susan,"Hey, I would've made them myself if I knew how. Honestly, I'm a good neighbor."
 Susan,Do you like wine?
-Susan,"Oh, come on, Uncle Frank.What's the point of having a gay uncle if youâ€™re not gonna help me make friends with these guys? Oh. Uh, mom said that the whole family knew. Um, okay. Gotta go. Love you."
+Susan,"Oh, come on, Uncle Frank.What's the point of having a gay uncle if you're not gonna help me make friends with these guys? Oh. Uh, mom said that the whole family knew. Um, okay. Gotta go. Love you."
 Susan,What's going on?
 Susan,"Bup, bup, bup! Wait a second."
 Susan,"Leave him with me. I need to score some points with those guys, and being a dog-rescuing hero could be just the ticket."
@@ -16926,7 +16925,7 @@ Susan,"$2,000?"
 Susan,That's crazy.
 Susan,Oh. I just wanted them to like me.
 Susan,There must be some way I can apologize to them.
-Susan,"I know. Uh, maybe if Iâ€”"
+Susan,"I know. Uh, maybe if IÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Susan,"Mike, wait. We should talk about this."
 Susan,"Yeah, I've seen a lot of cable, so I get it."
 Susan,I should go.
@@ -16953,7 +16952,7 @@ Susan,Why don't you get-- tree house plugs?
 Susan,"Yeah, I'm sorry. You know, tired people aren't witty."
 Susan,"Did I? Well, that's obviously wrong."
 Susan,Katherine.
-Susan,Iâ€™m sorry.
+Susan,I'm sorry.
 Susan,"Hey, Lynette."
 Susan,"Okay, fine. You're still angry, but I'm gonna make it up to you. When they come after that tree house, they're going to have one Susan Mayer chained to it."
 Susan,Lynette!
@@ -17114,7 +17113,7 @@ Susan,And I will help her.
 Susan,"Come on, Tom."
 Susan,"Please, this is what best friends do--right before their friendship ends."
 Susan,"How do you say no to someone in need? That wasn't rhetorical. Seriously, you got anything?"
-Susan,"Oh, yeah. Every cup needs a coaster. Every coaster needs a doily. Every doily needs daily laundering. This woman is gonna drive me out of my freakin'â€” Hey, roomies. You need help?"
+Susan,"Oh, yeah. Every cup needs a coaster. Every coaster needs a doily. Every doily needs daily laundering. This woman is gonna drive me out of my freakin'ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_ Hey, roomies. You need help?"
 Susan,Imposing. Who's imposing? You can stay as long as you want. I'm sorry. The words came out of my mouth before I knew what I was saying.
 Susan,Sounds good to me!
 Susan,"Well, I drove all the way out there, and I waited for hours and then they wouldn't let me see him. Uh, no. They just said that I should--I should call you. Listen, I know it's a 30-day rehab. I'm not trying to break him out. I'm just trying to see him. You know what? Could you just call me when you know? Thank you."
@@ -17166,14 +17165,14 @@ Susan,"Well, it doesn't have to be toilets. I mean, it could be sinks, bathtubs.
 Susan,"Oh, I forgot. Uh, Tim has some questions about the taxes. Do you mind talking to him?"
 Susan,"Hey, uh, Tim, I've got Mike here. Do you want to talk to him?"
 Susan,What was that? Is someone there?
-Susan,Really? â€˜Cause it sounded like a girl.
+Susan,Really? ÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_Cause it sounded like a girl.
 Susan,I've gotta go.
 Susan,"I know, but this visit was really more for Julie."
 Susan,"Yeah, you're going to college soon, and I want him to tell you about the dangers of drugs. Scare her straight, Mike."
 Susan,Ugh! Get off that poor girl right now!
 Susan,What the hell is going on here?
 Susan,"No, Katherine, I know what you've been going through emotionally, so you don't have to apologize. And by the way, your boob is out."
-Susan,"You, on the other handâ€”"
+Susan,"You, on the other handÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_"
 Susan,"I don't understand you. Is this something you do? You worm your way into a neighborhood with the promise of free tax preparation, and then you jump on the nearest middle-aged divorce?"
 Susan,"Oh, nice try, Timmy. Like I'm really going to believe that. Shame on you. just-- shame! What do you mean, ""old feelings""?"
 Susan,"What do you have to reminisce about? He was here for a week when he was 16. What could you two have even--Oh, my god, you slept together."
@@ -17191,7 +17190,7 @@ Susan,Especially when you get your big moment in the spotlight. Bree gets to pre
 Susan,It would?
 Susan,"Orson, you scared me. Why are you sitting down here in the dark? And aren't you a little cold?"
 Susan,"Then you came down here and you couldn't remember what it was. That happens to me all the time. Well, the baby is insisting that I eat the last piece of"
-Susan,"Pajamas--that's something you could do. Okay, you're right. You're a guest in my houseâ€”a completely naked guest in my house. I should leave."
+Susan,"Pajamas--that's something you could do. Okay, you're right. You're a guest in my houseÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_a completely naked guest in my house. I should leave."
 Susan,Oh. Good morning. Love what you're wearing.
 Susan,All right. We don't need to talk about it. Just promise me it won't happen again.
 Susan,"Orson, you were naked in this kitchen last night."
@@ -17331,7 +17330,7 @@ Susan,"Oh, give me that. Well, we need new inspiration. Ooh. Riley."
 Susan,"He's a guy who--""killed six, then self."" Well, I give up. He's not gonna get a name. When we want him to come, we'll just whistle and say, ""Here, boy."""
 Susan,Conner.
 Susan,"Me, too. Oh, you finally have a name. Dr. Conner Delfino."
-Susan,"Oh, Iâ€™m so sorry. I know how much you loved him."
+Susan,"Oh, I'm so sorry. I know how much you loved him."
 Susan,"Oh. Well, yeah, um, I mean, ""Conner"" we just picked it after the senior. This would mean something."
 Susan,"I think it's a beautiful way to honor your grandfather. I mean, ""James"" wouldn't be my first choice, but it's a good, solid name."
 Susan,"Oh, right. Maynard. Oh, that's awful--that he died."
@@ -17670,7 +17669,7 @@ Susan,"And so there I was in ninth grade, and my boobs had not made an appearanc
 Susan,"And so that's when I got caught stuffing at the pep rally. And six months later--Kaboom. I was voted prom queen. Nice work, girls. Stop that right now."
 Susan,The sex music. Turn it off.
 Susan,"We are not having sex until date number four, and this is date number two."
-Susan,Jacksonâ€”
+Susan,JacksonÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_
 Susan,"Okay, do you know how sad it makes me to know that you only braised it to boink me? You're supposed to be asking me questions. The point of all this was to get to know each other better."
 Susan,"You know, that was hard for me to share, and the fact that you just make light of it--No, I'm am calling the second date officially over. And you know what? I was going to let you feel me up over my blouse. But now? Nada."
 Susan,Thank you--for a wonderful third date. And I'm glad that you're back on board with our plan.
@@ -17780,7 +17779,7 @@ Susan,What am I supposed to do?
 Susan,"Hello? It's me. I just wanted to tell you--I've been thinking about it, and, um, I'm okay with you dating Mike."
 Susan,No--and I think it's great.
 Susan,"Oh. Well, you haven't. Just treat him well, okay? He's a really good guy."
-Susan,"Uh--no, thanks. Iâ€™m really busy. I have a lot of things to do today. Another time though, okay? Bye."
+Susan,"Uh--no, thanks. I'm really busy. I have a lot of things to do today. Another time though, okay? Bye."
 Susan,He's dating a friend of mine.
 Susan,"M.J. ,hurry up. Your dad's here. Hey, Katherine. What are you doing here?"
 Susan,"Of course. Why wouldn't it be okay? I think it's--great. Really, really great."
@@ -18012,7 +18011,7 @@ Susan,"No, thank you. Let's go."
 Susan,But we can make Brownies at home.
 Susan,Good save. Let's go.
 Susan,"Well, I don't need you to do me any favors. What I need is for everyone to just stick the plan. Monday, Wednesday, Friday--Mike watches his son. He doesn't pawn him off on his girlfriend."
-Susan,"Okay, lunch and movie. You are one lucky boy. I'm gonna take a quick shower. Try not to get any crumbs on the couch. What's wrong? It's peanut butter, no crustsâ€” Your favorite."
+Susan,"Okay, lunch and movie. You are one lucky boy. I'm gonna take a quick shower. Try not to get any crumbs on the couch. What's wrong? It's peanut butter, no crustsÔøΩÔøΩ_ÔøΩÔøΩ_ÔøΩÔøΩ_ Your favorite."
 Susan,I don't know how to make Paninis.
 Susan,"No, we do not have any provolone."
 Susan,"Absolutely not. In this house, we do not eat pretentious cheeses. We eat honest American peanut butter. Now watch your movie, and I'll be back in a minute."
@@ -18093,7 +18092,6 @@ Susan,"You know, I-I think you may have gotten the wrong impression. I'm not--in
 Susan,"I thought it was gonna rain. Okay, um--I'm not gay."
 Susan,"Oh, well, that kiss was all you."
 Susan,"Well, that's because--"
-Susan,Because Iâ€”
 Susan,What?
 Susan,"Actually, I'm more worried about the lesbian that's outside of me trying to get in. Um, can we just teach the class and talk about this later?"
 Susan,"Okay, class, let's see how our animals of Africa drawings are going. Oh, Emma, this is beautiful. Emma drew a gazelle. Isn't she pretty? Zachary, is that a rhinoceros? He looks so big and strong. I love rhinos."
@@ -18264,7 +18262,7 @@ Susan,"I've only been working there two months, but I love it. And the kids are 
 Susan,What is it?
 Susan,I have to go upstairs.
 Susan,I'm fine. I just didn't want you to see me crying.
-Susan,"Oh, I'm sorry. Just, um, all these months, I've been telling myself that I didn't really care about you, which was easy to do because you left so suddenly. But I am so lonely. And as much as I tell myself that I like being the strong, single woman on her own, the truth is, I think about you all the time. And I wanted to call you, but I thought youâ€™d gotten over me. And to hear that you still love me--that is just something that I really needed to hear right now. And I want you to know--Oh, god. I want you to know I love you, too. Jackson--I love you. Jackson?"
+Susan,"Oh, I'm sorry. Just, um, all these months, I've been telling myself that I didn't really care about you, which was easy to do because you left so suddenly. But I am so lonely. And as much as I tell myself that I like being the strong, single woman on her own, the truth is, I think about you all the time. And I wanted to call you, but I thought you'd gotten over me. And to hear that you still love me--that is just something that I really needed to hear right now. And I want you to know--Oh, god. I want you to know I love you, too. Jackson--I love you. Jackson?"
 Susan,Finish what?
 Susan,I heard.
 Susan,Get out or I will kick your ass back to the Canadian border!
@@ -18388,7 +18386,6 @@ Susan,"Aren't you hungry, though? Maybe there's a restaurant up ahead."
 Susan,Okay. It's no big deal.
 Susan,"Okay, sweetie. Do you mind pulling over at the next rest stop?"
 Susan,Just hold on a few more minutes.
-Susan,Here? Heâ€”he can't go here.
 Susan,"Um, can't we find a gas station or maybe a diner?"
 Susan,"Okay. Here, M.J."
 Susan,Keys. Keys--

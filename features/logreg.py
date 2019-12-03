@@ -14,6 +14,8 @@ os.chdir(your_path)
 
 train, test = createDataset('bang.csv', 'Sheldon')
 
+
+
 # training data
 X_train = np.array([x for x in train.values[:, 1]])
 y_train = train.values[:, 0]
