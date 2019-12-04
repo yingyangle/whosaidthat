@@ -71,11 +71,11 @@ def make_embeddings(filename,character,bigmodel):
  
     return x, y
 
-# path = "/Users/julianafakhoury/Documents/BC/nlp_project/new/GoogleNews-vectors-negative300-SLIM.bin" #juliana
-path = "/Users/user/NLP Project/GoogleNews-vectors-negative300-SLIM.bin" #dora
+path = "/Users/julianafakhoury/Documents/BC/nlp_project/GoogleNews-vectors-negative300-SLIM.bin" #juliana
+#path = "/Users/user/NLP Project/GoogleNews-vectors-negative300-SLIM.bin" #dora
 
 bigmodel = gensim.models.KeyedVectors.load_word2vec_format(path, binary=True)
-x, y = make_embeddings('bang.csv','Sheldon',bigmodel )
+x, y = make_embeddings('/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat/bang.csv','Sheldon',bigmodel )
 
 x = x.values
 y = y.values
@@ -88,7 +88,7 @@ lor = skl.LogisticRegression()
 lor.fit(X_main, y_main.ravel())
 
 
-#Random Forest, 400 and 3 picked in the optimization code after line 63 and manually put here 
+#Random Forest 
 rf = ske.RandomForestClassifier(n_estimators = 400, max_features = 17, oob_score = True)
 rf.fit(X_main, y_main.ravel())
 

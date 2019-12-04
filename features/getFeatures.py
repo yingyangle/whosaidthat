@@ -13,7 +13,8 @@ from getData import splitData, getLines, getCast, normalizeData
 from topWords import getTopWords
 
 # your_path = '/Users/Christine/cs/whosaidthat' # christine
-your_path = '/Users/user/NLP Project/whosaidthat'  # dora
+#your_path = '/Users/user/NLP Project/whosaidthat'  # dora
+your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" #juliana
 
 allwords = words.words()  # all english words
 stopwords = stopwords.words('english')  # stop words
