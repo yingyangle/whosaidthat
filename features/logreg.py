@@ -11,8 +11,8 @@ import sklearn.ensemble as ske
 import sklearn.tree as skt
 
 # your_path = '/Users/Christine/cs/whosaidthat' # christine
-#your_path = '/Users/user/NLP Project/whosaidthat' # dora
-your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" #juliana
+your_path = '/Users/user/NLP Project/whosaidthat' # dora
+# your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" #juliana
 
 os.chdir(your_path+'/features')
 os.chdir(your_path)
