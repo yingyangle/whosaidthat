@@ -6,12 +6,14 @@ Created on Tue Dec  3 15:41:42 2019
 @author: julianafakhoury
 """
 import gensim
+import os, re, nltk, math, pandas as pd, numpy as np
 from nltk.corpus import stopwords
 import numpy as np
 import scipy as sp
 import re
 from sklearn.cluster import KMeans
-import getData
+# import getDataEmbeddings
+from getDataEmbeddings import splitData, getLines, getCast, normalizeData
 import urllib
 import sklearn.linear_model as skl
 import sklearn.ensemble as ske
@@ -69,7 +71,8 @@ def make_embeddings(filename,character,bigmodel):
  
     return x, y
 
-path = "/Users/julianafakhoury/Documents/BC/nlp_project/new/GoogleNews-vectors-negative300-SLIM.bin" #juliana
+# path = "/Users/julianafakhoury/Documents/BC/nlp_project/new/GoogleNews-vectors-negative300-SLIM.bin" #juliana
+path = "/Users/user/NLP Project/GoogleNews-vectors-negative300-SLIM.bin" #dora
 
 bigmodel = gensim.models.KeyedVectors.load_word2vec_format(path, binary=True)
 x, y = make_embeddings('bang.csv','Sheldon',bigmodel )
