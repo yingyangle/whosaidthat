@@ -13,7 +13,8 @@ from getData import splitData, getLines, getCast, normalizeData
 from topWords import getTopWords
 
 # your_path = '/Users/Christine/cs/whosaidthat' # christine
-your_path = '/Users/user/NLP Project/whosaidthat-1'  # dora
+your_path = '/Users/user/NLP Project/whosaidthat'  # dora
+# your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" #juliana
 
 allwords = words.words()  # all english words
 stopwords = stopwords.words('english')  # stop words
@@ -168,3 +169,9 @@ os.chdir(your_path)
 # # Desperate Housewives
 # # create dataset for desperate and Susan - done
 # train, test = createDataset('desperate.csv', 'Susan')
+# # create dataset for desperate and Gabrielle - done
+# train, test = createDataset('desperate.csv', 'Gabrielle')
+# # create dataset for desperate and Bree - done
+# train, test = createDataset('desperate.csv', 'Bree')
+# # create dataset for desperate and Lynette - done
+# train, test = createDataset('desperate.csv', 'Lynette')

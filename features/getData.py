@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 # from word2number import w2n
 
 # your_path = '/Users/Christine/Documents/cs/whosaidthat' # christine
-your_path = '/Users/user/NLP Project/whosaidthat-1' # dora
+your_path = '/Users/user/NLP Project/whosaidthat' # dora
 
 # split data in with n percent for testing, rest for training
 # returns 2 dfs for training and testing data
