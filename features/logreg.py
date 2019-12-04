@@ -6,9 +6,14 @@
 import os, re, nltk, pandas as pd, numpy as np
 from getFeatures import createDataset
 from sklearn.linear_model import LogisticRegression
+import sklearn.linear_model as skl
+import sklearn.ensemble as ske
+import sklearn.tree as skt
 
 # your_path = '/Users/Christine/cs/whosaidthat' # christine
 your_path = '/Users/user/NLP Project/whosaidthat' # dora
+# your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" #juliana
+
 os.chdir(your_path+'/features')
 os.chdir(your_path)
 
@@ -30,5 +35,10 @@ log.fit(X_train, y_train)
 predictions = log.predict(X_test)
 score = log.score(X_test, y_test)
 print('Accuracy:', score)
-print(train)
-print(test)
+#print(train)
+#print(test)
+
+#Random Forest 
+rf = ske.RandomForestClassifier(n_estimators = 400, max_features = 3, oob_score = True)
+rf.fit(X_train, y_train.ravel())
+print("Random Forest Score ", rf.score(X_test, y_test))
