@@ -5,22 +5,12 @@
 
 import os, re, nltk, math, pandas as pd, numpy as np
 from sklearn.model_selection import train_test_split
+from nltk.stem.wordnet import WordNetLemmatizer
+from os.path import join
 # from word2number import w2n
 
-# your_path = '/Users/Christine/Documents/cs/whosaidthat' # christine
-your_path = '/Users/user/NLP Project/whosaidthat' # dora
-
-# split data in with n percent for testing, rest for training
-# returns 2 dfs for training and testing data
-def splitData(filename, n):
-    # df of all original text data
-    df = pd.read_csv(filename) #, encoding='ISO-8859-1')
-    x = df.iloc[:,1:2].values # lines
-    y = df.iloc[:,0:1].values # speakers
-    X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=n)
-    train = pd.DataFrame({'Speaker': y_train.flatten(), 'Line': X_train.flatten()})
-    test = pd.DataFrame({'Speaker': y_test.flatten(), 'Line': X_test.flatten()})
-    return (train, test)
+your_path = '/Users/Christine/Documents/cs/whosaidthat' # christine
+# your_path = '/Users/user/NLP Project/whosaidthat' # dora
 
 # get lines from df for a character or list of characters
 def getLines(df, characters):
@@ -34,19 +24,42 @@ def getLines(df, characters):
 def getCast(df):
     return list(df.Speaker.unique())
 
-# normalize data
-def normalizeData(original):
+# split data in with n percent for testing, rest for training
+# returns 2 dfs for training and testing data
+def splitData(filename, n):
+    # df of all original text data
+    df = pd.read_csv(filename) #, encoding='ISO-8859-1')
+    x = df.iloc[:,1:2].values # lines
+    y = df.iloc[:,0:1].values # speakers
+    X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=n)
+    train = pd.DataFrame({'Speaker': y_train.flatten(), 'Line': X_train.flatten()})
+    test = pd.DataFrame({'Speaker': y_test.flatten(), 'Line': X_test.flatten()})
+    return (train, test)
+
+# normalize list of str lines
+def normalizeLines(lines):
+    lem = WordNetLemmatizer()
     # original is a nested list of str: [[str],[str],...]
     # list to store a list of tokens for each utterance. [['token','token',...],['token','token',...]]
-    list_of_tokenized_lines = []
+    tokenizedLines = []
     # tokenization
-    for i in original:
-        utterance = str(i[0])
+    for line in lines:
+        utterance = str(line)
         utterance = utterance.lower() # lower case everything
         utterance = text2int(utterance) # text to number: twenty-six= 26
-        tokens = nltk.word_tokenize(utterance)
-        list_of_tokenized_lines.append(tokens)
-    return list_of_tokenized_lines
+        tokens = nltk.word_tokenize(utterance) # tokenize
+        lemmas = [lem.lemmatize(word) for word in tokens] # lemmatize
+        tokenizedLines.append(lemmas)
+    return tokenizedLines
+
+# normalize lines in df
+def normalizeDF(df):
+    lines = np.array(df['Line']) # list of lines for all characters
+    speakers = np.array(df['Speaker']) # list of speakers for each line
+    normLines = normalizeLines(lines) # normalize lines
+    data = {'Speaker': speakers, 'Line': normLines}
+    new_df = pd.DataFrame(data) # dataframe of features for each line and 1/0 label
+    return new_df
 
 # convert all number words in utterance to actual digit numbers
 def text2int(textnum, numwords={}):
@@ -139,14 +152,35 @@ def text2int(textnum, numwords={}):
     return curstring
 
 
+# execute
+os.chdir(your_path)
+
+shows = ['bang', 'simpsons', 'desperate']
+
+for show in shows:
+    # save full text dataset as pickle
+    df = pd.read_csv(show+'.csv')
+    df.to_pickle(join(your_path,'datasets/text_data/'+show+'Full.pkl'))
+    # save train/test text datasets as pickles
+    train, test = splitData(show+'.csv', 0.2)
+    train.to_pickle(join(your_path,'datasets/text_data/'+show+'Train.pkl'))
+    test.to_pickle(join(your_path,'datasets/text_data/'+show+'Test.pkl'))
+    # save full normalized dataset as pickle
+    norm_df = normalizeDF(df)
+    norm_df.to_pickle(join(your_path,'datasets/norm_text_data/'+show+'Full.pkl'))
+    # save train/test normalized datasets as pickles
+    norm_train = normalizeDF(train)
+    norm_train.to_pickle(join(your_path,'datasets/norm_text_data/'+show+'Train.pkl'))
+    norm_test = normalizeDF(test)
+    norm_test.to_pickle(join(your_path,'datasets/norm_text_data/'+show+'Test.pkl'))
+    print('Finished', show)
+
+
+
 # testing
-# os.chdir(your_path)
-
-
-# train, test = splitData(filename, 0.2) # split train/test data
 # train = getLines(train, 'Sheldon') # get Sheldon's lines in train data
 # print('test data:', len(train), '\ntrain data:', len(test))
-
+#
 # # test the characters in the original files:
 # filename = 'desperate.csv'
 # filename = 'bang.csv'

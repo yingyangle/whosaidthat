@@ -1,0 +1,49 @@
+Who Said That?
+~~~ notes ~~~
+
+Idea 1: 
+One of our project ideas involves taking dialogue from a long-running TV show and classifying which character says certain lines. We could take a character’s dialogue and randomly divide it into testing and training data, and we might try it with multiple TV shows that have different character dynamics as well. It’d also be cool to try to generate possible quotes a character might say in a future episode or something like that too.
+
+Professor’s Comments: I suggest either idea 1 or idea 7 for this class because gathering the data will be manageable and won't require a lot of manual annotation. For idea 1, I suggest picking a few different shows -- maybe one comedy, one drama, one reality show (if that's available). Then for each show, make sure to get lots and lots of scripts. It would be interesting to learn about each character -- what topics do they talk about? do they ask more questions or make more statements? what is the sentiment or affect of what they say? Then try to use these sorts of features (and others -- any you like) to try to predict which character said each line. For idea 7, you can actually do the same thing, just for philosophers. You can get all the texts from Gutenberg. You could try to classify each text, but I would instead focus on chunks of texts -- like 5 sentences at a time or sections or paragraphs. In both cases, make sure to get started early since the text will require a lot of normalization.
+
+Potential datasets:
+
+Comedy
+•	Big Bang Theory:
+o	https://bigbangtrans.wordpress.com/series-1-episode-1-pilot-episode/
+•	Friends
+o	http://uncutfriendsepisodes.tripod.com/
+o	https://fangj.github.io/friends/
+o	http://u1.kekenet.com/index.php?m=content&c=down&articleid=16172 with mixed chinese 
+o	http://cnentv.blogspot.com/2009/02/101-one-where-monica-gets-new.html
+•	The Office
+o	https://data.world/abhinavr8/the-office-scripts-dataset
+Drama
+•	Desperate Housewives
+o	https://drive.google.com/drive/u/0/folders/1efhtQb2h8VB-B_ZHEopx-Yd7J7GqTuKF
+•	The Good Wife (Season 1 -- 22 episodes in pdf format) 
+o	https://sites.google.com/site/tvwriting/us-drama/show-collections/the-good-wife
+•	Gray’s Anatomy
+o	https://transcripts.foreverdreaming.org/viewforum.php?f=11
+•	Sherlock 
+o	https://www.sherlockforum.com/forum/topic/3639-sherlock-scripts-and-other-info-sources/
+o	
+
+Cartoons
+•	The Simpsons
+o	https://data.world/data-society/the-simpsons-by-the-data (600 episodes)
+•	My Little Pony
+o	https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media
+•	Family Guy
+o	https://transcripts.foreverdreaming.org/viewforum.php?f=430
+Misc.
+•	** This website has a lot of TV script in PDF format; however, for each show the script is not the complete season script
+o	https://sites.google.com/site/tvwriting/us-drama/show-collections?authuser=0
+•	Scraping tools:
+o	https://scrapy.org/
+o	https://www.freecodecamp.org/news/how-to-scrape-websites-with-python-and-beautifulsoup-5946935d93fe/
+
+https://dal.ca.libguides.com/csci/writing/examples#acmxacm
+
+
+

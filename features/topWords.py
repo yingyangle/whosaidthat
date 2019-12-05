@@ -44,7 +44,7 @@ def getTopWords(lines, n):
 
 
 # testing
-# df, _ = splitData('bang.csv', 0.00001) # get most of bang data as df
-# data = getLines(df, 'Sheldon') # get Sheldon's lines
-# data = normalizeData(data) # normalize text
-# print(getTopWords(data, 20)) # show Sheldon's top words
+df, _ = splitData('bang.csv', 0.00001) # get most of bang data as df
+data = getLines(df, 'Sheldon') # get Sheldon's lines
+data = normalizeData(data) # normalize text
+print(getTopWords(data, 20)) # show Sheldon's top words

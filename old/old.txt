@@ -1,0 +1,293 @@
+[Command: python -u /Users/Christine/Documents/cs/whosaidthat/features/logreg.py]
+bang ~~~~~~~~~~~~~~~~~~~~
+bang - Amy **********
+FAILED Amy
+bang - Bernadette **********
+FAILED Bernadette
+bang - Howard **********
+FAILED Howard
+bang - Leonard **********
+/Users/Christine/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00      7862
+           0       0.79      1.00      0.88     28798
+
+    accuracy                           0.79     36660
+   macro avg       0.39      0.50      0.44     36660
+weighted avg       0.62      0.79      0.69     36660
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.93      0.60      0.73      7862
+           0       0.90      0.99      0.94     28798
+
+    accuracy                           0.90     36660
+   macro avg       0.92      0.79      0.84     36660
+weighted avg       0.91      0.90      0.90     36660
+
+bang - Penny **********
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00      6118
+           0       0.83      1.00      0.91     30542
+
+    accuracy                           0.83     36660
+   macro avg       0.42      0.50      0.45     36660
+weighted avg       0.69      0.83      0.76     36660
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.95      0.59      0.73      6118
+           0       0.92      0.99      0.96     30542
+
+    accuracy                           0.93     36660
+   macro avg       0.93      0.79      0.84     36660
+weighted avg       0.93      0.93      0.92     36660
+
+bang - Raj **********
+/Users/Christine/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00      3763
+           0       0.90      1.00      0.95     32897
+
+    accuracy                           0.90     36660
+   macro avg       0.45      0.50      0.47     36660
+weighted avg       0.81      0.90      0.85     36660
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.98      0.62      0.76      3763
+           0       0.96      1.00      0.98     32897
+
+    accuracy                           0.96     36660
+   macro avg       0.97      0.81      0.87     36660
+weighted avg       0.96      0.96      0.96     36660
+
+bang - Sheldon **********
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.61      0.06      0.11      9398
+           0       0.75      0.99      0.85     27262
+
+    accuracy                           0.75     36660
+   macro avg       0.68      0.52      0.48     36660
+weighted avg       0.72      0.75      0.66     36660
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.96      0.73      0.83      9398
+           0       0.91      0.99      0.95     27262
+
+    accuracy                           0.92     36660
+   macro avg       0.94      0.86      0.89     36660
+weighted avg       0.93      0.92      0.92     36660
+
+simpsons ~~~~~~~~~~~~~~~~~~~~
+simpsons - Bart **********
+/Users/Christine/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00     10560
+           0       0.81      1.00      0.89     43804
+
+    accuracy                           0.81     54364
+   macro avg       0.40      0.50      0.45     54364
+weighted avg       0.65      0.81      0.72     54364
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.93      0.59      0.72     10560
+           0       0.91      0.99      0.95     43804
+
+    accuracy                           0.91     54364
+   macro avg       0.92      0.79      0.84     54364
+weighted avg       0.91      0.91      0.90     54364
+
+simpsons - Homer **********
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.55      0.09      0.15     22766
+           0       0.59      0.95      0.73     31598
+
+    accuracy                           0.59     54364
+   macro avg       0.57      0.52      0.44     54364
+weighted avg       0.57      0.59      0.49     54364
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.88      0.76      0.82     22766
+           0       0.84      0.93      0.88     31598
+
+    accuracy                           0.86     54364
+   macro avg       0.86      0.84      0.85     54364
+weighted avg       0.86      0.86      0.86     54364
+
+simpsons - Lisa **********
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.17      0.00      0.00      8781
+           0       0.84      1.00      0.91     45583
+
+    accuracy                           0.84     54364
+   macro avg       0.50      0.50      0.46     54364
+weighted avg       0.73      0.84      0.76     54364
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.96      0.58      0.72      8781
+           0       0.92      1.00      0.96     45583
+
+    accuracy                           0.93     54364
+   macro avg       0.94      0.79      0.84     54364
+weighted avg       0.93      0.93      0.92     54364
+
+simpsons - Ned Flanders **********
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00      1660
+           0       0.97      1.00      0.98     52704
+
+    accuracy                           0.97     54364
+   macro avg       0.48      0.50      0.49     54364
+weighted avg       0.94      0.97      0.95     54364
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       1.00      0.64      0.78      1660
+           0       0.99      1.00      0.99     52704
+
+    accuracy                           0.99     54364
+   macro avg       0.99      0.82      0.89     54364
+weighted avg       0.99      0.99      0.99     54364
+
+simpsons - Marge **********
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00     10666
+           0       0.80      1.00      0.89     43698
+
+    accuracy                           0.80     54364
+   macro avg       0.40      0.50      0.45     54364
+weighted avg       0.65      0.80      0.72     54364
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.93      0.61      0.74     10666
+           0       0.91      0.99      0.95     43698
+
+    accuracy                           0.92     54364
+   macro avg       0.92      0.80      0.85     54364
+weighted avg       0.92      0.92      0.91     54364
+
+desperate ~~~~~~~~~~~~~~~~~~~~
+desperate - Bree **********
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.62      0.00      0.00      3247
+           0       0.78      1.00      0.88     11502
+
+    accuracy                           0.78     14749
+   macro avg       0.70      0.50      0.44     14749
+weighted avg       0.75      0.78      0.68     14749
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.96      0.77      0.86      3247
+           0       0.94      0.99      0.96     11502
+
+    accuracy                           0.94     14749
+   macro avg       0.95      0.88      0.91     14749
+weighted avg       0.94      0.94      0.94     14749
+
+desperate - Gabrielle **********
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.32      0.00      0.01      3642
+           0       0.75      1.00      0.86     11107
+
+    accuracy                           0.75     14749
+   macro avg       0.54      0.50      0.43     14749
+weighted avg       0.65      0.75      0.65     14749
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.96      0.78      0.86      3642
+           0       0.93      0.99      0.96     11107
+
+    accuracy                           0.94     14749
+   macro avg       0.95      0.88      0.91     14749
+weighted avg       0.94      0.94      0.93     14749
+
+desperate - Lynette **********
+/Users/Christine/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00      3702
+           0       0.75      1.00      0.86     11047
+
+    accuracy                           0.75     14749
+   macro avg       0.37      0.50      0.43     14749
+weighted avg       0.56      0.75      0.64     14749
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.96      0.73      0.83      3702
+           0       0.92      0.99      0.95     11047
+
+    accuracy                           0.93     14749
+   macro avg       0.94      0.86      0.89     14749
+weighted avg       0.93      0.93      0.92     14749
+
+desperate - Susan **********
+/Users/Christine/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1437: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+	Logistic Regression:
+               precision    recall  f1-score   support
+
+           1       0.00      0.00      0.00      4076
+           0       0.72      1.00      0.84     10673
+
+    accuracy                           0.72     14749
+   macro avg       0.36      0.50      0.42     14749
+weighted avg       0.52      0.72      0.61     14749
+
+	Random Forest:
+               precision    recall  f1-score   support
+
+           1       0.95      0.75      0.84      4076
+           0       0.91      0.98      0.95     10673
+
+    accuracy                           0.92     14749
+   macro avg       0.93      0.87      0.89     14749
+weighted avg       0.92      0.92      0.92     14749
+
+[Finished in 821.417s]

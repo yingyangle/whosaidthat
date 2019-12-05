@@ -6,14 +6,14 @@
 # profanity word list based on:
 # https://github.com/areebbeigh/profanityfilter/
 
-import os, re, nltk, pandas as pd, numpy as np, pickle
+import os, re, nltk, pandas as pd, numpy as np
 from nltk.corpus import words
 from nltk.corpus import stopwords
 from getData import splitData, getLines, getCast, normalizeData
 from topWords import getTopWords
 
-# your_path = '/Users/Christine/cs/whosaidthat' # christine
-your_path = '/Users/user/NLP Project/whosaidthat'  # dora
+your_path = '/Users/Christine/cs/whosaidthat' # christine
+# your_path = '/Users/user/NLP Project/whosaidthat'  # dora
 # your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" #juliana
 
 allwords = words.words()  # all english words
@@ -82,7 +82,7 @@ def getFeatures(lines, top_words):
             neologisms(line), # ratio of neologisms to words
             stopwordsratio(line), # stopwords ratio
             hasNumbers(line), # has number=1, ow=0
-            hasProfanity(line)]) # has profanity=1, ow=0
+            hasProfanity(line) ]) # has profanity=1, ow=0
         line_features = np.concatenate((line_features,utterType(line)))  # num of ? ! ...)
         features.append(line_features) # add this line's features to full list
     return features
@@ -174,4 +174,5 @@ os.chdir(your_path)
 # # create dataset for desperate and Bree - done
 # train, test = createDataset('desperate.csv', 'Bree')
 # # create dataset for desperate and Lynette - done
-# train, test = createDataset('desperate.csv', 'Lynette')
+#
+train, test = createDataset('desperate.csv', 'Lynette')
