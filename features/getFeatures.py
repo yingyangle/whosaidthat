@@ -6,7 +6,7 @@
 # profanity word list based on:
 # https://github.com/areebbeigh/profanityfilter/
 
-import os, re, nltk, pandas as pd, numpy as np
+import os, re, nltk, pandas as pd, numpy as np, time
 from nltk.corpus import words, stopwords
 from os.path import join
 from getData import getCast
@@ -16,6 +16,7 @@ your_path = '/Users/Christine/cs/whosaidthat' # christine
 # your_path = '/Users/user/NLP Project/whosaidthat' # dora
 # your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" # juliana
 
+start_time = time.time()
 allwords = words.words()  # all english words
 stopwords = stopwords.words('english')  # stop words
 
@@ -86,14 +87,15 @@ def getFeatures(lines, eachTopWords):
 
 # convert speaker/line df to features/label df
 # label characters 0 through N for N-1 main characters
-def convertToFeatures(df, eachTopWords):
+def convertToFeatures(df, eachTopWords, writeFlag):
     # convert speakers to number labels
     speaker_vals = getCast(df)
     label_vals = list(range(len(speaker_vals)))
     labelsDict = {speaker_vals[i]:label_vals[i] for i in range(len(speaker_vals))}
-    aus = open('datasets/labels_dictionary.txt', 'a')
-    aus.write(str(labelsDict)+'\n\n') # write labelsDict to .txt so we know who's who
-    aus.close()
+    if writeFlag is 1: # write labelsDict to .txt so we know who's who
+        aus = open('datasets/labels_dictionary.txt', 'a')
+        aus.write(str(labelsDict)+'\n\n')
+        aus.close()
     speakers = list(df['Speaker'])#[:10]
     labels = [labelsDict[x] for x in speakers]
     # convert lines to features
@@ -114,12 +116,13 @@ def createDataset(show):
     # list of 20 most frequent words for each character
     eachTopWords = getEachTopWords(show)
     # convert dataset to labels/features
-    train = convertToFeatures(train, eachTopWords)
-    test = convertToFeatures(test, eachTopWords)
+    train = convertToFeatures(train, eachTopWords, 1)
+    test = convertToFeatures(test, eachTopWords, 0)
     # save to pickle
     train.to_pickle('datasets/features_data/' + show + 'Train.pkl')
     test.to_pickle('datasets/features_data/' + show + 'Test.pkl')
-    print('Finished creating dataset for', show, '!') # print progress
+    # print progress
+    print('Finished creating dataset for', show, '!', time.time()-start_time)
     return (train, test)
 
 ############################# create dataset ################################
