@@ -3,15 +3,19 @@
 # runModels.py
 # run logistic regression and random forest models on feature datasets
 
+# 1. run getData.py
+# 2. run getFeatures.py
+# 3. run runModels.py (this file)
+
 import os, re, nltk, pandas as pd, numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
-
+from os.path import join
 
 your_path = '/Users/Christine/cs/whosaidthat' # christine
 # your_path = '/Users/user/NLP Project/whosaidthat' # dora
-# your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" #juliana
+# your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" # juliana
 
 os.chdir(your_path+'/features')
 os.chdir(your_path)
@@ -35,23 +39,25 @@ def runModels(X_train, X_test, y_train, y_test):
     log.fit(X_train, y_train)
     # log_score = log.score(X_test, y_test)
     log_predict = log.predict(X_train)
-    log_score = classification_report(y_train, log_predict, labels=[1,0])
+    label_vals = list(np.unique(y_test))
+    log_score = classification_report(y_train, log_predict, labels=label_vals)
 
     # random forest
     rf = RandomForestClassifier(n_estimators = 400, max_features = 3, oob_score = True)
     rf.fit(X_train, y_train.ravel())
     # rf_score = rf.score(X_test, y_test)
     rf_predict = rf.predict(X_train)
-    rf_score = classification_report(y_train, rf_predict, labels=[1,0])
+    rf_score = classification_report(y_train, rf_predict, labels=label_vals)
     return [log_score, rf_score]
 
 
 ### execute ###
 
 shows = ['bang', 'simpsons', 'desperate']
+shows = ['bang']
 
 for show in shows: # for each show
-    print(show, '{0:~^20}'.format(''))
+    print(show, '{0:~^40}'.format(''))
     # get train/test data
     train = pd.read_pickle(join(your_path,'datasets/features_data/'+show+'Train.pkl'))
     test = pd.read_pickle(join(your_path,'datasets/features_data/'+show+'Test.pkl'))

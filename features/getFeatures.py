@@ -12,10 +12,9 @@ from os.path import join
 from getData import getCast
 from topWords import getEachTopWords
 
-
 your_path = '/Users/Christine/cs/whosaidthat' # christine
-# your_path = '/Users/user/NLP Project/whosaidthat'  # dora
-# your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" #juliana
+# your_path = '/Users/user/NLP Project/whosaidthat' # dora
+# your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" # juliana
 
 allwords = words.words()  # all english words
 stopwords = stopwords.words('english')  # stop words
