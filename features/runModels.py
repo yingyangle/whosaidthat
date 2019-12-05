@@ -49,8 +49,6 @@ def runModels(X_train, X_test, y_train, y_test):
     return [log_score, rf_score]
 
 # execute
-show = 'bang'
-character = 'Penny'
 for show in ['bang', 'simpsons', 'desperate']: # for each show
     print(show, '{0:~^20}'.format(''))
     characters = getCast(pd.read_csv(show+'.csv')) # get main characters

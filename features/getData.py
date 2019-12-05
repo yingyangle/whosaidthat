@@ -9,20 +9,23 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from os.path import join
 # from word2number import w2n
 
+
 your_path = '/Users/Christine/Documents/cs/whosaidthat' # christine
 # your_path = '/Users/user/NLP Project/whosaidthat' # dora
 
 # get lines from df for a character or list of characters
 def getLines(df, characters):
     if type(characters) is str: # if only looking for one character
-        lines = df.loc[df.Speaker == characters].iloc[:, 1:].values
+        lines = list(df.loc[df.Speaker == characters].iloc[:, 1:]['Line'])
     else: # if we want lines for a list of characters
-        lines = df[df['Speaker'].isin(characters)].iloc[:, 1:].values
+        lines = list(df[df['Speaker'].isin(characters)].iloc[:, 1:]['Line'])
     return lines
 
 # get list of main characters in show
 def getCast(df):
-    return list(df.Speaker.unique())
+    cast = list(df.Speaker.unique())
+    cast.sort()
+    return cast
 
 # split data in with n percent for testing, rest for training
 # returns 2 dfs for training and testing data
@@ -157,33 +160,23 @@ os.chdir(your_path)
 
 shows = ['bang', 'simpsons', 'desperate']
 
-for show in shows:
-    # save full text dataset as pickle
-    df = pd.read_csv(show+'.csv')
-    df.to_pickle(join(your_path,'datasets/text_data/'+show+'Full.pkl'))
-    # save train/test text datasets as pickles
-    train, test = splitData(show+'.csv', 0.2)
-    train.to_pickle(join(your_path,'datasets/text_data/'+show+'Train.pkl'))
-    test.to_pickle(join(your_path,'datasets/text_data/'+show+'Test.pkl'))
-    # save full normalized dataset as pickle
-    norm_df = normalizeDF(df)
-    norm_df.to_pickle(join(your_path,'datasets/norm_text_data/'+show+'Full.pkl'))
-    # save train/test normalized datasets as pickles
-    norm_train = normalizeDF(train)
-    norm_train.to_pickle(join(your_path,'datasets/norm_text_data/'+show+'Train.pkl'))
-    norm_test = normalizeDF(test)
-    norm_test.to_pickle(join(your_path,'datasets/norm_text_data/'+show+'Test.pkl'))
-    print('Finished', show)
+def go():
+    for show in shows:
+        # save full text dataset as pickle
+        df = pd.read_csv(show+'.csv')
+        df.to_pickle(join(your_path,'datasets/text_data/'+show+'Full.pkl'))
+        # save train/test text datasets as pickles
+        train, test = splitData(show+'.csv', 0.2)
+        train.to_pickle(join(your_path,'datasets/text_data/'+show+'Train.pkl'))
+        test.to_pickle(join(your_path,'datasets/text_data/'+show+'Test.pkl'))
+        # save full normalized dataset as pickle
+        norm_df = normalizeDF(df)
+        norm_df.to_pickle(join(your_path,'datasets/norm_text_data/'+show+'Full.pkl'))
+        # save train/test normalized datasets as pickles
+        norm_train = normalizeDF(train)
+        norm_train.to_pickle(join(your_path,'datasets/norm_text_data/'+show+'Train.pkl'))
+        norm_test = normalizeDF(test)
+        norm_test.to_pickle(join(your_path,'datasets/norm_text_data/'+show+'Test.pkl'))
+        print('Finished', show)
 
-
-
-# testing
-# train = getLines(train, 'Sheldon') # get Sheldon's lines in train data
-# print('test data:', len(train), '\ntrain data:', len(test))
-#
-# # test the characters in the original files:
-# filename = 'desperate.csv'
-# filename = 'bang.csv'
-# df = pd.read_csv(filename)
-# cast = getCast(df)
-# print(cast)
+# go()

@@ -1,50 +1,61 @@
 # topWords.py
 # get the top N most frequent words in a dataset of normalized text data
 
-import os, re, nltk
+import os, re, nltk, pandas as pd
 from nltk.corpus import stopwords
 from itertools import chain
-from getData import splitData, getLines, normalizeData
+from os.path import join
+from getData import getLines, getCast
+
+
+your_path = '/Users/Christine/cs/whosaidthat' # christine
+# your_path = '/Users/user/NLP Project/whosaidthat' # dora
+# your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" #juliana
 
 # list of stopwords to exclude when getting most frequent words list
 stoplist = stopwords.words('english')
-stoplist.append(",")
-stoplist.append(".")
-stoplist.append('“')
-stoplist.append('”')
-stoplist.append(';')
-stoplist.append('?')
-stoplist.append('--')
-stoplist.append('’')
-stoplist.append("n't")
-stoplist.append('would')
-stoplist.append('!')
-stoplist.append('could')
-stoplist.append("'s")
+more = [',', '.', '...', '“', '”', ';', '?', '!', '-', '--', '’', "n't", "'s", \
+        "'m", "'re", "'ll", "'ve", '``', "''", "''", "'", "'d", 'u', \
+        'would', 'could', 'yeah', 'okay', 'get', 'well', 'wi', 'wa', 'know', \
+        'right', 'want', '1', 'think', 'going', 'go', 'really', 'say', 'come', \
+        'hey', 'got', 'na', 'ca', 'look', 'good', 'oh', 'like', 'would']
+stoplist.extend(more)
 
-
-# get top n most frequent words in normalized data
-# takes in list of list of tokens, returns list
+# get top n most frequent words in list of normalized tokens
+# takes in list of list of tokens, returns list of top words
 def getTopWords(lines, n):
-    # make a copy of normalized_data, so we don't change it in other files
-    copy = lines[:]
-    # unnest normalized_data
-    copy = list(chain.from_iterable(copy))
-    # extraxt stopwords
-    new_copy = []
-    for i in copy:
-        if i not in stoplist:
-            new_copy.append(i)
-    # get frequency distribution and append words to list
-    fdist = nltk.FreqDist(new_copy)
-    final_list = []
-    for i in fdist.most_common(n):
-        final_list.append(i[0])
-    return final_list
+    words = list(chain.from_iterable(lines)) # unnest
+    words = [x for x in words if x not in stoplist] # extract stopwords
+    fdist = nltk.FreqDist(words)
+    tops = fdist.most_common(n)
+    return [x[0] for x in tops]
+
+# get top n words for a character that aren't in top 100 words of the show overall
+def getTopWordsUncommon(df, character, n):
+    overall_tops = getTopWords(list(df['Line']), 100) # top 100 words in the show
+    char_lines = getLines(df, character) # lines for Sheldon
+    words = list(chain.from_iterable(char_lines)) # unnest
+    words = [x for x in words if x not in stoplist] # extract stopwords
+    words = [x for x in words if x not in overall_tops] # extract super common words
+    fdist = nltk.FreqDist(words)
+    tops = fdist.most_common(n)
+    return [x[0] for x in tops]
+
+# get list of top words for each character in a show
+def getCharTopWords(show):
+    tops_list = []
+    df = pd.read_pickle(join(your_path, 'datasets/norm_text_data/'+show+'Train.pkl'))
+    characters = getCast(df) # list of main characters
+    for character in characters: # for each character
+        tops = getTopWordsUncommon(df, character, 20) # get top 20 words for this character
+        # print(character, '\n', tops) # testing
+        tops_list.append(tops)
+    return tops_list
 
 
 # testing
-df, _ = splitData('bang.csv', 0.00001) # get most of bang data as df
-data = getLines(df, 'Sheldon') # get Sheldon's lines
-data = normalizeData(data) # normalize text
-print(getTopWords(data, 20)) # show Sheldon's top words
+# os.chdir(your_path+'/features')
+# os.chdir(your_path)
+# tops_list = getCharTopWords('bang')
+# tops_list = getCharTopWords('simpsons')
+# tops_list = getCharTopWords('desperate')
