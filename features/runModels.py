@@ -2,6 +2,7 @@
 # NLP Project: whosaidthat
 # runModels.py
 # run logistic regression and random forest models on feature datasets
+# takes about ~30 min. for each show
 
 # 1. run getData.py
 # 2. run getFeatures.py
@@ -54,7 +55,7 @@ def runModels(X_train, X_test, y_train, y_test):
 ### execute ###
 
 shows = ['bang', 'simpsons', 'desperate']
-shows = ['bang']
+shows = ['desperate']
 
 for show in shows: # for each show
     print(show, '{0:~^40}'.format(''))
