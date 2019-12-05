@@ -1,14 +1,11 @@
 # Christine Yang
 # NLP Project: whosaidthat
-# logreg.py
-# run logistic regression model
+# runModels.py
+# run logistic regression and random forest models on feature datasets
 
 import os, re, nltk, pandas as pd, numpy as np
 from sklearn.linear_model import LogisticRegression
-# import sklearn.linear_model as skl
-import sklearn.ensemble as ske
-# import sklearn.tree as skt
-from getData import getCast
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
 
@@ -41,26 +38,25 @@ def runModels(X_train, X_test, y_train, y_test):
     log_score = classification_report(y_train, log_predict, labels=[1,0])
 
     # random forest
-    rf = ske.RandomForestClassifier(n_estimators = 400, max_features = 3, oob_score = True)
+    rf = RandomForestClassifier(n_estimators = 400, max_features = 3, oob_score = True)
     rf.fit(X_train, y_train.ravel())
     # rf_score = rf.score(X_test, y_test)
     rf_predict = rf.predict(X_train)
     rf_score = classification_report(y_train, rf_predict, labels=[1,0])
     return [log_score, rf_score]
 
-# execute
-for show in ['bang', 'simpsons', 'desperate']: # for each show
+
+### execute ###
+
+shows = ['bang', 'simpsons', 'desperate']
+
+for show in shows: # for each show
     print(show, '{0:~^20}'.format(''))
-    characters = getCast(pd.read_csv(show+'.csv')) # get main characters
-    for character in characters: # for each character
-        print(show, '-', character, '{0:*^10}'.format(''))
-        train = pd.read_pickle('datasets/'+show+character+'Train.pkl')
-        test = pd.read_pickle('datasets/'+show+character+'Test.pkl')
-        try:
-            X_train, X_test, y_train, y_test = getData(train, test)
-        except:
-            print('FAILED', character)
-            continue
-        scores = runModels(X_train, X_test, y_train, y_test)
-        print('\tLogistic Regression:\n', scores[0])
-        print('\tRandom Forest:\n', scores[1])
+    # get train/test data
+    train = pd.read_pickle(join(your_path,'datasets/features_data/'+show+'Train.pkl'))
+    test = pd.read_pickle(join(your_path,'datasets/features_data/'+show+'Test.pkl'))
+    X_train, X_test, y_train, y_test = getData(train, test)
+    # train and test models, get accuracy metrics
+    scores = runModels(X_train, X_test, y_train, y_test)
+    print('\tLogistic Regression:\n', scores[0])
+    print('\tRandom Forest:\n', scores[1])

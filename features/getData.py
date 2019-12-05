@@ -1,7 +1,8 @@
 # Christine Yang
 # NLP Project: whosaidthat
 # getData.py
-# get dialogue lines from csv files and normalize text
+# get data from .csv, normalize text, split into testing and training data
+# save full, testing, and training datasets as pickles
 
 import os, re, nltk, math, pandas as pd, numpy as np
 from sklearn.model_selection import train_test_split
@@ -64,7 +65,7 @@ def normalizeDF(df):
     new_df = pd.DataFrame(data) # dataframe of features for each line and 1/0 label
     return new_df
 
-# convert all number words in utterance to actual digit numbers
+# convert all number words in utterance to digit numbers
 def text2int(textnum, numwords={}):
     if not numwords:
         units = [
@@ -154,13 +155,10 @@ def text2int(textnum, numwords={}):
 
     return curstring
 
-
-# execute
-os.chdir(your_path)
-
-shows = ['bang', 'simpsons', 'desperate']
-
+# get full, training, and testing datasets as original text and normalized tokens
+# save each as pickle
 def go():
+    shows = ['bang', 'simpsons', 'desperate']
     for show in shows:
         # save full text dataset as pickle
         df = pd.read_csv(show+'.csv')
@@ -179,4 +177,7 @@ def go():
         norm_test.to_pickle(join(your_path,'datasets/norm_text_data/'+show+'Test.pkl'))
         print('Finished', show)
 
+
+# execute
+# os.chdir(your_path)
 # go()
