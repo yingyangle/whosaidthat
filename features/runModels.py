@@ -11,11 +11,18 @@
 import os, re, nltk, pandas as pd, numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import classification_report
+from sklearn.neural_network import MLPClassifier
+from sklearn.metrics import classification_report 
+from sklearn.metrics import confusion_matrix
 from os.path import join
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
+# from matplotlib import pyplot as plt
+import seaborn as sns
 
-your_path = '/Users/Christine/cs/whosaidthat' # christine
-# your_path = '/Users/user/NLP Project/whosaidthat' # dora
+# your_path = '/Users/Christine/cs/whosaidthat' # christine
+your_path = '/Users/user/NLP Project/whosaidthat-3' # dora
 # your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" # juliana
 
 os.chdir(your_path+'/features')
@@ -39,17 +46,41 @@ def runModels(X_train, X_test, y_train, y_test):
     log = LogisticRegression(solver='liblinear', multi_class='ovr')
     log.fit(X_train, y_train)
     # log_score = log.score(X_test, y_test)
-    log_predict = log.predict(X_train)
+    # log_predict = log.predict(X_train) # christine
+    log_predict = log.predict(X_test) # dora
     label_vals = list(np.unique(y_test))
-    log_score = classification_report(y_train, log_predict, labels=label_vals)
+    # log_score = classification_report(y_train, log_predict, labels=label_vals) #christine
+    log_score = classification_report(y_test, log_predict, labels=label_vals) # dora
 
     # random forest
     rf = RandomForestClassifier(n_estimators = 400, max_features = 3, oob_score = True)
     rf.fit(X_train, y_train.ravel())
     # rf_score = rf.score(X_test, y_test)
-    rf_predict = rf.predict(X_train)
-    rf_score = classification_report(y_train, rf_predict, labels=label_vals)
-    return [log_score, rf_score]
+    # rf_predict = rf.predict(X_train) #christine
+    rf_predict = rf.predict(X_test) # dora
+    # rf_score = classification_report(y_train, rf_predict, labels=label_vals) #christine
+    rf_score = classification_report(y_test, rf_predict, labels=label_vals) #dora
+
+
+
+    #Neuronet
+    clf = MLPClassifier(batch_size=8, learning_rate="adaptive", solver="sgd", max_iter=100, hidden_layer_sizes=200 )
+    clf.fit(X_train, y_train)
+    pred_y = clf.predict(X_test)
+    nn_score = classification_report(y_test, pred_y, labels=label_vals) #dora
+
+     #confusion matrix
+    # sns.set()
+    # f, ax = plt.subplots()
+    # C2 = confusion_matrix(y_test, rf_predict, labels=label_vals)
+    # sns.heatmap(C2,annot=True, linewidths=.5, fmt="d", ax=ax)
+    # ax.set_title('Confusion Matrix')
+    # ax.set_xlabel('predict')
+    # ax.set_ylabel('true')
+    # plt.show()
+
+
+    return [log_score, rf_score, nn_score]
 
 
 ### execute ###
@@ -67,3 +98,6 @@ for show in shows: # for each show
     scores = runModels(X_train, X_test, y_train, y_test)
     print('\tLogistic Regression:\n', scores[0])
     print('\tRandom Forest:\n', scores[1])
+    print('\tMulti-layer Perceptron:\n', scores[2])
+
+   
