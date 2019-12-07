@@ -1,4 +1,4 @@
-# Unused
+# Unused - can be deleted
 # Duanchen Liu
 # Generate random baselines for the datasets
 import random
