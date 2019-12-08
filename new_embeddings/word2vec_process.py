@@ -3,6 +3,7 @@
 import pandas as pd
 import os
 from multiprocessing import cpu_count
+import gensim
 from gensim.models import Word2Vec
 from gensim.models.word2vec import LineSentence
 import logging
@@ -10,6 +11,10 @@ import logging
 # dataset_name = "bang.csv"
 # dataset_name = "simpsons.csv"
 dataset_name = "desperate.csv"
+
+model_path = "/Users/user/NLP Project/GoogleNews-vectors-negative300-SLIM.bin" # dora
+bigmodel = gensim.models.KeyedVectors.load_word2vec_format(model_path, binary=True)
+
 
 def read_data(dataset):
     dataframe = pd.read_csv(dataset)
