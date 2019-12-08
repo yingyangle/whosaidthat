@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-# dataset_name = "bang.csv"
-dataset_name = "simpsons.csv"
+dataset_name = "bang.csv"
+# dataset_name = "simpsons.csv"
 # dataset_name = "desperate.csv"
 embed_dim = 128
 

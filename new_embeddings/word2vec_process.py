@@ -8,8 +8,8 @@ from gensim.models.word2vec import LineSentence
 import logging
 
 # dataset_name = "bang.csv"
-dataset_name = "simpsons.csv"
-# dataset_name = "desperate.csv"
+# dataset_name = "simpsons.csv"
+dataset_name = "desperate.csv"
 
 def read_data(dataset):
     dataframe = pd.read_csv(dataset)

@@ -7,8 +7,8 @@ import os
 
 
 # dataset = "bang.csv"
-dataset = "simpsons.csv"
-# dataset = "desperate.csv"
+# dataset = "simpsons.csv"
+dataset = "desperate.csv"
 split_ratio = 0.8
 
 
@@ -17,8 +17,10 @@ def preprocess_raw_dataset(dataset):
     raw_data.fillna("nan", inplace=True)
     raw_data["Line"] = [x.lower() for x in raw_data["Line"]]
     unique_labels = set(raw_data["Speaker"])
+    unique_labels = sorted(unique_labels)
     labels_int = range(len(unique_labels))
     labels_dict = dict(zip(unique_labels, labels_int))
+    print(unique_labels)
     if not os.path.exists(dataset + ".labelmap"):
         json.dump(labels_dict, open(dataset + ".labelmap", "w"))
     return raw_data, labels_dict

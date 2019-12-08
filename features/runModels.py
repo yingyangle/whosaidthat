@@ -86,8 +86,9 @@ def runModels(X_train, X_test, y_train, y_test):
 ### execute ###
 
 shows = ['bang', 'simpsons', 'desperate']
-shows = ['desperate']
-
+# shows = ['desperate']
+# shows = ['bang']
+shows = ['simpsons']
 for show in shows: # for each show
     print(show, '{0:~^40}'.format(''))
     # get train/test data
