@@ -22,8 +22,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # your_path = '/Users/Christine/cs/whosaidthat' # christine
-your_path = '/Users/user/NLP Project/whosaidthat-3' # dora
-# your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" # juliana
+#your_path = '/Users/user/NLP Project/whosaidthat-3' # dora
+your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/recent/whosaidthat" # juliana
 
 os.chdir(your_path+'/features')
 os.chdir(your_path)
@@ -88,7 +88,7 @@ def runModels(X_train, X_test, y_train, y_test):
 shows = ['bang', 'simpsons', 'desperate']
 # shows = ['desperate']
 # shows = ['bang']
-shows = ['simpsons']
+# shows = ['simpsons']
 for show in shows: # for each show
     print(show, '{0:~^40}'.format(''))
     # get train/test data

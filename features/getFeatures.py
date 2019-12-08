@@ -11,10 +11,11 @@ from nltk.corpus import words, stopwords
 from os.path import join
 from getData import getCast
 from topWords import getEachTopWords
+from textblob import TextBlob
 
-your_path = '/Users/Christine/cs/whosaidthat' # christine
+# your_path = '/Users/Christine/cs/whosaidthat' # christine
 # your_path = '/Users/user/NLP Project/whosaidthat' # dora
-# your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/newnewnew/whosaidthat" # juliana
+your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/recent/whosaidthat" # juliana
 
 start_time = time.time()
 allwords = words.words()  # all english words
@@ -62,6 +63,29 @@ def topWordsCount(line, eachTopWords):
         topCounts.append(len([x for x in line if x in topWords]))
     return topCounts
 
+#sentiment 
+def subjectivity(line):
+    #empty string
+    line_str = ""
+    #transform into full sentence 
+    for i in line:
+        line_str = line_str + i + " "
+    #apply TextBlob
+    sub = TextBlob(line_str)
+    return sub.sentiment.subjectivity
+
+#sentiment 
+def polarity(line):
+    #empty string
+    line_str = ""
+    #transform into full sentence 
+    for i in line:
+        line_str = line_str + i + " "
+    #apply TextBlob  
+    pol = TextBlob(line_str)
+    return pol.sentiment.polarity
+    
+
 ############################# extract features ################################
 
 
@@ -79,7 +103,9 @@ def getFeatures(lines, eachTopWords):
             stopwordsRatio(line),
             neologismsRatio(line),
             numberCount(line),
-            profanityCount(line) ])
+            profanityCount(line),
+            subjectivity(line),
+            polarity(line)])
         lineFeats = np.concatenate((lineFeats, utterTypeCount(line)))
         lineFeats = np.concatenate((lineFeats, topWordsCount(line, eachTopWords)))
         feats.append(lineFeats) # add this line's features to full feats list

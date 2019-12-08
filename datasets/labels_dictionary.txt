@@ -4,3 +4,9 @@
 
 {'Bree': 0, 'Gabrielle': 1, 'Lynette': 2, 'Susan': 3}
 
+{'Amy': 0, 'Bernadette': 1, 'Howard': 2, 'Leonard': 3, 'Penny': 4, 'Raj': 5, 'Sheldon': 6}
+
+{'Bart': 0, 'Homer': 1, 'Lisa': 2, 'Marge': 3, 'Ned Flanders': 4}
+
+{'Bree': 0, 'Gabrielle': 1, 'Lynette': 2, 'Susan': 3}
+

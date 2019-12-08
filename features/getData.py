@@ -9,8 +9,10 @@ from sklearn.model_selection import train_test_split
 from nltk.stem.wordnet import WordNetLemmatizer
 from os.path import join
 
-your_path = '/Users/Christine/Documents/cs/whosaidthat' # christine
+#your_path = '/Users/Christine/Documents/cs/whosaidthat' # christine
 # your_path = '/Users/user/NLP Project/whosaidthat' # dora
+your_path = "/Users/julianafakhoury/Documents/BC/nlp_project/recent/whosaidthat" # juliana
+
 
 # get lines from df for a character or list of characters
 def getLines(df, characters):
