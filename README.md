@@ -2,11 +2,11 @@
 
 ## Features
 | #  | Feature        | Description                                                              |
-|----|-------------------------|-----------------------------------------------------------------------------------------------|
+|----|-------------------------|-------------------------------------------------------------------------------------------|
 | 0  | utterance length        | number of words in the line                                                              |
 | 1  | average word length     | average length of words in the line                                                      |
 | 2  | word diversity | type-token ratio for this line                                                      |
-| 3  | stop words ratio              | percentage of words in this line that are stop words                                     |
+| 3  | stop words ratio              | percentage of words in this line that are stop words                               |
 | 4  | neologisms ratio    | percentage of words in this line that are not in our vocabulary                              |
 | 5  | number of numbers        | how many numbers this line contains                                              |
 | 6 | number of profanity words      | how many profanity words this line contains                        |
@@ -18,11 +18,11 @@
 
 ## Characters
 
-### Big Bang Theory (7)
-Sheldon (11,525), Leonard (9,637), Howard (5,728), Raj (4,579), Penny (7,482), Amy (3,418), Bernadette (2,642)
+### Big Bang Theory (7 characters, 45,825 lines)
+Amy (3,473), Bernadette (2,687), Howard (5,858), Leonard (9,765), Penny (7,659), Raj (4,680), Sheldon (11,703), 
 
-### The Simpsons (5)
-Homer, Marge, Lisa, Bart, Ned Flanders
+### The Simpsons (5 characters, 67,955 lines)
+Bart (13,139), Homer (28,447), Lisa (10,945), Marge (13,367), Ned Flanders (2,057)
 
-### Desperate Housewives (4)
-Susan, Gabrielle, Bree, Lynette
+### Desperate Housewives (4 characters, 18,437 lines)
+Bree (4,130), Gabrielle (4,564), Lynette (4,618), Susan (5,125)
