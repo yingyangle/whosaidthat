@@ -15,7 +15,7 @@
 | 9  | question count              | number of sentences in this line that are questions                                  |
 | 10  | exclamation count          | number of sentences in this line that end in exclamation marks                       |
 | 11  | ellipses count             | number of ellipses this line contains                                                |
-| 12  | top words        | number of words in this line that are also in each character's top 20 most frequent words, for the N main characters of the show                                                                              |
+| 12 to 12+N-1  | top words        | number of words in this line that are also in each character's top 20 most frequent words, for the N main characters of the show                                                                              |
 
 
 ## Characters
