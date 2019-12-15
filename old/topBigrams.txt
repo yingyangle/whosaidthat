@@ -1,0 +1,62 @@
+Amy 
+ [('maid', 'honour'), ('sheldon', 'sheldon'), ('amy', 'farrah'), ('farrah', 'fowler'), ('relationship', 'agreement'), ('hi', 'sheldon'), ('date', 'night'), ('5', 'year'), ('feel', 'better'), ('knock', 'knock'), ('image', 'number'), ('comic', 'con'), ('long', 'time'), ('ground', 'rule'), ('fun', 'flag'), ('make', 'feel'), ('sheldon', 'understand'), ('high', 'school'), ('last', 'time'), ('valentine', 'day')] 
+
+
+Bernadette 
+ [('comic', 'book'), ('gon', 'take'), ('let', 'see'), ('last', 'time'), ('feel', 'better'), ('sure', 'fine'), ('take', 'home'), ('said', 'gon'), ('amy', 'sorry'), ('gon', 'make'), ('sorry', 'raj'), ('little', 'tired'), ('long', 'time'), ('back', 'work'), ('tell', 'howard'), ('getting', 'married'), ('santa', 'claus'), ('howie', 'stop'), ('make', 'feel'), ('uh', 'huh')] 
+
+
+Howard 
+ [('space', 'station'), ('let', 'see'), ('howard', 'wolowitz'), ('international', 'space'), ('last', 'night'), ('son', 'bitch'), ('2', 'year'), ('e', 'mail'), ('best', 'friend'), ('guidance', 'system'), ('grown', 'man'), ('make', 'sure'), ('comic', 'book'), ('sorry', 'late'), ('ever', 'since'), ('dad', 'left'), ('maybe', 'little'), ('comic', 'con'), ('space', 'space'), ('hot', 'tub')] 
+
+
+Leonard 
+ [('uh', 'uh'), ('comic', 'book'), ('uh', 'huh'), ('last', 'night'), ('big', 'deal'), ('never', 'mind'), ('let', 'see'), ('book', 'store'), ('pretty', 'sure'), ('la', 'la'), ('comic', 'con'), ('ex', 'boyfriend'), ('mm', 'hmm'), ('doe', 'mean'), ('high', 'school'), ('gon', 'make'), ('long', 'time'), ('wait', 'wait'), ('gon', 'happen'), ('sheldon', 'sheldon')] 
+
+
+Penny 
+ [('wait', 'wait'), ('big', 'deal'), ('high', 'school'), ('make', 'feel'), ('mm', 'hmm'), ('last', 'night'), ('whoa', 'whoa'), ('cheesecake', 'factory'), ('feel', 'better'), ('let', 'see'), ('soft', 'kitty'), ('doe', 'mean'), ('hi', 'guy'), ('ask', 'question'), ('night', 'leonard'), ('comic', 'book'), ('kitty', 'warm'), ('thank', 'much'), ('anything', 'else'), ('little', 'ball')] 
+
+
+Raj 
+ [('oontz', 'oontz'), ('hee', 'hee'), ('comic', 'book'), ('last', 'night'), ('let', 'see'), ('comic', 'con'), ('book', 'store'), ('new', 'delhi'), ('valentine', 'day'), ('star', 'trek'), ('uh', 'uh'), ('web', 'site'), ('year', 'old'), ('star', 'war'), ('take', 'care'), ('let', 'talk'), ('time', 'machine'), ('holy', 'crap'), ('thor', 'dr.'), ('dr.', 'jones')] 
+
+
+Sheldon 
+ [('sheldon', 'cooper'), ('star', 'trek'), ('comic', 'book'), ('wil', 'wheaton'), ('roommate', 'agreement'), ('amy', 'farrah'), ('farrah', 'fowler'), ('let', 'see'), ('last', 'night'), ('string', 'theory'), ('dr.', 'sheldon'), ('da', 'da'), ('fun', 'flag'), ('stan', 'lee'), ('stephen', 'hawking'), ('time', 'machine'), ('dear', 'lord'), ('year', 'ago'), ('leonard', 'penny'), ('spider', 'man')] 
+
+
+Bart 
+ [('bart', 'simpson'), ('mom', 'dad'), ('ay', 'carumba'), ('la', 'la'), ('wait', 'minute'), ('sideshow', 'bob'), ('ha', 'ha'), ('santa', 'little'), ('little', 'helper'), ('let', 'see'), ('da', 'da'), ('aye', 'carumba'), ('mrs.', 'krabappel'), ('nyah', 'nyah'), ('radioactive', 'man'), ('itchy', 'scratchy'), ('uh', 'huh'), ('best', 'friend'), ('principal', 'skinner'), ('ow', 'ow')] 
+
+
+Homer 
+ [('woo', 'hoo'), ('wait', 'minute'), ('mr.', 'burn'), ('heh', 'heh'), ('homer', 'simpson'), ('let', 'see'), ('doo', 'doo'), ('ow', 'ow'), ('old', 'man'), ('marge', 'marge'), ('la', 'la'), ('wait', 'wait'), ('ice', 'cream'), ('uh', 'huh'), ('thank', 'god'), ('hee', 'hee'), ('please', 'please'), ('little', 'girl'), ('uh', 'uh'), ('0', 'dollar')] 
+
+
+Lisa 
+ [('mom', 'dad'), ('mr.', 'burn'), ('lisa', 'simpson'), ('dad', 'dad'), ('principal', 'skinner'), ('let', 'see'), ('bart', 'bart'), ('dad', 'bart'), ('doe', 'mean'), ('sideshow', 'bob'), ('mom', 'bart'), ('malibu', 'stacy'), ('mr.', 'flanders'), ('quit', 'quit'), ('lu', 'lu'), ('bleeding', 'gum'), ('year', 'old'), ('mr.', 'bergstrom'), ('miss', 'hoover'), ('best', 'friend')] 
+
+
+Marge 
+ [('mr.', 'burn'), ('homer', 'homer'), ('marge', 'simpson'), ('homer', 'please'), ('bart', 'lisa'), ('homer', 'simpson'), ('wait', 'wait'), ('homer', 'bart'), ('homer', 'stop'), ('let', 'see'), ('little', 'guy'), ('thank', 'god'), ('uh', 'huh'), ('dr.', 'hibbert'), ('kid', 'homer'), ('ned', 'flanders'), ('homer', 'lisa'), ('special', 'little'), ('make', 'sure'), ('bart', 'bart')] 
+
+
+Ned Flanders 
+ [('homer', 'simpson'), ('ho', 'ho'), ('homer', 'homer'), ('ned', 'flanders'), ('rod', 'todd'), ('dear', 'lord'), ('okily', 'dokily'), ('diddily', 'diddily'), ('iddily', 'iddily'), ('tsk', 'tsk'), ('lord', 'please'), ('diddily', 'doodily'), ('let', 'see'), ('became', 'father'), ('uh', 'huh'), ('kindly', 'deed'), ('uh', 'homer'), ('hi', 'diddly'), ('done', 'diddily'), ('sorry', 'sorry')] 
+
+
+Bree 
+ [('van', 'de'), ('little', 'bit'), ('god', 'sake'), ('de', 'kamp'), ('thank', 'god'), ('mary', 'alice'), ('dr.', 'goldfine'), ('need', 'talk'), ('hi', 'bree'), ('take', 'care'), ('last', 'night'), ('tomorrow', 'night'), ('need', 'help'), ('heart', 'attack'), ('orson', 'please'), ('bree', 'van'), ('dear', 'god'), ('doe', 'mean'), ('orson', 'orson'), ('bob', 'lee')] 
+
+
+Gabrielle 
+ [('god', 'sake'), ('xiao', 'mei'), ('whoa', 'whoa'), ('take', 'care'), ('wait', 'wait'), ('carlos', 'carlos'), ('last', 'time'), ('gon', 'take'), ('make', 'sure'), ('little', 'girl'), ('john', 'rowland'), ('sister', 'mary'), ('mm', 'hmm'), ('little', 'bit'), ('gon', 'make'), ('every', 'time'), ('gon', 'need'), ('every', 'day'), ('yao', 'lin'), ('thank', 'god')] 
+
+
+Lynette 
+ [('take', 'care'), ('sorry', 'sorry'), ('mm', 'hmm'), ('gon', 'make'), ('stop', 'stop'), ('gon', 'take'), ('god', 'sake'), ('last', 'night'), ('mr', 'mcclusky'), ('uh', 'huh'), ('back', 'work'), ('mrs.', 'mccluskey'), ('mary', 'alice'), ('please', 'tell'), ('find', 'way'), ('whoa', 'whoa'), ('take', 'back'), ('thank', 'much'), ('gon', 'find'), ('sorry', 'tom')] 
+
+
+Susan 
+ [('mary', 'alice'), ('need', 'talk'), ('doe', 'mean'), ('wait', 'wait'), ('thank', 'god'), ('susan', 'mayer'), ('dr.', 'ron'), ('mrs.', 'huber'), ('mike', 'mike'), ('getting', 'married'), ('someone', 'else'), ('doe', 'matter'), ('make', 'sure'), ('yes', 'yes'), ('year', 'ago'), ('mr', 'huber'), ('sorry', 'late'), ('last', 'night'), ('every', 'day'), ('feel', 'bad')] 

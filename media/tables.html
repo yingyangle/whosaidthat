@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+  </head>
+
+  <body>
+	<h2>Big Bang Theory</h2>
+	<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;border-color:#c0c0c0;}
+	.tg td{font-family:Arial, sans-serif;font-size:24px;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg th{font-family:Arial, sans-serif;font-size:24px;font-weight:normal;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg .tg-0lax{text-align:center;vertical-align:center}
+	.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:center}
+	</style>
+	<table class="tg">
+	  <tr>
+	    <th class="tg-0pky"></th>
+	    <th class="tg-fymr">Accuracy</th>
+	    <th class="tg-fymr">Precision</th>
+	    <th class="tg-fymr">Recall</th>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Random Baseline</td>
+	    <td class="tg-y698">0.14</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Majority Baseline</td>
+	    <td class="tg-y698">0.26</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Random Forest</td>
+	    <td class="tg-0pky">0.27</td>
+	    <td class="tg-0pky">0.24</td>
+	    <td class="tg-0pky">0.27</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Logistic Regression</td>
+	    <td class="tg-0pky">0.29</td>
+	    <td class="tg-0pky">0.28</td>
+	    <td class="tg-0pky">0.29</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Neural Net</td>
+	    <td class="tg-0pky">0.30</td>
+	    <td class="tg-0pky">0.27</td>
+	    <td class="tg-0pky">0.30</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Random Forest</td>
+	    <td class="tg-y698">0.31</td>
+	    <td class="tg-y698">0.26</td>
+	    <td class="tg-y698">0.20</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Logistic Regression</td>
+	    <td class="tg-y698">0.32</td>
+	    <td class="tg-y698">0.25</td>
+	    <td class="tg-y698">0.21</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Neural Net</td>
+	    <td class="tg-y698">0.27</td>
+	    <td class="tg-y698">0.20</td>
+	    <td class="tg-y698">0.20</td>
+	  </tr>
+	</table>
+	<h2>The Simpsons</h2>
+	<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;}
+	.tg td{font-family:Arial, sans-serif;font-size:24px;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg th{font-family:Arial, sans-serif;font-size:24px;font-weight:normal;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg .tg-0lax{text-align:center;vertical-align:center}
+	.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:center}
+	</style>
+	<table class="tg">
+	  <tr>
+	    <th class="tg-0pky"></th>
+	    <th class="tg-fymr">Accuracy</th>
+	    <th class="tg-fymr">Precision</th>
+	    <th class="tg-fymr">Recall</th>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Random Baseline</td>
+	    <td class="tg-y698">0.20</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Majority Baseline</td>
+	    <td class="tg-y698">0.42</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Random Forest</td>
+	    <td class="tg-0pky">0.40</td>
+	    <td class="tg-0pky">0.35</td>
+	    <td class="tg-0pky">0.40</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Logistic Regression</td>
+	    <td class="tg-0pky">0.42</td>
+	    <td class="tg-0pky">0.39</td>
+	    <td class="tg-0pky">0.42</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Neural Net</td>
+	    <td class="tg-0pky">0.43</td>
+	    <td class="tg-0pky">0.39</td>
+	    <td class="tg-0pky">0.43</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Random Forest</td>
+	    <td class="tg-y698">0.44</td>
+	    <td class="tg-y698">0.42</td>
+	    <td class="tg-y698">0.24</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Logistic Regression</td>
+	    <td class="tg-y698">0.45</td>
+	    <td class="tg-y698">0.39</td>
+	    <td class="tg-y698">0.26</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Neural Net</td>
+	    <td class="tg-y698">0.42</td>
+	    <td class="tg-y698">0.31</td>
+	    <td class="tg-y698">0.29</td>
+	  </tr>
+	</table>
+	<h2>Desperate Housewives</h2>
+	<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;}
+	.tg td{font-family:Arial, sans-serif;font-size:24px;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg th{font-family:Arial, sans-serif;font-size:24px;font-weight:normal;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg .tg-0lax{text-align:center;vertical-align:center}
+	.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:center}
+	</style>
+	<table class="tg">
+	  <tr>
+	    <th class="tg-0lax"></th>
+	    <th class="tg-fymr">Accuracy</th>
+	    <th class="tg-fymr">Precision</th>
+	    <th class="tg-fymr">Recall</th>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Random Baseline</td>
+	    <td class="tg-y698">0.25</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Majority Baseline</td>
+	    <td class="tg-y698">0.28</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Random Forest</td>
+	    <td class="tg-0pky">0.34</td>
+	    <td class="tg-0pky">0.34</td>
+	    <td class="tg-0pky">0.34</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Logistic Regression</td>
+	    <td class="tg-0pky">0.34</td>
+	    <td class="tg-0pky">0.35</td>
+	    <td class="tg-0pky">0.34</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Neural Net</td>
+	    <td class="tg-0pky">0.34</td>
+	    <td class="tg-0pky">0.36</td>
+	    <td class="tg-0pky">0.34</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Random Forest</td>
+	    <td class="tg-y698">0.34</td>
+	    <td class="tg-y698">0.34</td>
+	    <td class="tg-y698">0.33</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Logistic Regression</td>
+	    <td class="tg-y698">0.36</td>
+	    <td class="tg-y698">0.36</td>
+	    <td class="tg-y698">0.35</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Neural Net</td>
+	    <td class="tg-y698">0.33</td>
+	    <td class="tg-y698">0.33</td>
+	    <td class="tg-y698">0.33</td>
+	  </tr>
+	</table>
+  </body>
+
+</html> 
+
+<!-- # with feature/embeddings labels
+<html>
+
+  <head>
+  </head>
+
+  <body>
+	<h2>Big Bang Theory</h2>
+	<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;border-color:#c0c0c0;}
+	.tg td{font-family:Arial, sans-serif;font-size:24px;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg th{font-family:Arial, sans-serif;font-size:24px;font-weight:normal;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg .tg-0lax{text-align:center;vertical-align:center}
+	.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:center}
+	</style>
+	<table class="tg">
+	  <tr>
+	    <th class="tg-0lax"></th>
+	    <th class="tg-0pky"></th>
+	    <th class="tg-fymr">Accuracy</th>
+	    <th class="tg-fymr">Precision</th>
+	    <th class="tg-fymr">Recall</th>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="2">Baseline</td>
+	    <td class="tg-y698">Random Baseline</td>
+	    <td class="tg-y698">0.14</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Majority Baseline</td>
+	    <td class="tg-y698">0.26</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Manual Features</td>
+	    <td class="tg-0pky">Random Forest</td>
+	    <td class="tg-0pky">0.27</td>
+	    <td class="tg-0pky">0.24</td>
+	    <td class="tg-0pky">0.27</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Logistic Regression</td>
+	    <td class="tg-0pky">0.29</td>
+	    <td class="tg-0pky">0.28</td>
+	    <td class="tg-0pky">0.29</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Neural Net</td>
+	    <td class="tg-0pky">0.30</td>
+	    <td class="tg-0pky">0.27</td>
+	    <td class="tg-0pky">0.30</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Word Embeddings  </td>
+	    <td class="tg-y698">Random Forest</td>
+	    <td class="tg-y698">0.31</td>
+	    <td class="tg-y698">0.26</td>
+	    <td class="tg-y698">0.20</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Logistic Regression</td>
+	    <td class="tg-y698">0.32</td>
+	    <td class="tg-y698">0.25</td>
+	    <td class="tg-y698">0.21</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Neural Net</td>
+	    <td class="tg-y698">0.27</td>
+	    <td class="tg-y698">0.20</td>
+	    <td class="tg-y698">0.20</td>
+	  </tr>
+	</table>
+	<h2>The Simpsons</h2>
+	<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;}
+	.tg td{font-family:Arial, sans-serif;font-size:24px;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg th{font-family:Arial, sans-serif;font-size:24px;font-weight:normal;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg .tg-0lax{text-align:center;vertical-align:center}
+	.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:center}
+	</style>
+	<table class="tg">
+	  <tr>
+	    <th class="tg-0lax"></th>
+	    <th class="tg-0pky"></th>
+	    <th class="tg-fymr">Accuracy</th>
+	    <th class="tg-fymr">Precision</th>
+	    <th class="tg-fymr">Recall</th>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="2">Baseline</td>
+	    <td class="tg-y698">Random Baseline</td>
+	    <td class="tg-y698">0.20</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Majority Baseline</td>
+	    <td class="tg-y698">0.42</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Manual Features</td>
+	    <td class="tg-0pky">Random Forest</td>
+	    <td class="tg-0pky">0.40</td>
+	    <td class="tg-0pky">0.35</td>
+	    <td class="tg-0pky">0.40</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Logistic Regression</td>
+	    <td class="tg-0pky">0.42</td>
+	    <td class="tg-0pky">0.39</td>
+	    <td class="tg-0pky">0.42</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Neural Net</td>
+	    <td class="tg-0pky">0.43</td>
+	    <td class="tg-0pky">0.39</td>
+	    <td class="tg-0pky">0.43</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Word Embeddings  </td>
+	    <td class="tg-y698">Random Forest</td>
+	    <td class="tg-y698">0.44</td>
+	    <td class="tg-y698">0.42</td>
+	    <td class="tg-y698">0.24</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Logistic Regression</td>
+	    <td class="tg-y698">0.45</td>
+	    <td class="tg-y698">0.39</td>
+	    <td class="tg-y698">0.26</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Neural Net</td>
+	    <td class="tg-y698">0.42</td>
+	    <td class="tg-y698">0.31</td>
+	    <td class="tg-y698">0.29</td>
+	  </tr>
+	</table>
+	<h2>Desperate Housewives</h2>
+	<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;}
+	.tg td{font-family:Arial, sans-serif;font-size:24px;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg th{font-family:Arial, sans-serif;font-size:24px;font-weight:normal;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg .tg-0lax{text-align:center;vertical-align:center}
+	.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:center}
+	</style>
+	<table class="tg">
+	  <tr>
+	    <th class="tg-0lax"></th>
+	    <th class="tg-0pky"></th>
+	    <th class="tg-fymr">Accuracy</th>
+	    <th class="tg-fymr">Precision</th>
+	    <th class="tg-fymr">Recall</th>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="2">Baseline</td>
+	    <td class="tg-y698">Random Baseline</td>
+	    <td class="tg-y698">0.25</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Majority Baseline</td>
+	    <td class="tg-y698">0.28</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Manual Features</td>
+	    <td class="tg-0pky">Random Forest</td>
+	    <td class="tg-0pky">0.34</td>
+	    <td class="tg-0pky">0.34</td>
+	    <td class="tg-0pky">0.34</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Logistic Regression</td>
+	    <td class="tg-0pky">0.34</td>
+	    <td class="tg-0pky">0.35</td>
+	    <td class="tg-0pky">0.34</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Neural Net</td>
+	    <td class="tg-0pky">0.34</td>
+	    <td class="tg-0pky">0.36</td>
+	    <td class="tg-0pky">0.34</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Word Embeddings  </td>
+	    <td class="tg-y698">Random Forest</td>
+	    <td class="tg-y698">0.34</td>
+	    <td class="tg-y698">0.34</td>
+	    <td class="tg-y698">0.33</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Logistic Regression</td>
+	    <td class="tg-y698">0.36</td>
+	    <td class="tg-y698">0.36</td>
+	    <td class="tg-y698">0.35</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Neural Net</td>
+	    <td class="tg-y698">0.33</td>
+	    <td class="tg-y698">0.33</td>
+	    <td class="tg-y698">0.33</td>
+	  </tr>
+	</table>
+  </body>
+
+</html> -->
+
+
+
+<!-- old results
+
+<html>
+
+  <head>
+  </head>
+
+  <body>
+	<h2>Big Bang Theory</h2>
+	<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;border-color:#c0c0c0;}
+	.tg td{font-family:Arial, sans-serif;font-size:24px;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg th{font-family:Arial, sans-serif;font-size:24px;font-weight:normal;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg .tg-0lax{text-align:center;vertical-align:center}
+	.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:center}
+	</style>
+	<table class="tg">
+	  <tr>
+	    <th class="tg-0lax"></th>
+	    <th class="tg-0pky"></th>
+	    <th class="tg-fymr">Accuracy</th>
+	    <th class="tg-fymr">Precision</th>
+	    <th class="tg-fymr">Recall</th>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="2">Baseline</td>
+	    <td class="tg-y698">Random Baseline</td>
+	    <td class="tg-y698">0.14</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Majority Baseline</td>
+	    <td class="tg-y698">0.26</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Manual Features</td>
+	    <td class="tg-0pky">Random Forest</td>
+	    <td class="tg-0pky">0.26</td>
+	    <td class="tg-0pky">0.22</td>
+	    <td class="tg-0pky">0.26</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Logistic Regression</td>
+	    <td class="tg-0pky">0.29</td>
+	    <td class="tg-0pky">0.24</td>
+	    <td class="tg-0pky">0.29</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Neural Net</td>
+	    <td class="tg-0pky">0.29</td>
+	    <td class="tg-0pky">0.27</td>
+	    <td class="tg-0pky">0.29</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Word Embeddings  </td>
+	    <td class="tg-y698">Random Forest</td>
+	    <td class="tg-y698">0.31</td>
+	    <td class="tg-y698">0.26</td>
+	    <td class="tg-y698">0.20</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Logistic Regression</td>
+	    <td class="tg-y698">0.32</td>
+	    <td class="tg-y698">0.25</td>
+	    <td class="tg-y698">0.21</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Neural Net</td>
+	    <td class="tg-y698">0.27</td>
+	    <td class="tg-y698">0.20</td>
+	    <td class="tg-y698">0.20</td>
+	  </tr>
+	</table>
+	<h2>The Simpsons</h2>
+	<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;}
+	.tg td{font-family:Arial, sans-serif;font-size:24px;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg th{font-family:Arial, sans-serif;font-size:24px;font-weight:normal;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg .tg-0lax{text-align:center;vertical-align:center}
+	.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:center}
+	</style>
+	<table class="tg">
+	  <tr>
+	    <th class="tg-0lax"></th>
+	    <th class="tg-0pky"></th>
+	    <th class="tg-fymr">Accuracy</th>
+	    <th class="tg-fymr">Precision</th>
+	    <th class="tg-fymr">Recall</th>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="2">Baseline</td>
+	    <td class="tg-y698">Random Baseline</td>
+	    <td class="tg-y698">0.20</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Majority Baseline</td>
+	    <td class="tg-y698">0.42</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Manual Features</td>
+	    <td class="tg-0pky">Random Forest</td>
+	    <td class="tg-0pky">0.38</td>
+	    <td class="tg-0pky">0.34</td>
+	    <td class="tg-0pky">0.38</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Logistic Regression</td>
+	    <td class="tg-0pky">0.43</td>
+	    <td class="tg-0pky">0.40</td>
+	    <td class="tg-0pky">0.43</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Neural Net</td>
+	    <td class="tg-0pky">0.43</td>
+	    <td class="tg-0pky">0.40</td>
+	    <td class="tg-0pky">0.43</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Word Embeddings  </td>
+	    <td class="tg-y698">Random Forest</td>
+	    <td class="tg-y698">0.44</td>
+	    <td class="tg-y698">0.42</td>
+	    <td class="tg-y698">0.24</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Logistic Regression</td>
+	    <td class="tg-y698">0.45</td>
+	    <td class="tg-y698">0.39</td>
+	    <td class="tg-y698">0.26</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Neural Net</td>
+	    <td class="tg-y698">0.42</td>
+	    <td class="tg-y698">0.31</td>
+	    <td class="tg-y698">0.29</td>
+	  </tr>
+	</table>
+	<h2>Desperate Housewives</h2>
+	<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;}
+	.tg td{font-family:Arial, sans-serif;font-size:24px;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg th{font-family:Arial, sans-serif;font-size:24px;font-weight:normal;padding:5px 2px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#c0c0c0;}
+	.tg .tg-0lax{text-align:center;vertical-align:center}
+	.tg .tg-0pky{border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-fymr{font-weight:bold;border-color:inherit;text-align:center;vertical-align:center}
+	.tg .tg-y698{background-color:#efefef;border-color:inherit;text-align:center;vertical-align:center}
+	</style>
+	<table class="tg">
+	  <tr>
+	    <th class="tg-0lax"></th>
+	    <th class="tg-0pky"></th>
+	    <th class="tg-fymr">Accuracy</th>
+	    <th class="tg-fymr">Precision</th>
+	    <th class="tg-fymr">Recall</th>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="2">Baseline</td>
+	    <td class="tg-y698">Random Baseline</td>
+	    <td class="tg-y698">0.25</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Majority Baseline</td>
+	    <td class="tg-y698">0.28</td>
+	    <td class="tg-y698"></td>
+	    <td class="tg-y698"></td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Manual Features</td>
+	    <td class="tg-0pky">Random Forest</td>
+	    <td class="tg-0pky">0.32</td>
+	    <td class="tg-0pky">0.32</td>
+	    <td class="tg-0pky">0.32</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Logistic Regression</td>
+	    <td class="tg-0pky">0.34</td>
+	    <td class="tg-0pky">0.35</td>
+	    <td class="tg-0pky">0.34</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-0pky">Neural Net</td>
+	    <td class="tg-0pky">0.35</td>
+	    <td class="tg-0pky">0.36</td>
+	    <td class="tg-0pky">0.35</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-fymr" rowspan="3">Word Embeddings  </td>
+	    <td class="tg-y698">Random Forest</td>
+	    <td class="tg-y698">0.34</td>
+	    <td class="tg-y698">0.34</td>
+	    <td class="tg-y698">0.33</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Logistic Regression</td>
+	    <td class="tg-y698">0.36</td>
+	    <td class="tg-y698">0.36</td>
+	    <td class="tg-y698">0.35</td>
+	  </tr>
+	  <tr>
+	    <td class="tg-y698">Neural Net</td>
+	    <td class="tg-y698">0.33</td>
+	    <td class="tg-y698">0.33</td>
+	    <td class="tg-y698">0.33</td>
+	  </tr>
+	</table>
+  </body>
+
+</html> 
+
+
+-->

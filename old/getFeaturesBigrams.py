@@ -6,6 +6,8 @@
 # profanity word list based on:
 # https://github.com/areebbeigh/profanityfilter/
 
+# take about ~40 min per show when using both unigram + bigram features
+
 import os, re, nltk, pandas as pd, numpy as np, pickle, time
 from nltk.corpus import words, stopwords
 from os.path import join
@@ -107,9 +109,11 @@ def getFeatures(lines, eachTopWords):
             subjectivity(line),
             polarity(line)])
         lineFeats = np.concatenate((lineFeats, utterTypeCount(line)))
-        lineFeats = np.concatenate((lineFeats, topWordsCount(line, eachTopWords)))
+        for ngramList in eachTopWords:
+            lineFeats = np.concatenate((lineFeats, topWordsCount(line, ngramList)))
         feats.append(lineFeats) # add this line's features to full feats list
     return feats
+
 
 # convert speaker/line df to features/label df
 # label characters 0 through N for N-1 main characters
@@ -122,6 +126,8 @@ def convertToFeatures(df, eachTopWords, writeFlag):
         aus = open('datasets/labels_dictionary.txt', 'a')
         aus.write(str(labelsDict)+'\n\n')
         aus.close()
+    speakers = list(df['Speaker'])#[:10]
+    labels = [labelsDict[x] for x in speakers]
     # convert lines to features
     lines = list(df['Line'])#[:10]
     feats = getFeatures(lines, eachTopWords)
@@ -134,11 +140,16 @@ def convertToFeatures(df, eachTopWords, writeFlag):
 # create train and test dataset for given show and character
 # write resulting datsets to .pkl and return dfs
 def createDataset(show):
+    print('Started', show, '...')
     # load normalized tokenized data
     train = pd.read_pickle(join(your_path,'datasets/norm_text_data/'+show+'Train.pkl'))
     test = pd.read_pickle(join(your_path, 'datasets/norm_text_data/'+show+'Test.pkl'))
-    # list of 20 most frequent words for each character
-    eachTopWords = getEachTopWords(show)
+    # list of 20 top words and 20 top bigrams for each character
+    eachTopWords = []
+    fname = join(your_path, 'features/'+show+'TopUnigrams.sav')
+    eachTopWords.append(pickle.load(open(fname, 'rb'))) 
+    fname = join(your_path, 'features/'+show+'TopBigrams.sav')
+    eachTopWords.append(pickle.load(open(fname, 'rb')))
     # convert dataset to labels/features
     train = convertToFeatures(train, eachTopWords, 1)
     test = convertToFeatures(test, eachTopWords, 0)
@@ -155,8 +166,9 @@ def createDataset(show):
 ################################ execute ###################################
 
 os.chdir(your_path)
-createDataset('bang')
-createDataset('simpsons')
-createDataset('desperate')
+# createDataset('bang')
+# createDataset('simpsons')
+# createDataset('desperate')
 
-# pd.read_pickle(join(your_path, 'datasets/features_data/bangTest.pkl'))
+# df = pd.read_pickle(join(your_path, 'datasets/features_data/bangTest.pkl'))
+

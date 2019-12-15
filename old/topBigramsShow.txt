@@ -1,0 +1,8 @@
+bang
+[('comic', 'book'), ('last', 'night'), ('let', 'see'), ('sheldon', 'cooper'), ('‘', 'cause'), ('star', 'trek'), ('yes', 'yes'), ('big', 'deal'), ('make', 'feel'), ('wait', 'wait'), ('book', 'store'), ('comic', 'con'), ('uh', 'uh'), ('feel', 'better'), ('uh', 'huh'), ('wil', 'wheaton'), ('best', 'friend'), ('year', 'old'), ('roommate', 'agreement'), ('sheldon', 'sheldon')]
+
+simpsons
+[('woo', 'hoo'), ('mr.', 'burn'), ('wait', 'minute'), ('let', 'see'), ('homer', 'simpson'), ('heh', 'heh'), ('mom', 'dad'), ('la', 'la'), ('homer', 'homer'), ('uh', 'huh'), ('ow', 'ow'), ('wait', 'wait'), ('ice', 'cream'), ('bart', 'simpson'), ('best', 'friend'), ('please', 'please'), ('ha', 'ha'), ('dad', 'dad'), ('whoa', 'whoa'), ('thank', 'god')]
+
+desperate
+[('mary', 'alice'), ('god', 'sake'), ('take', 'care'), ('thank', 'god'), ('need', 'talk'), ('make', 'sure'), ('wait', 'wait'), ('doe', 'mean'), ('gon', 'take'), ('gon', 'make'), ('last', 'night'), ('yes', 'yes'), ('whoa', 'whoa'), ('uh', 'huh'), ('xiao', 'mei'), ('mm', 'hmm'), ('mrs.', 'huber'), ('thank', 'much'), ('van', 'de'), ('someone', 'else')]
