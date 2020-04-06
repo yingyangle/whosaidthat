@@ -28,3 +28,6 @@ Bart (13,139), Homer (28,447), Lisa (10,945), Marge (13,367), Ned Flanders (2,05
 
 ### Desperate Housewives (18,437 lines, 4 characters)
 Bree (4,130), Gabrielle (4,564), Lynette (4,618), Susan (5,125)
+
+![Poster](https://github.com/yingyangle/whosaidthat/blob/master/media/whosaidthat_poster.png)
+
